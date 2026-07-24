@@ -1,0 +1,46 @@
+/* ■■■■■■■■■■■ */
+/* Utility.scss */
+/* ■■■■■■■■■■■ */
+
+
+.u-pc-none{@include pc{display:none !important;}}
+.u-sp-none{@include sp{display:none !important;}}
+
+.u-max960{
+    max-width: 960px;
+}
+
+.u-m0auto{
+    margin:0 auto;
+}
+
+.u-bold{font-weight:600;}
+
+.u-pos-relative{position:relative;}
+
+.u-border-r20{
+	border-radius: 20px;
+	@include sp{border-radius: 10px;}
+}
+
+
+.u-txt-cent{text-align: center;}
+
+.u-mb40{
+    @include pc{margin-bottom:40px;};
+    @include sp{margin-bottom:24px;};
+}
+
+.u-mb80{
+    @include pc{margin-bottom:80px;};
+    @include sp{margin-bottom:20px;};
+}
+
+
+.u-pd20{
+	padding-bottom:20px;
+}
+
+.u-pcbr{
+    br{@include sp{display: none;};}
+}

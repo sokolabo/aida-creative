@@ -1,0 +1,90 @@
+/* ■■■■■■■■■■■ */
+/* mixin-variable mixin・変数 */
+/* ■■■■■■■■■■■ */
+
+
+
+/*-----------------変数------------------*/
+/*メディアクエリ*/
+$pc: 769px; // PC
+//$tab: 680px; // タブレット
+$sp: 768px;  // スマホ
+
+@mixin pc {@media (min-width: ($pc)) {@content;}}
+
+//@mixin tab {@media (max-width: ($tab)) {@content; }}
+
+@mixin sp {@media (max-width: ($sp)) { @content;}}
+
+$pic-bigbig: 1680px;
+$pic-big: 1200px;
+$pic-mid: 992px;
+$pic-small: 768px;
+
+@mixin pic-bigbig {@media (min-width: ($pic-bigbig)) {@content;}}
+@mixin pic-big {@media (min-width: ($pic-big)) {@content;}}
+@mixin pic-mid {@media (max-width: ($pic-mid)) { @content;}}
+@mixin pic-small {@media (max-width: ($pic-small)) { @content;}}
+
+
+
+/*---------------カラー----------------*/
+$main-c:#3B78A1;
+$sub-c1:#b39f38; 
+$sub-c2:#c2e0ec; 
+$sub-c3:#ddf1f9; 
+$sub-c4:#6e6a13; 
+$accent-c1:#ed8207; 
+$accent-c2:#ead800; 
+
+$parts-c1:#444444; 
+$parts-c2:#609ed1; 
+
+
+
+
+$gray-c:#898989;
+$lightgray-c:#F4F6F8;
+$lightgray-c2:#efefef;
+$darkgray-c:#666666;
+	
+$black-c:#444444;
+$red-c:#e60012;
+
+$grad-c1:linear-gradient(135deg, #296791 0%, #3eb7e0 50%, #188ABB 100%);
+
+
+
+//パディング変数
+@mixin pd-section{
+	@include pc{padding:80px 0px;};
+	@include sp{padding:80px 0px;};
+}
+
+
+/*画像ズーム*/
+@mixin zoom-frame($pc-w:100%){
+    @include pc {width:$pc-w;};
+}
+
+
+@mixin zoom-img{
+    -moz-transition: -moz-transform 0.5s linear;
+    -webkit-transition: -webkit-transform 0.5s linear;
+    -o-transition: -o-transform 0.5s linear;
+    -ms-transition: -ms-transform 0.5s linear;
+    transition: transform 0.5s linear;
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    -ms-transform: scale(1.0);}
+    
+@mixin zoom-hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+

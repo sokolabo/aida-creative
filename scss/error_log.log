@@ -1,0 +1,89 @@
+09/19/24 6:39:23: total.scss - unclosed block: failed at `` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Layout.scss on line 256, at column 0
+09/19/24 6:39:31: total.scss - unclosed block: failed at `` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Layout.scss on line 256, at column 0
+09/19/24 6:39:42: total.scss - unclosed block: failed at `` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Layout.scss on line 256, at column 0
+09/19/24 2:30:22: total.scss - parse error: failed at `list-style-type;none;}` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Layout.scss on line 55, at column 11
+09/19/24 2:30:28: total.scss - parse error: failed at `list-style-type;none;}` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Layout.scss on line 55, at column 11
+09/19/24 2:30:28: total.scss - parse error: failed at `list-style-type;none;}` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Layout.scss on line 55, at column 11
+09/19/24 2:30:30: total.scss - parse error: failed at `list-style-type;none;}` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Layout.scss on line 55, at column 11
+09/19/24 2:30:53: total.scss - parse error: failed at `list-style-type;none;}` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Layout.scss on line 55, at column 11
+09/19/24 2:31:04: total.scss - parse error: failed at `list-style-type;none;}` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Layout.scss on line 55, at column 11
+09/19/24 2:31:04: total.scss - parse error: failed at `list-style-type;none;}` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Layout.scss on line 55, at column 11
+09/21/24 3:31:45: total.scss - unclosed block: failed at `` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Layout.scss on line 369, at column 0
+09/23/24 11:02:00: total.scss - parse error: failed at `2px solid #333;}` /Users/image1211/Local Sites/test01/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 299, at column 10
+09/23/24 1:06:16: total.scss - unexpected }: failed at `` /Users/image1211/Local Sites/test01/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 350, at column 0
+09/23/24 1:06:32: total.scss - unexpected }: failed at `` /Users/image1211/Local Sites/test01/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 350, at column 0
+09/23/24 1:06:33: total.scss - unexpected }: failed at `` /Users/image1211/Local Sites/test01/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 350, at column 0
+09/23/24 1:06:39: total.scss - unexpected }: failed at `` /Users/image1211/Local Sites/test01/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 350, at column 0
+09/23/24 2:27:46: total.scss - Undefined mixin -pc: _Layout.scss on line 51, at column 48
+Call Stack:
+#0 import _Layout.scss total.scss on line 3
+09/23/24 2:27:46: total.scss - Undefined mixin -pc: _Layout.scss on line 51, at column 48
+Call Stack:
+#0 import _Layout.scss total.scss on line 3
+09/23/24 2:28:05: total.scss - Undefined mixin -pc: _Layout.scss on line 51, at column 48
+Call Stack:
+#0 import _Layout.scss total.scss on line 3
+09/23/24 5:53:20: total.scss - unclosed block: failed at `` /Users/image1211/Local Sites/test01/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 615, at column 0
+09/23/24 5:53:38: total.scss - unclosed block: failed at `` /Users/image1211/Local Sites/test01/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 615, at column 0
+09/23/24 5:53:47: total.scss - unclosed block: failed at `` /Users/image1211/Local Sites/test01/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 615, at column 0
+09/23/24 5:53:50: total.scss - unclosed block: failed at `` /Users/image1211/Local Sites/test01/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 615, at column 0
+09/23/24 5:53:52: total.scss - unclosed block: failed at `` /Users/image1211/Local Sites/test01/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 615, at column 0
+09/23/24 5:54:13: total.scss - unclosed block: failed at `` /Users/image1211/Local Sites/test01/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 615, at column 0
+09/25/24 1:25:30: total.scss - unclosed block: failed at `` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Component.scss on line 105, at column 0
+09/25/24 1:29:04: total.scss - unclosed block: failed at `` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Component.scss on line 106, at column 0
+09/25/24 1:29:05: total.scss - unclosed block: failed at `` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Component.scss on line 106, at column 0
+09/25/24 1:29:21: total.scss - unclosed block: failed at `` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Component.scss on line 106, at column 0
+09/25/24 7:23:17: total.scss - unexpected }: failed at `` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Component.scss on line 106, at column 0
+09/25/24 7:23:37: total.scss - unexpected }: failed at `` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Component.scss on line 106, at column 0
+09/25/24 7:23:40: total.scss - unexpected }: failed at `` /home/users/1/lolipop.jp-8045052b25b5d6f4/web/siteworks/ido-test/wp-content/themes/basic-template_child/scss/_Component.scss on line 106, at column 0
+11/03/24 7:13:08: total.scss - unexpected }: failed at `` /Users/image1211/Local Sites/port-2024/app/public/wp-content/themes/basic-template_child/scss/_Project.scss on line 91, at column 0
+11/17/24 10:33:37: total.scss - unexpected }: failed at `` /Users/image1211/Local Sites/port-2024/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 92, at column 0
+11/17/24 10:40:41: total.scss - parse error: failed at `align-content` /Users/image1211/Local Sites/port-2024/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 91, at column 25
+11/17/24 10:40:51: total.scss - parse error: failed at `align-content` /Users/image1211/Local Sites/port-2024/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 91, at column 25
+11/17/24 10:41:08: total.scss - parse error: failed at `align-content` /Users/image1211/Local Sites/port-2024/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 91, at column 25
+11/17/24 10:41:09: total.scss - parse error: failed at `align-content` /Users/image1211/Local Sites/port-2024/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 91, at column 25
+11/17/24 10:41:28: total.scss - parse error: failed at `align-content` /Users/image1211/Local Sites/port-2024/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 91, at column 25
+01/11/25 9:24:18: total.scss - unexpected }: failed at `` /Users/image1211/Local Sites/port-2024/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 651, at column 0
+01/11/25 9:24:26: total.scss - unclosed block: failed at `` /Users/image1211/Local Sites/port-2024/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 875, at column 0
+01/11/25 9:25:32: total.scss - unexpected }: failed at `` /Users/image1211/Local Sites/port-2024/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 646, at column 0
+01/11/25 9:36:27: total.scss - parse error: failed at `font-weight: <weight>;` /Users/image1211/Local Sites/port-2024/app/public/wp-content/themes/basic-template_child/scss/_Project.scss on line 9, at column 3
+01/11/25 9:49:33: total.scss - parse error: failed at `font-weight: <weight>;` /Users/image1211/Local Sites/port-2024/app/public/wp-content/themes/basic-template_child/scss/_Project.scss on line 10, at column 3
+12/20/25 5:08:22: total.scss - Undefined mixin pic-bigest: _Layout.scss on line 158, at column 36
+Call Stack:
+#0 import _Layout.scss total.scss on line 3
+12/20/25 5:09:22: total.scss - Undefined mixin pic-biggest: _Layout.scss on line 158, at column 37
+Call Stack:
+#0 import _Layout.scss total.scss on line 3
+12/24/25 7:08:38: total.scss - unexpected }: failed at `` /home/users/1/main.jp-ssworks/web/design/wp-content/themes/basic-template_child/scss/_Project.scss on line 140, at column 0
+12/25/25 2:12:17: total.scss - unclosed block: failed at `` /Users/image1211/Local Sites/sokos-design/app/public/wp-content/themes/basic-template_child/scss/_Project.scss on line 904, at column 0
+12/25/25 2:23:37: total.scss - unclosed block: failed at `` /Users/image1211/Local Sites/sokos-design/app/public/wp-content/themes/basic-template_child/scss/_Project.scss on line 905, at column 0
+12/26/25 8:24:18: total.scss - parse error: failed at `clamp(-50px, -2vw, 6vw);` /Users/image1211/Local Sites/sokos-design/app/public/wp-content/themes/basic-template_child/scss/_Project.scss on line 450, at column 4
+12/26/25 12:10:03: total.scss - parse error: failed at `{color: #ffffff;` /Users/image1211/Local Sites/sokos-design/app/public/wp-content/themes/basic-template_child/scss/_Layout.scss on line 626, at column 5
+12/27/25 4:18:52: total.scss - parse error: failed at `状態の流れ（整理）` /Users/image1211/Local Sites/sokos-design/app/public/wp-content/themes/basic-template_child/scss/_Project.scss on line 456, at column 1
+12/29/25 6:59:27: total.scss - unexpected }: failed at `` /home/users/1/main.jp-ssworks/web/port2026/wp-content/themes/basic-template_child/scss/_Project.scss on line 505, at column 0
+12/29/25 7:27:09: total.scss - unexpected }: failed at `` /home/users/1/main.jp-ssworks/web/port2026/wp-content/themes/basic-template_child/scss/_Project.scss on line 499, at column 0
+12/29/25 7:30:33: total.scss - unexpected }: failed at `` /home/users/1/main.jp-ssworks/web/port2026/wp-content/themes/basic-template_child/scss/_Project.scss on line 333, at column 0
+12/29/25 8:30:33: total.scss - parse error: failed at `left0;` /home/users/1/main.jp-ssworks/web/port2026/wp-content/themes/basic-template_child/scss/_Project.scss on line 327, at column 3
+12/30/25 9:30:56: total.scss - parse error: failed at `min-height: clamp(200px , 25vw , 450px)` /Users/image1211/Local Sites/sokos-design/app/public/wp-content/themes/basic-template_child/scss/_Project.scss on line 571, at column 7
+12/30/25 9:31:06: total.scss - parse error: failed at `padding-bottom: clamp(200px , 25vw , 450px)` /Users/image1211/Local Sites/sokos-design/app/public/wp-content/themes/basic-template_child/scss/_Project.scss on line 571, at column 6
+01/02/26 8:43:24: total.scss - parse error: failed at `right8%;` /home/users/1/main.jp-ssworks/web/design/wp-content/themes/basic-template_child/scss/_Layout.scss on line 108, at column 2
+01/02/26 8:43:26: total.scss - parse error: failed at `right8%;` /home/users/1/main.jp-ssworks/web/design/wp-content/themes/basic-template_child/scss/_Layout.scss on line 108, at column 2
+01/02/26 8:43:35: total.scss - parse error: failed at `right8%;` /home/users/1/main.jp-ssworks/web/design/wp-content/themes/basic-template_child/scss/_Layout.scss on line 108, at column 2
+01/02/26 8:43:57: total.scss - parse error: failed at `right8%;` /home/users/1/main.jp-ssworks/web/design/wp-content/themes/basic-template_child/scss/_Layout.scss on line 108, at column 2
+01/02/26 8:44:07: total.scss - parse error: failed at `right8%;` /home/users/1/main.jp-ssworks/web/design/wp-content/themes/basic-template_child/scss/_Layout.scss on line 108, at column 2
+01/02/26 8:44:20: total.scss - parse error: failed at `right8%;` /home/users/1/main.jp-ssworks/web/design/wp-content/themes/basic-template_child/scss/_Layout.scss on line 108, at column 2
+01/02/26 10:40:44: total.scss - parse error: failed at `top:50px` /home/users/1/main.jp-ssworks/web/design/wp-content/themes/basic-template_child/scss/_Layout.scss on line 71, at column 2
+01/02/26 10:40:45: total.scss - parse error: failed at `top:50px` /home/users/1/main.jp-ssworks/web/design/wp-content/themes/basic-template_child/scss/_Layout.scss on line 71, at column 2
+01/02/26 10:40:51: total.scss - parse error: failed at `top:50px` /home/users/1/main.jp-ssworks/web/design/wp-content/themes/basic-template_child/scss/_Layout.scss on line 71, at column 2
+01/02/26 10:41:34: total.scss - parse error: failed at `top:50px` /home/users/1/main.jp-ssworks/web/design/wp-content/themes/basic-template_child/scss/_Layout.scss on line 71, at column 2
+01/02/26 10:41:46: total.scss - parse error: failed at `top:50px` /home/users/1/main.jp-ssworks/web/design/wp-content/themes/basic-template_child/scss/_Layout.scss on line 71, at column 2
+01/02/26 10:41:51: total.scss - parse error: failed at `top:50px` /home/users/1/main.jp-ssworks/web/design/wp-content/themes/basic-template_child/scss/_Layout.scss on line 71, at column 2
+01/02/26 10:41:54: total.scss - parse error: failed at `top:50px` /home/users/1/main.jp-ssworks/web/design/wp-content/themes/basic-template_child/scss/_Layout.scss on line 71, at column 2
+01/02/26 10:42:19: total.scss - parse error: failed at `top:50px` /home/users/1/main.jp-ssworks/web/design/wp-content/themes/basic-template_child/scss/_Layout.scss on line 71, at column 2
+01/08/26 2:29:36: total.scss - unclosed block: failed at `` /home/users/1/main.jp-ssworks/web/port2026/wp-content/themes/basic-template_child/scss/_Project.scss on line 2017, at column 0
+01/08/26 2:29:39: total.scss - unclosed block: failed at `` /home/users/1/main.jp-ssworks/web/port2026/wp-content/themes/basic-template_child/scss/_Project.scss on line 2017, at column 0
+01/08/26 2:29:50: total.scss - unclosed block: failed at `` /home/users/1/main.jp-ssworks/web/port2026/wp-content/themes/basic-template_child/scss/_Project.scss on line 2017, at column 0
+01/08/26 2:30:05: total.scss - unclosed block: failed at `` /home/users/1/main.jp-ssworks/web/port2026/wp-content/themes/basic-template_child/scss/_Project.scss on line 2017, at column 0
+01/08/26 2:30:17: total.scss - unclosed block: failed at `` /home/users/1/main.jp-ssworks/web/port2026/wp-content/themes/basic-template_child/scss/_Project.scss on line 2017, at column 0
+01/09/26 3:23:08: total.scss - unclosed block: failed at `` /home/users/1/main.jp-ssworks/web/port2026/wp-content/themes/basic-template_child/scss/_Project.scss on line 2268, at column 0
+01/09/26 3:23:18: total.scss - unclosed block: failed at `` /home/users/1/main.jp-ssworks/web/port2026/wp-content/themes/basic-template_child/scss/_Project.scss on line 2268, at column 0

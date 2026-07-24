@@ -1,0 +1,229 @@
+/* ■■■■■■■■■■■ */
+/* Compornent.scss */
+/* ■■■■■■■■■■■ */
+
+
+
+
+/*---------------タブ---------------*/
+
+.tab-wrp {display:flex; position:relative;}
+.tab-wrp div {
+	width:50%;
+	border-bottom: 1px solid #000000;
+	box-sizing:border-box;	
+	transition: .3s;
+	font-size:24px;
+	font-weight:bolder;
+	position:relative;
+}
+
+.tab-wrp div:hover{
+	background-color:#cccccc;}
+
+/*
+.tab-wrp div.active {
+	border-bottom: 5px solid #000000;}
+*/
+.tab-wrp div p{
+	font-weight:normal;
+	padding: 20px;
+	margin-bottom:0px !important;
+	text-align:center;
+	font-size:20px;
+}
+
+.tabarea{position:relative;}
+
+.tab-wrp div p:hover{cursor:pointer;}
+
+
+
+.tabarea section {
+	display: none;}
+  
+.tabarea section.show {
+	display: block;}	
+
+
+
+
+
+
+
+
+
+
+
+/*タブバーの移動のアニメーション*/
+
+.tab-wrp{}
+
+.tab-wrp::after{
+	@include pc{
+	content: "";
+	display:inline-block;
+	width:50%;
+	height:5px;
+	position:absolute;
+	background-color:#000000;
+	z-index:2;
+	bottom: 0;
+	left:0;};
+}
+
+.tab-wrp.navIdx-0::after , .tab-wrp.navIdx-1::after{
+	@include pc{
+		transition: all .3s ease-in;
+		-o-transition: all .3s ease-in;
+		-webkit-transition: all .3s ease-in;
+		-moz-transition: all .3s ease-in;};
+}
+
+.tab-wrp.navIdx-0::after{@include pc{left:0;};}
+.tab-wrp.navIdx-1::after{@include pc{left:50%;};}
+
+
+
+/*ニュースページもっと見るアコーディオン実装*/
+.accordion_box {
+  padding: 0 0 50px;
+  position: relative;
+}
+.accordion_box .accordion > li {
+  opacity: 1;
+  transition: all 0.5s ease 0s;
+  height: auto;
+}
+.accordion_box .accordion > li.none {
+  height: 0;
+  opacity: 0;
+  margin-bottom: 0px;
+}
+.btn-page-news {
+  display: none;
+  /* 必須 */
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 160px;
+  padding: 10px 0;
+  margin: 0 auto;
+  border: 1px solid #333;
+  cursor: pointer;
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+.btn-page-news:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+/*ニュースページ関連ここまで*/
+
+
+
+
+
+/*---------------パネルアコーディオン---------------*/
+.content-panel {
+    position: relative;
+    padding-top: 46px;
+    padding-bottom: 46px;
+    border-top: 1px solid #BABABA;
+    cursor: default;
+}
+@media screen and (min-width: 768px) {
+    .content-panel {
+        display: flex;
+        padding-top: 51px;
+        padding-bottom: 51px;
+        cursor: pointer;
+    }
+}
+
+.content-panel::before,
+.content-panel::after {
+    content: '';
+    position: absolute;
+    top: 66px;
+    right: 0;
+    width: 19px;
+    height: 0px;
+    border-top: 1px solid #000;
+}
+
+.content-panel::after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    opacity: 1;
+    transition: opacity .4s ease, transform .4s ease;
+}
+
+.content-panel.is-active::after {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 0;
+}
+
+.content-panel__head {
+    margin: 0;
+    text-align: left;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 44px;
+    cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+    .content-panel__head {
+        width: 120px;
+        line-height: 1;
+    }
+}
+
+.content-panel__body {
+    width: 100%;
+    max-width: 744px;
+}
+
+.post-accordion {
+    margin: 0; /* デフォルト打ち消し */
+    width: 100%;
+}
+@media screen and (min-width: 768px) {
+    .post-accordion {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.post-accordion:not(:first-child) {
+    margin-top: 24px;
+}
+
+.post-accordion__head,
+.post-accordion__body {
+    margin: 0; /* デフォルト打ち消し */
+    border: none; /* デフォルト打ち消し */
+}
+
+.post-accordion__head {
+    padding: 0; /* デフォルト打ち消し */
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 32px; /* 本文と文字位置を揃える */
+}
+
+.post-accordion__body {
+    padding: 0; /* デフォルト打ち消し */
+    width: 100%;
+    max-width: 680px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2;
+}
