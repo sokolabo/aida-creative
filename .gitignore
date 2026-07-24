@@ -1,0 +1,11 @@
+# ログファイル
+*.log
+
+# Macが自動生成する不要ファイル
+.DS_Store
+
+# エディタの設定ファイル
+.vscode/
+
+# node関連(将来SassやJSのビルドツールを使う場合)
+node_modules/
