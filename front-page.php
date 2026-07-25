@@ -68,6 +68,23 @@
 
 
 
+<section class="content-top-pd content-bottom-pd content-pd bg-lightgray-c">
+	<div class="content-width">
+	
+	<h2>H2 TITLE</h2>
+	<h3>H3 TITLE</h3>
+
+	<div class="u-max960 u-m0auto">
+	<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキテキストテキストテキストテキスト</p>
+</div>
+<img src="<?php echo wp_upload_dir()['baseurl']; ?>/profpic.jpg" />
+
+
+</div>
+</section>
+
+
+
 
 
 <section id="web" class="sec-works-web sec-back-lightgray content-pd content-top-pd content-bottom-pd u-pos-relative fadein">
@@ -127,6 +144,8 @@
     </div>
 
 </section>
+
+
 
 
 
