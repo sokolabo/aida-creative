@@ -54,7 +54,7 @@ h2 {
 
    .h2-center{
                 text-align: center;
-    margin: 0 auto;
+    margin: 0px auto 40px;
 
     .head::after{background-position: center;}
         }
@@ -1753,38 +1753,7 @@ p::after {
 	background: linear-gradient(180deg, #ddf1f9 0%, #ffffff 100%);
 	overflow: hidden;
 
-	.head-wrp{
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		gap: 2em;
-		margin-bottom: 56px;
 
-		@include sp{flex-wrap: wrap;}
-
-		.txt{@include pc{width: 56%;}; @include sp{width: 100%;};}
-
-		.illust{
-			@include pc{width: 36%;};
-			@include sp{width: 60%; margin: 24px auto 0;};
-
-			img{width: 100%;}
-		}
-	}
-
-	.lead{
-		font-size: 24px;
-		font-weight: 600;
-		margin-bottom: 16px;
-		color: $main-c;
-		@include sp{font-size: 18px;}
-	}
-
-	.desc{
-		font-size: 14px;
-		line-height: 175%;
-		margin-bottom: 0;
-	}
 }
 
 

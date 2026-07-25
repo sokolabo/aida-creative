@@ -60,6 +60,8 @@
 <div class="sec-value content-bottom-pd content-top-pd content-pd">
     <div class="content-width">
 
+    
+
       <h2 class="h2-center"><span class="head">Value</span>選ばれる理由<span class="cap">作る、守る、育てる。</span></h2>
 
 
@@ -70,22 +72,14 @@
 <section id="support" class="sec-support content-pd content-top-pd content-bottom-pd">
     <div class="content-width">
 
-        <div class="head-wrp">
-            <div class="txt">
-                <h2><span class="txt-main-c">07</span>　保守・運用サポート詳細</h2>
-                <span class="h2sub-txt">SUPPORT DETAIL</span>
-
-                <p class="lead">公開してからが、本当のスタートです。</p>
-                <p class="desc">
+           <h2 class="h2-center"><span class="head">Support</span>保守・運用サポート詳細<span class="cap">公開してからが、本当のスタートです。</span></h2>
+     
+<p>
                     ホームページは作って終わりではありません。<br>
                     更新や管理を続けながら、事業に合わせて少しずつ育てていくものです。<br>
                     サイトを守りながら、気軽に相談できるWeb担当者として伴走します。
                 </p>
-            </div>
-            <div class="illust">
-                <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-illust-lighthouse.svg" alt="">
-            </div>
-        </div>
+
 
         <div class="c-3card-01 u-mb80">
             <div class="card">

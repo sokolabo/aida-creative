@@ -1998,7 +1998,7 @@ h2 .cap {
 }
 .h2-center {
   text-align: center;
-  margin: 0 auto;
+  margin: 0px auto 40px;
 }
 .h2-center .head::after {
   background-position: center;
@@ -3515,58 +3515,6 @@ body.dark h2 {
   position: relative;
   background: linear-gradient(180deg, #ddf1f9 0%, #ffffff 100%);
   overflow: hidden;
-}
-.sec-support .head-wrp {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2em;
-  margin-bottom: 56px;
-}
-@media (max-width: 768px) {
-  .sec-support .head-wrp {
-    flex-wrap: wrap;
-  }
-}
-@media (min-width: 769px) {
-  .sec-support .head-wrp .txt {
-    width: 56%;
-  }
-}
-@media (max-width: 768px) {
-  .sec-support .head-wrp .txt {
-    width: 100%;
-  }
-}
-@media (min-width: 769px) {
-  .sec-support .head-wrp .illust {
-    width: 36%;
-  }
-}
-@media (max-width: 768px) {
-  .sec-support .head-wrp .illust {
-    width: 60%;
-    margin: 24px auto 0;
-  }
-}
-.sec-support .head-wrp .illust img {
-  width: 100%;
-}
-.sec-support .lead {
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 16px;
-  color: #3B78A1;
-}
-@media (max-width: 768px) {
-  .sec-support .lead {
-    font-size: 18px;
-  }
-}
-.sec-support .desc {
-  font-size: 14px;
-  line-height: 175%;
-  margin-bottom: 0;
 }
 .c-3card-01 {
   display: grid;
