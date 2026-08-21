@@ -2452,13 +2452,6 @@ p {
   object-fit: cover;
   height: 100%;
 }
-.sec-value {
-  background-image: url(../../../uploads/img_back_sec_value1.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-top: -80px;
-  padding-top: 240px;
-}
 .sec-works-web {
   position: relative;
 }
@@ -3512,9 +3505,13 @@ body.dark h2 {
 /* バリューセクション */
 /* ■■■■■■■■■■■ */
 .sec-value {
+  background-image: url(../../../uploads/img_back_sec_value1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -80px;
+  padding-top: 240px;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(180deg, #ffffff 0%, #ddf1f9 100%);
 }
 .sec-value .lead {
   text-align: center;
@@ -3598,6 +3595,219 @@ body.dark h2 {
 }
 .value-bg-illust img {
   width: 100%;
+  margin-bottom: 0;
+}
+/* ■■■■■■■■■■■ */
+/* サービスセクション */
+/* ■■■■■■■■■■■ */
+.sec-service {
+  position: relative;
+  background: linear-gradient(180deg, #ffffff 0%, #ddf1f9 100%);
+}
+.sec-service .lead {
+  text-align: center;
+  font-size: 15px;
+  line-height: 175%;
+  margin-bottom: 64px;
+}
+.c-service-block {
+  position: relative;
+  margin-bottom: 120px;
+  /* 画像がカード上端をはみ出す箇所。突き抜け量(.r-cont の top)は仮の値なので、実際のカンプに合わせて数値を調整してください */
+}
+@media (max-width: 768px) {
+  .c-service-block {
+    margin-bottom: 80px;
+  }
+}
+.c-service-block:last-child {
+  margin-bottom: 0;
+}
+.c-service-block .num-badge {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.c-service-block .num-badge img {
+  width: 24px;
+  margin-bottom: 4px;
+}
+.c-service-block .num-badge span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #3B78A1;
+  font-family: "tangerine", sans-serif;
+}
+.c-service-block .card {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  padding: 64px 48px 48px;
+  position: relative;
+  overflow: visible;
+}
+@media (min-width: 769px) {
+  .c-service-block .card {
+    display: flex;
+    gap: 3em;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 768px) {
+  .c-service-block .card {
+    padding: 56px 24px 32px;
+  }
+}
+@media (min-width: 769px) {
+  .c-service-block .card .l-cont {
+    width: 50%;
+  }
+}
+@media (min-width: 769px) {
+  .c-service-block .card .r-cont {
+    width: 50%;
+    position: relative;
+    top: -40px;
+  }
+}
+@media (max-width: 768px) {
+  .c-service-block .card .r-cont {
+    margin-top: 32px;
+  }
+}
+.c-service-block .card .r-cont img {
+  width: 100%;
+  margin-bottom: 0;
+}
+.c-service-block .card h3 {
+  color: #3B78A1;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.c-service-block .card .divider-line {
+  width: 120px;
+  height: 1px;
+  background: rgba(59, 120, 161, 0.4);
+  margin-bottom: 24px;
+  position: relative;
+}
+.c-service-block .card .divider-line::before {
+  content: "◆";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 8px;
+  color: #3B78A1;
+}
+.c-service-block .card p {
+  font-size: 14px;
+  line-height: 175%;
+}
+.c-service-block .card .check-list {
+  margin-top: 16px;
+  padding-bottom: 0;
+}
+.c-service-block .card .check-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  margin-bottom: 12px;
+  padding-bottom: 0;
+}
+.c-service-block .card .check-list li::before {
+  content: none;
+}
+.c-service-block .card .check-list li img {
+  width: 18px;
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
+.c-service-block .other-works {
+  background: #f4f8fa;
+  border-radius: 16px;
+  padding: 40px 32px 32px;
+  position: relative;
+  z-index: 1;
+}
+.c-service-block .other-works .tag {
+  display: inline-block;
+  background: #3B78A1;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  position: absolute;
+  top: -16px;
+  left: 32px;
+}
+.c-service-block .other-works .items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.c-service-block .other-works .items .item {
+  text-align: center;
+}
+.c-service-block .other-works .items .item img {
+  width: 40px;
+  margin: 0 auto 8px;
+}
+.c-service-block .other-works .items .item p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.c-service-block .sub-cards {
+  display: flex;
+  gap: 1.5em;
+  margin-top: 24px;
+}
+@media (max-width: 768px) {
+  .c-service-block .sub-cards {
+    flex-wrap: wrap;
+  }
+}
+.c-service-block .sub-cards .sub-card {
+  flex: 1;
+  background: #f4f8fa;
+  border-radius: 16px;
+  padding: 40px 24px 24px;
+  text-align: center;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .c-service-block .sub-cards .sub-card {
+    flex: 1 1 100%;
+  }
+}
+.c-service-block .sub-cards .sub-card img {
+  width: 40px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 0;
+}
+.c-service-block .sub-cards .sub-card h4 {
+  color: #3B78A1;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+.c-service-block .sub-cards .sub-card p {
+  font-size: 12px;
+  line-height: 160%;
   margin-bottom: 0;
 }
 /* ■■■■■■■■■■■ */
