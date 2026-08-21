@@ -4,9 +4,6 @@
 
 
 
-
-
-
 <section class="sec-intro content-pd content-top-pd content-bottom-pd u-pos-relative">
 
 <span class="txt-grad-c1">
@@ -122,7 +119,7 @@
 </div>
 
 
-<<<<<<< HEAD
+
 <section id="service" class="sec-service content-pd content-top-pd content-bottom-pd">
     <div class="content-width">
 
@@ -209,7 +206,10 @@
               </div>
           </div>
       </div>
-=======
+    </div></section>
+
+
+
 <section id="support" class="sec-support content-pd content-top-pd content-bottom-pd">
     <div class="content-width">
 
