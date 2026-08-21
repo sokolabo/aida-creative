@@ -57,12 +57,65 @@
 
 
 
-<div class="sec-value content-bottom-pd content-top-pd content-pd">
+<div id="value" class="sec-value content-bottom-pd content-top-pd content-pd">
     <div class="content-width">
 
       <h2 class="h2-center"><span class="head">Value</span>選ばれる理由<span class="cap">作る、守る、育てる。</span></h2>
 
+      <p class="lead">
+          ホームページ制作から保守・運用まで。<br>
+          作るだけではなく、育てることまで見据え、事業を前に進めるサポートを行っています。
+      </p>
 
+      <div class="c-icon-grid01">
+          <div class="item">
+              <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-chat-dots.svg" alt=""></div>
+              <h3>初期費用を抑えて始める</h3>
+              <p>ホームページは、作ることも大切ですが、公開後に育てていくことで本来の価値を発揮します。</p>
+              <p>そのため、制作費だけに予算を使い切るのではなく、公開後の運用や改善にも取り組めるよう、初期費用を抑えたプランをご提案しています。</p>
+          </div>
+          <div class="item">
+              <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-chat-dots.svg" alt=""></div>
+              <h3>気軽に相談</h3>
+              <p>ホームページ制作は、専門的な内容も多く、不安や疑問が生まれることもあります。</p>
+              <p>専門用語を並べるのではなく、わかりやすくお話ししながら、気軽に相談できるパートナーとしてサポートします。</p>
+          </div>
+          <div class="item">
+              <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-chat-dots.svg" alt=""></div>
+              <h3>伝わり、惹かれるデザイン、</h3>
+              <p>人が第一印象でその人らしさを感じるように、WEBデザインもまた企業やサービスの印象を左右します。</p>
+              <p>だからこそ、「イケてる」と感じてもらえるデザインを大切にしています。</p>
+          </div>
+
+          <div class="divider">
+              <div class="divider-item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-compass.svg" alt=""></div>
+              <div class="divider-item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-compass.svg" alt=""></div>
+          </div>
+
+          <div class="item">
+              <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-chat-dots.svg" alt=""></div>
+              <h3>成果を見据えた設計</h3>
+              <p>ホームページを作る前に、まずは事業や課題についてしっかりお話を伺います。</p>
+              <p>問い合わせや採用など、目指したい姿を一緒に整理しながら、目的に合わせた設計やご提案を行っています。</p>
+          </div>
+          <div class="item">
+              <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-chat-dots.svg" alt=""></div>
+              <h3>公開後もサポート</h3>
+              <p>ホームページは、公開してからが本当のスタートです。</p>
+              <p>セキュリティや保守の面でサイトを守りながら、更新や改善を重ね、育てていく。中小企業のWeb担当として、成果につながるホームページ運営を継続的にサポートしています。</p>
+          </div>
+          <div class="item">
+              <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-chat-dots.svg" alt=""></div>
+              <h3>Web以外にもご提案</h3>
+              <p>事業を前に進めるために必要なのは、ホームページだけではないかもしれません。チラシや名刺、販促物の作成、イベントやキャンペーンの企画など。</p>
+              <p>事業にとって本当に必要だと思うことを、一緒に考えながらご提案しています。</p>
+          </div>
+      </div>
+
+    </div>
+
+    <div class="value-bg-illust">
+        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-illust-value-bg.svg" alt="">
     </div>
 </div>
 
