@@ -67,6 +67,96 @@
 </div>
 
 
+<section id="service" class="sec-service content-pd content-top-pd content-bottom-pd">
+    <div class="content-width">
+
+      <h2 class="h2-center"><span class="head">Service</span>サービス内容</h2>
+      <p class="lead">ホームページ制作と保守・運用サポートで、あなたの事業を支えます。</p>
+
+      <div class="c-service-block">
+          <div class="num-badge">
+              <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-diamond.svg" alt="">
+              <span>01</span>
+          </div>
+
+          <div class="card">
+              <div class="l-cont">
+                  <h3>ホームページ制作</h3>
+                  <div class="divider-line"></div>
+                  <p>
+                      事業やサービスの魅力を整理しながら、<br>
+                      目的に合わせたホームページを制作します。<br>
+                      信頼やお問い合わせにつながる設計を大切にしています
+                  </p>
+                  <ul class="check-list">
+                      <li><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt=""><span>ホームページ制作</span></li>
+                      <li><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt=""><span>LP制作</span></li>
+                      <li><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt=""><span>WordPress構築</span></li>
+                      <li><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt=""><span>サイトリニューアル</span></li>
+                      <li><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt=""><span>SEOを考慮した設計</span></li>
+                      <li><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt=""><span>スマホ対応・フォーム設置</span></li>
+                  </ul>
+              </div>
+              <div class="r-cont">
+                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-mockup-service1.svg" alt="">
+              </div>
+          </div>
+
+          <div class="other-works">
+              <span class="tag">その他対応可能な制作物</span>
+              <div class="items">
+                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-doc.svg" alt=""><p>チラシ</p></div>
+                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-doc.svg" alt=""><p>チラシ</p></div>
+                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-doc.svg" alt=""><p>チラシ</p></div>
+                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-doc.svg" alt=""><p>チラシ</p></div>
+                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-doc.svg" alt=""><p>チラシ</p></div>
+              </div>
+          </div>
+      </div>
+
+      <div class="c-service-block">
+          <div class="num-badge">
+              <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-diamond.svg" alt="">
+              <span>02</span>
+          </div>
+
+          <div class="card">
+              <div class="l-cont">
+                  <h3>保守・運用サポート</h3>
+                  <div class="divider-line"></div>
+                  <p>
+                      ホームページは公開してからが本当のスタート。<br>
+                      サイトを守りながら育てるサポートを行い、<br>
+                      Web担当者として伴走します。
+                  </p>
+              </div>
+              <div class="r-cont">
+                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-photo-service2.svg" alt="">
+              </div>
+          </div>
+
+          <div class="sub-cards">
+              <div class="sub-card">
+                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-security.svg" alt="">
+                  <h4>安心・安全を守る</h4>
+                  <p>セキュリティ対策やバックアップで、サイトを安全に運用。</p>
+              </div>
+              <div class="sub-card">
+                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-security.svg" alt="">
+                  <h4>安心・安全を守る</h4>
+                  <p>セキュリティ対策やバックアップで、サイトを安全に運用。</p>
+              </div>
+              <div class="sub-card">
+                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-security.svg" alt="">
+                  <h4>安心・安全を守る</h4>
+                  <p>セキュリティ対策やバックアップで、サイトを安全に運用。</p>
+              </div>
+          </div>
+      </div>
+
+    </div>
+</section>
+
 
 <section class="content-top-pd content-bottom-pd content-pd bg-lightgray-c">
 	<div class="content-width">

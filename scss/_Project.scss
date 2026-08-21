@@ -1732,15 +1732,203 @@ p::after {
 }
         }
     
-       .name{    
+       .name{
         font-size: 32px;
         font-weight: 200;
         margin-bottom: 0px;
     }
-    
-    
-    
+
+
+
     }
 	}}
+
+
+/* ■■■■■■■■■■■ */
+/* サービスセクション */
+/* ■■■■■■■■■■■ */
+
+.sec-service{
+	position: relative;
+	background: linear-gradient(180deg, #ffffff 0%, #ddf1f9 100%);
+
+	.lead{
+		text-align: center;
+		font-size: 15px;
+		line-height: 175%;
+		margin-bottom: 64px;
+	}
+}
+
+.c-service-block{
+	position: relative;
+	margin-bottom: 120px;
+
+	@include sp{margin-bottom: 80px;}
+
+	&:last-child{margin-bottom: 0;}
+
+	.num-badge{
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 2;
+		width: 88px;
+		height: 88px;
+		border-radius: 50%;
+		background: #ffffff;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		img{width: 24px; margin-bottom: 4px;}
+
+		span{
+			font-size: 20px;
+			font-weight: 600;
+			color: $main-c;
+			font-family: "tangerine", sans-serif;
+		}
+	}
+
+	/* 画像がカード上端をはみ出す箇所。突き抜け量(.r-cont の top)は仮の値なので、実際のカンプに合わせて数値を調整してください */
+	.card{
+		background: #ffffff;
+		border-radius: 20px;
+		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+		padding: 64px 48px 48px;
+		position: relative;
+		overflow: visible;
+
+		@include pc{display: flex; gap: 3em; align-items: flex-start;}
+		@include sp{padding: 56px 24px 32px;}
+
+		.l-cont{
+			@include pc{width: 50%;}
+		}
+
+		.r-cont{
+			@include pc{
+				width: 50%;
+				position: relative;
+				top: -40px;
+			}
+			@include sp{margin-top: 32px;}
+
+			img{width: 100%; margin-bottom: 0;}
+		}
+
+		h3{
+			color: $main-c;
+			font-size: 24px;
+			margin-bottom: 8px;
+		}
+
+		.divider-line{
+			width: 120px;
+			height: 1px;
+			background: rgba(59, 120, 161, 0.4);
+			margin-bottom: 24px;
+			position: relative;
+
+			&::before{
+				content: "◆";
+				position: absolute;
+				left: 0;
+				top: 50%;
+				transform: translateY(-50%);
+				font-size: 8px;
+				color: $main-c;
+			}
+		}
+
+		p{font-size: 14px; line-height: 175%;}
+
+		.check-list{
+			margin-top: 16px;
+			padding-bottom: 0;
+
+			li{
+				display: flex;
+				align-items: center;
+				gap: 0.6em;
+				margin-bottom: 12px;
+				padding-bottom: 0;
+
+				&::before{content: none;}
+
+				img{width: 18px; margin-bottom: 0; flex-shrink: 0;}
+			}
+		}
+	}
+
+	.other-works{
+		background: #f4f8fa;
+		border-radius: 16px;
+		padding: 40px 32px 32px;
+		position: relative;
+		z-index: 1;
+
+		.tag{
+			display: inline-block;
+			background: $main-c;
+			color: #ffffff;
+			font-size: 13px;
+			padding: 6px 16px;
+			border-radius: 4px;
+			position: absolute;
+			top: -16px;
+			left: 32px;
+		}
+
+		.items{
+			display: flex;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			gap: 24px;
+
+			.item{
+				text-align: center;
+
+				img{width: 40px; margin: 0 auto 8px;}
+				p{font-size: 12px; margin-bottom: 0;}
+			}
+		}
+	}
+
+	.sub-cards{
+		display: flex;
+		gap: 1.5em;
+		margin-top: 24px;
+
+		@include sp{flex-wrap: wrap;}
+
+		.sub-card{
+			flex: 1;
+			background: #f4f8fa;
+			border-radius: 16px;
+			padding: 40px 24px 24px;
+			text-align: center;
+			position: relative;
+
+			@include sp{flex: 1 1 100%;}
+
+			img{
+				width: 40px;
+				position: absolute;
+				top: -20px;
+				left: 50%;
+				transform: translateX(-50%);
+				margin-bottom: 0;
+			}
+
+			h4{color: $main-c; font-size: 15px; margin-bottom: 8px;}
+			p{font-size: 12px; line-height: 160%; margin-bottom: 0;}
+		}
+	}
+}
 
 
