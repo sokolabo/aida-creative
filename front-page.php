@@ -338,7 +338,6 @@
             <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-lp.svg" alt=""><p>LP制作</p></div>
             <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-other.svg" alt=""><p>その他各種デザイン</p></div>
         </div>
->>>>>>> トップ-サポートセクション開発
 
     </div>
 </section>
