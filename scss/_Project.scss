@@ -1732,15 +1732,99 @@ p::after {
 }
         }
     
-       .name{    
+       .name{
         font-size: 32px;
         font-weight: 200;
         margin-bottom: 0px;
     }
-    
-    
-    
+
+
+
     }
 	}}
+
+
+/* ■■■■■■■■■■■ */
+/* バリューセクション */
+/* ■■■■■■■■■■■ */
+
+.sec-value{
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(180deg, #ffffff 0%, #ddf1f9 100%);
+
+	.lead{
+		text-align: center;
+		font-size: 15px;
+		line-height: 175%;
+		margin-bottom: 56px;
+	}
+}
+
+.c-icon-grid01{
+	display: grid;
+	position: relative;
+	z-index: 1;
+	column-gap: 2em;
+	row-gap: 40px;
+
+	@include pc{grid-template-columns: repeat(3, 1fr);}
+	@include sp{grid-template-columns: 1fr; row-gap: 32px;}
+
+	.item{
+		text-align: center;
+
+		.icon img{width: 48px; margin: 0 auto 16px;}
+
+		h3{
+			color: $main-c;
+			font-size: 18px;
+			margin-bottom: 12px;
+		}
+
+		p{
+			font-size: 13px;
+			line-height: 175%;
+			text-align: left;
+			margin-bottom: 8px;
+
+			&:last-child{margin-bottom: 0;}
+		}
+	}
+
+	.divider{
+		grid-column: 1 / -1;
+		display: flex;
+		@include sp{display: none;}
+
+		.divider-item{
+			flex: 1;
+			display: flex;
+			align-items: center;
+			gap: 1em;
+
+			&::before, &::after{
+				content: "";
+				flex: 1;
+				height: 1px;
+				background: rgba(59, 120, 161, 0.3);
+			}
+
+			img{width: 24px; margin-bottom: 0; flex-shrink: 0;}
+		}
+	}
+}
+
+.value-bg-illust{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	line-height: 0;
+	pointer-events: none;
+	z-index: 0;
+
+	img{width: 100%; margin-bottom: 0;}
+}
 
 
