@@ -3509,6 +3509,98 @@ body.dark h2 {
   margin-bottom: 0px;
 }
 /* ■■■■■■■■■■■ */
+/* バリューセクション */
+/* ■■■■■■■■■■■ */
+.sec-value {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #ffffff 0%, #ddf1f9 100%);
+}
+.sec-value .lead {
+  text-align: center;
+  font-size: 15px;
+  line-height: 175%;
+  margin-bottom: 56px;
+}
+.c-icon-grid01 {
+  display: grid;
+  position: relative;
+  z-index: 1;
+  column-gap: 2em;
+  row-gap: 40px;
+}
+@media (min-width: 769px) {
+  .c-icon-grid01 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .c-icon-grid01 {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+}
+.c-icon-grid01 .item {
+  text-align: center;
+}
+.c-icon-grid01 .item .icon img {
+  width: 48px;
+  margin: 0 auto 16px;
+}
+.c-icon-grid01 .item h3 {
+  color: #3B78A1;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.c-icon-grid01 .item p {
+  font-size: 13px;
+  line-height: 175%;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.c-icon-grid01 .item p:last-child {
+  margin-bottom: 0;
+}
+.c-icon-grid01 .divider {
+  grid-column: 1 / -1;
+  display: flex;
+}
+@media (max-width: 768px) {
+  .c-icon-grid01 .divider {
+    display: none;
+  }
+}
+.c-icon-grid01 .divider .divider-item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.c-icon-grid01 .divider .divider-item::before, .c-icon-grid01 .divider .divider-item::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: rgba(59, 120, 161, 0.3);
+}
+.c-icon-grid01 .divider .divider-item img {
+  width: 24px;
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
+.value-bg-illust {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+.value-bg-illust img {
+  width: 100%;
+  margin-bottom: 0;
+}
+/* ■■■■■■■■■■■ */
 /* Utility.scss */
 /* ■■■■■■■■■■■ */
 @media (min-width: 769px) {
