@@ -1737,7 +1737,6 @@ p::after {
 
 
 /* ■■■■■■■■■■■ */
-
 /* バリューセクション */
 /* ■■■■■■■■■■■ */
 
@@ -1748,6 +1747,8 @@ p::after {
           background-repeat: no-repeat;
               margin-top: -80px;
     padding-top: 240px;
+        z-index: -1;
+            background-position-y: -180px;
 
 	position: relative;
 	overflow: hidden;
@@ -1758,14 +1759,23 @@ p::after {
 		line-height: 175%;
 		margin-bottom: 56px;
 	}
+
+&.content-bottom-pd{
+    padding-bottom: 320px;
+}
+
+
 }
 
 .c-icon-grid01{
 	display: grid;
 	position: relative;
 	z-index: 1;
-	column-gap: 2em;
+	column-gap: 6em;
 	row-gap: 40px;
+
+    h3{    width: fit-content;
+    margin: 0 auto;}
 
 	@include pc{grid-template-columns: repeat(3, 1fr);}
 	@include sp{grid-template-columns: 1fr; row-gap: 32px;}

@@ -3510,6 +3510,8 @@ body.dark h2 {
   background-repeat: no-repeat;
   margin-top: -80px;
   padding-top: 240px;
+  z-index: -1;
+  background-position-y: -180px;
   position: relative;
   overflow: hidden;
 }
@@ -3519,12 +3521,19 @@ body.dark h2 {
   line-height: 175%;
   margin-bottom: 56px;
 }
+.sec-value.content-bottom-pd {
+  padding-bottom: 320px;
+}
 .c-icon-grid01 {
   display: grid;
   position: relative;
   z-index: 1;
-  column-gap: 2em;
+  column-gap: 6em;
   row-gap: 40px;
+}
+.c-icon-grid01 h3 {
+  width: fit-content;
+  margin: 0 auto;
 }
 @media (min-width: 769px) {
   .c-icon-grid01 {

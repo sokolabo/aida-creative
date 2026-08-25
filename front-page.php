@@ -74,7 +74,7 @@
               <p>そのため、制作費だけに予算を使い切るのではなく、公開後の運用や改善にも取り組めるよう、初期費用を抑えたプランをご提案しています。</p>
           </div>
           <div class="item">
-              <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val2.png" alt=""></div>
+              <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val2.webp" alt=""></div>
               <h3>気軽に相談</h3>
               <p>ホームページ制作は、専門的な内容も多く、不安や疑問が生まれることもあります。</p>
               <p>専門用語を並べるのではなく、わかりやすくお話ししながら、気軽に相談できるパートナーとしてサポートします。</p>
@@ -114,7 +114,7 @@
     </div>
 
     <div class="value-bg-illust">
-        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-illust-value-bg.svg" alt="">
+        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_back_val2.webp" alt="">
     </div>
 </div>
 
