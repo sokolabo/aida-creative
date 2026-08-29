@@ -3609,6 +3609,11 @@ body.dark h2 {
 .sec-service {
   position: relative;
   background: linear-gradient(180deg, #ffffff 0%, #ddf1f9 100%);
+  background-image: url(../../../uploads/img_back_sec_service1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -215px;
+  background-position-x: -170px;
 }
 .sec-service .lead {
   text-align: center;
@@ -3663,7 +3668,9 @@ body.dark h2 {
   padding: 64px 48px 48px;
   position: relative;
   overflow: hidden;
+  box-shadow: inset 4px 4px 6px rgba(222, 241, 253, 0.5), inset -3px -3px 8px rgba(108, 166, 208, 0.3), 2px 2px 4px rgba(9, 65, 117, 0.3);
   background: linear-gradient(90deg, rgba(245, 250, 255, 0.8), rgba(255, 255, 255, 0.8) 30%, rgba(213, 231, 249, 0.8) 70%);
+  backdrop-filter: blur(10px);
 }
 .c-service-block .card .wrp {
   margin-bottom: 48px;
@@ -3747,24 +3754,25 @@ body.dark h2 {
   margin-bottom: 0;
   flex-shrink: 0;
 }
-.c-service-block .other-works {
+.c-service-block .other-works, .c-service-block .sub-card {
+  box-shadow: 2px 2px 5px rgba(4, 70, 131, 0.2);
   background: #f4f8fa;
-  border-radius: 6px;
+  border-radius: 4px;
   padding: 40px 32px 32px;
   position: relative;
   z-index: 1;
 }
-.c-service-block .other-works .tag {
+.c-service-block .other-works .tag, .c-service-block .sub-card .tag {
   display: inline-block;
   background: #3B78A1;
   color: #ffffff;
   padding: 6px 16px;
-  border-radius: 4px;
+  border-radius: 2px;
   position: absolute;
   top: -16px;
   left: 32px;
 }
-.c-service-block .other-works .items {
+.c-service-block .other-works .items, .c-service-block .sub-card .items {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -3772,18 +3780,24 @@ body.dark h2 {
   width: 80%;
   margin: 0 auto;
 }
-.c-service-block .other-works .items .item {
+.c-service-block .other-works .items .item, .c-service-block .sub-card .items .item {
   text-align: center;
 }
-.c-service-block .other-works .items .item img {
-  width: 6vw;
-  min-width: 48px;
+.c-service-block .other-works .items .item img, .c-service-block .sub-card .items .item img {
+  width: 4vw;
+  min-width: 40px;
   margin: 0 auto;
   filter: invert(70%) sepia(80%) hue-rotate(197deg) saturate(10) brightness(0.6);
 }
-.c-service-block .other-works .items .item p {
+.c-service-block .other-works .items .item p, .c-service-block .sub-card .items .item p {
   font-size: 14px;
   margin-bottom: 0;
+}
+.c-service-block .other-works figure.mark_round, .c-service-block .sub-card figure.mark_round {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .c-service-block .sub-cards {
   display: flex;
@@ -3797,34 +3811,36 @@ body.dark h2 {
 }
 .c-service-block .sub-cards .sub-card {
   flex: 1;
-  background: #f4f8fa;
-  border-radius: 16px;
   padding: 40px 24px 24px;
-  text-align: center;
   position: relative;
+}
+.c-service-block .sub-cards .sub-card h4 {
+  text-align: center;
 }
 @media (max-width: 768px) {
   .c-service-block .sub-cards .sub-card {
     flex: 1 1 100%;
   }
 }
-.c-service-block .sub-cards .sub-card img {
-  width: 40px;
-  position: absolute;
-  top: -20px;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 0;
-}
 .c-service-block .sub-cards .sub-card h4 {
   color: #3B78A1;
-  font-size: 15px;
+  font-size: 18px;
   margin-bottom: 8px;
 }
 .c-service-block .sub-cards .sub-card p {
-  font-size: 12px;
-  line-height: 160%;
   margin-bottom: 0;
+}
+figure.mark_round {
+  background-color: #3c77a2;
+  padding: 8px;
+  line-height: 0;
+  border-radius: 50%;
+}
+figure.mark_round img {
+  width: 3vw;
+  margin-bottom: 0;
+  filter: invert(1);
+  min-width: 32px;
 }
 /* サポート詳細セクション */
 /* ■■■■■■■■■■■ */
@@ -3832,12 +3848,27 @@ body.dark h2 {
   position: relative;
   background: linear-gradient(180deg, #ddf1f9 0%, #ffffff 100%);
   overflow: hidden;
+  background-image: url(../../../uploads/back-support3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.sec-support .h-block {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 60px 40px 24px;
+  margin-bottom: 40px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 12px rgba(165, 165, 165, 0.25);
+}
+.sec-support .h-block h2 {
+  margin-bottom: 0;
 }
 .c-3card-01 {
   display: grid;
   gap: 2em;
   position: relative;
   z-index: 1;
+  margin-bottom: 40px;
 }
 @media (min-width: 769px) {
   .c-3card-01 {
@@ -3852,9 +3883,9 @@ body.dark h2 {
 }
 .c-3card-01 .card {
   background: rgba(255, 255, 255, 0.9);
-  border-radius: 20px;
+  border-radius: 6px;
   box-shadow: 2px 2px 12px rgba(165, 165, 165, 0.25);
-  padding: 32px 24px 200px;
+  padding: 32px 24px 100px;
   position: relative;
   overflow: hidden;
 }
@@ -3872,10 +3903,6 @@ body.dark h2 {
   position: relative;
   z-index: 1;
 }
-.c-3card-01 .card .head .icon img {
-  width: 64px;
-  margin-bottom: 0;
-}
 .c-3card-01 .card h3 {
   font-size: 20px;
   font-weight: 600;
@@ -3883,11 +3910,11 @@ body.dark h2 {
   color: #3B78A1;
 }
 .c-3card-01 .card .sub {
-  font-size: 13px;
   color: #666666;
   margin-bottom: 24px;
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 .c-3card-01 .card ul {
   padding-bottom: 0;
@@ -3913,12 +3940,12 @@ body.dark h2 {
   flex: 1;
 }
 .c-3card-01 .card li dt {
-  font-size: 15px;
+  color: #3B78A1;
   font-weight: 600;
   margin-bottom: 4px;
 }
 .c-3card-01 .card li dd {
-  font-size: 13px;
+  margin-left: 20px;
   line-height: 160%;
   color: #666666;
 }
@@ -3935,12 +3962,19 @@ body.dark h2 {
   width: 100%;
   margin-bottom: 0;
 }
+.c-3card-01 dt:before {
+  color: #3B78A1;
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 5px;
+}
 .c-benefit-banner01 {
   display: flex;
   align-items: center;
   gap: 2em;
   background: rgba(255, 255, 255, 0.9);
-  border-radius: 20px;
+  border-radius: 6px;
   box-shadow: 2px 2px 12px rgba(165, 165, 165, 0.25);
   padding: 24px 32px;
   position: relative;
@@ -3952,10 +3986,6 @@ body.dark h2 {
     padding: 20px;
     gap: 1em;
   }
-}
-.c-benefit-banner01 .icon img {
-  width: 56px;
-  margin-bottom: 0;
 }
 .c-benefit-banner01 .ttl h3 {
   font-size: 16px;
@@ -4017,43 +4047,6 @@ body.dark h2 {
   font-size: 12px;
   line-height: 150%;
   color: #666666;
-}
-.c-icon-list01 {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 2.5em 2em;
-  position: relative;
-  z-index: 1;
-}
-@media (max-width: 768px) {
-  .c-icon-list01 {
-    gap: 1.5em 1em;
-  }
-}
-.c-icon-list01 .item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-@media (min-width: 769px) {
-  .c-icon-list01 .item {
-    width: calc(25% - 1.5em);
-  }
-}
-@media (max-width: 768px) {
-  .c-icon-list01 .item {
-    width: calc(33.33% - 1em);
-  }
-}
-.c-icon-list01 .item img {
-  width: 48px;
-  margin-bottom: 8px;
-}
-.c-icon-list01 .item p {
-  font-size: 12px;
-  margin-bottom: 0;
 }
 /* ■■■■■■■■■■■ */
 /* Utility.scss */

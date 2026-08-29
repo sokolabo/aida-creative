@@ -1841,6 +1841,11 @@ p::after {
 .sec-service{
 	position: relative;
 	background: linear-gradient(180deg, #ffffff 0%, #ddf1f9 100%);
+ background-image: url(../../../uploads/img_back_sec_service1.webp);
+          background-size: cover;
+          background-repeat: no-repeat;
+              background-position-y: -215px;
+    background-position-x: -170px;
 
 	.lead{
 		text-align: center;
@@ -1895,7 +1900,9 @@ p::after {
 		padding: 64px 48px 48px;
 		position: relative;
 		    overflow: hidden;
+            box-shadow: inset 4px 4px 6px rgb(222 241 253 / 0.5), inset -3px -3px 8px rgba(108, 166, 208, 0.3), 2px 2px 4px rgb(9 65 117 / 30%);
          background: linear-gradient(90deg, rgb(245 250 255 / .8), rgb(255 255 255 / .8) 30%, rgb(213 231 249 / .8) 70%);
+          backdrop-filter: blur(10px);
 
          .wrp{
 
@@ -1975,9 +1982,10 @@ p::after {
 		}
 	}
 
-	.other-works{
+	.other-works , .sub-card{
+        box-shadow: 2px 2px 5px rgb(4 70 131 / .2);
 		background: #f4f8fa;
-		border-radius: 6px;
+		border-radius: 4px;
 		padding: 40px 32px 32px;
 		position: relative;
 		z-index: 1;
@@ -1987,7 +1995,7 @@ p::after {
 			background: $main-c;
 			color: #ffffff;
 			padding: 6px 16px;
-			border-radius: 4px;
+			border-radius: 2px;
 			position: absolute;
 			top: -16px;
 			left: 32px;
@@ -2006,14 +2014,20 @@ p::after {
 				text-align: center;
 
 				img{
-                       width: 6vw;
-                min-width: 48px;
+                       width: 4vw;
+                min-width: 40px;
                     margin: 0 auto;
                         filter: invert(70%) sepia(80%) hue-rotate(197deg) saturate(10) brightness(0.6);
                 }
 				p{font-size: 14px; margin-bottom: 0;}
 			}
 		}
+
+          figure.mark_round{
+          position: absolute;
+            top: -20px; 
+    left: 50%; 
+    transform: translateX(-50%);}
 	}
 
 	.sub-cards{
@@ -2025,28 +2039,39 @@ p::after {
 
 		.sub-card{
 			flex: 1;
-			background: #f4f8fa;
-			border-radius: 16px;
 			padding: 40px 24px 24px;
-			text-align: center;
 			position: relative;
+
+            h4{text-align: center;}
 
 			@include sp{flex: 1 1 100%;}
 
-			img{
-				width: 40px;
-				position: absolute;
-				top: -20px;
-				left: 50%;
-				transform: translateX(-50%);
-				margin-bottom: 0;
-			}
 
-			h4{color: $main-c; font-size: 15px; margin-bottom: 8px;}
-			p{font-size: 12px; line-height: 160%; margin-bottom: 0;}
+
+			h4{color: $main-c; font-size: 18px; margin-bottom: 8px;}
+
+            p{margin-bottom: 0;}
         }
     }
 }
+
+
+
+
+            figure.mark_round{
+                        background-color: #3c77a2;
+    padding: 8px;
+    line-height: 0;
+    border-radius: 50%;
+            
+			img{
+				    width: 3vw;
+    margin-bottom: 0;
+    filter: invert(1);
+    min-width: 32px;
+			}
+            }
+
 
 
 
@@ -2058,9 +2083,26 @@ p::after {
 	position: relative;
 	background: linear-gradient(180deg, #ddf1f9 0%, #ffffff 100%);
 	overflow: hidden;
+        background-image: url(../../../uploads/back-support3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
 
+    .h-block{
+            background: rgb(255 255 255 / .85);
+    padding: 60px 40px 24px;
+       margin-bottom: 40px;
+                   border-radius: 6px;
+                           box-shadow: 2px 2px 12px rgba(165, 165, 165, 0.25);
+
+
+        h2{margin-bottom: 0;
+         
+        }
+    }
 
 }
+
 
 
 .c-3card-01{
@@ -2068,15 +2110,16 @@ p::after {
 	gap: 2em;
 	position: relative;
 	z-index: 1;
+    margin-bottom: 40px;
 
 	@include pc{grid-template-columns: repeat(3, 1fr);}
 	@include sp{grid-template-columns: 1fr; gap: 1.5em;}
 
 	.card{
 		background: rgba(255, 255, 255, 0.9);
-		border-radius: 20px;
+		border-radius: 6px;
 		box-shadow: 2px 2px 12px rgba(165, 165, 165, 0.25);
-		padding: 32px 24px 200px;
+		    padding: 32px 24px 100px;
 		position: relative;
 		overflow: hidden;
 
@@ -2089,8 +2132,6 @@ p::after {
 			margin-bottom: 12px;
 			position: relative;
 			z-index: 1;
-
-			.icon img{width: 64px; margin-bottom: 0;}
 		}
 
 		h3{
@@ -2101,11 +2142,11 @@ p::after {
 		}
 
 		.sub{
-			font-size: 13px;
 			color: $darkgray-c;
 			margin-bottom: 24px;
 			position: relative;
 			z-index: 1;
+                text-align: center;
 		}
 
 		ul{
@@ -2126,8 +2167,13 @@ p::after {
 			img{width: 20px; flex-shrink: 0; margin: 4px 0 0; }
 
 			dl{flex: 1;}
-			dt{font-size: 15px; font-weight: 600; margin-bottom: 4px;}
-			dd{font-size: 13px; line-height: 160%; color: $darkgray-c;}
+			dt{
+                color: $main-c;
+                font-weight: 600; margin-bottom: 4px;}
+			dd{
+                margin-left: 20px;
+                line-height: 160%; 
+                color: $darkgray-c;}
 		}
 
 		.bg-illust{
@@ -2142,6 +2188,15 @@ p::after {
 			img{width: 100%; margin-bottom: 0;}
 		}
 	}
+
+    dt:before{
+      color: $main-c;
+  content:'\f058';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  
+  margin-right:5px;
+}
 }
 
 
@@ -2150,15 +2205,13 @@ p::after {
 	align-items: center;
 	gap: 2em;
 	background: rgba(255, 255, 255, 0.9);
-	border-radius: 20px;
+	border-radius: 6px;
 	box-shadow: 2px 2px 12px rgba(165, 165, 165, 0.25);
 	padding: 24px 32px;
 	position: relative;
 	z-index: 1;
 
 	@include sp{flex-wrap: wrap; padding: 20px; gap: 1em;}
-
-	.icon img{width: 56px; margin-bottom: 0;}
 
 	.ttl{
 		h3{font-size: 16px; margin-bottom: 4px;}
@@ -2190,26 +2243,3 @@ p::after {
 	}
 }
 
-
-.c-icon-list01{
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	gap: 2.5em 2em;
-	position: relative;
-	z-index: 1;
-
-	@include sp{gap: 1.5em 1em;}
-
-	.item{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		text-align: center;
-		@include pc{width: calc(25% - 1.5em);}
-		@include sp{width: calc(33.33% - 1em);}
-
-		img{width: 48px; margin-bottom: 8px;}
-		p{font-size: 12px; margin-bottom: 0;}
-	}
-}
