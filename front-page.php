@@ -81,7 +81,7 @@
           </div>
           <div class="item">
               <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val3.png" alt=""></div>
-              <h3>伝わり、惹かれるデザイン、</h3>
+              <h3>伝わり、惹かれるデザイン</h3>
               <p>人が第一印象でその人らしさを感じるように、WEBデザインもまた企業やサービスの印象を左右します。</p>
               <p>だからこそ、「イケてる」と感じてもらえるデザインを大切にしています。</p>
           </div>
@@ -200,22 +200,22 @@
                 <figure class="mark_round">
                   <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_06.png" alt="">
                 </figure>
-                  <h4>安心・安全を守る</h4>
-                  <p>セキュリティ対策やバックアップで、サイトを安全に運用。</p>
+                  <dt>安心・安全を守る</dt>
+                  <dd>セキュリティ対策やバックアップで、サイトを安全に運用。</dd>
               </div>
               <div class="sub-card">
                  <figure class="mark_round">
                   <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_07.png" alt="">
                 </figure>
-                  <h4>育てて成果に</h4>
-                  <p>改善や提案で、サイトを成長させ成果につなげます。</p>
+                  <dt>育てて成果に</dt>
+                  <dd>改善や提案で、サイトを成長させ成果につなげます。</dd>
               </div>
               <div class="sub-card">
                 <figure class="mark_round">
                   <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_08.png" alt="">
                 </figure>
-                  <h4>相談できる安心感</h4>
-                  <p>相談しやすい環境で、Web担当者として伴走します。</p>
+                  <dt>相談できる安心感</dt>
+                  <dd>相談しやすい環境で、Web担当者として伴走します。</dd>
               </div>
           </div>
 
@@ -259,7 +259,7 @@
                         <dl><dt>サイト動作チェック</dt><dd>表示崩れやフォーム送信など、簡易チェックを行います</dd></dl>
                     </li>
                 </ul>
-                <div class="bg-illust"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-illust-card-mamoru.svg" alt=""></div>
+                <div class="bg-illust"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_back_support_card1.webp" alt=""></div>
             </div>
 
             <div class="card">
@@ -282,7 +282,7 @@
                         <dl><dt>コンテンツ更新サポート</dt><dd>お知らせの更新やページ追加のサポートも可能です</dd></dl>
                     </li>
                 </ul>
-                <div class="bg-illust"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-illust-card-sodateru.svg" alt=""></div>
+                <div class="bg-illust"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_back_support_card2.webp" alt=""></div>
             </div>
 
             <div class="card">
@@ -309,15 +309,17 @@
                         <dl><dt>運用相談</dt><dd>更新方法や社内運用体制のご相談も承ります</dd></dl>
                     </li>
                 </ul>
-                <div class="bg-illust"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-illust-card-soudan.svg" alt=""></div>
+                <div class="bg-illust"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_back_support_card3.webp
+" alt=""></div>
             </div>
         </div>
 
         <div class="c-benefit-banner01">
-            <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-gift.svg" alt=""></div>
+            <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_09-1.png
+" alt=""></div>
             <div class="ttl">
                 <h3>ご契約者さま限定特典</h3>
-                <p>継続してご利用いただいている方限定の特典をご用意しています。</p>
+                <p>継続してご利用頂いている方限定の特典をご用意しています。</p>
             </div>
             <div class="items">
                 <div class="item">
