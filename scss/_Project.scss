@@ -25,7 +25,7 @@ h2 {
     }
 
     .head{
-          font-size: 100px;
+          font-size: 84px;
     display: block;
     font-family: "tangerine", sans-serif;
     font-weight: 400;
@@ -39,7 +39,7 @@ h2 {
         height: 14px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 48px 0 40px;
+        margin: 32px 0 20px;
         }
     }
 
@@ -47,6 +47,7 @@ h2 {
         font-size: 16px;
         display: block;
         margin-top: 8px;
+            line-height: 160%;
     }
 
     width: fit-content;
@@ -58,6 +59,8 @@ h2 {
 
 
 }
+
+
 
 
    .h2-center{
@@ -92,9 +95,12 @@ h3 {
     line-height: 160%;
 }
 
-p {
-    margin-bottom: 24px;
-}
+	.lead{
+		text-align: center;
+		line-height: 175%;
+		margin-bottom: 56px;
+	}
+
 
 .bg-lightgray-c {
     background-color: $lightgray-c;
@@ -1589,11 +1595,7 @@ p::after {
 	position: relative;
 	overflow: hidden;
 
-	.lead{
-		text-align: center;
-		line-height: 175%;
-		margin-bottom: 56px;
-	}
+
 
 &.content-bottom-pd{
     padding-bottom: 320px;
@@ -1697,9 +1699,7 @@ p::after {
  background-image: url(../../../uploads/img_back_sec_service1.webp);
           background-size: cover;
           background-repeat: no-repeat;
-              background-position-y: -215px;
-    background-position-x: -170px;
-
+       
 	.lead{
 		text-align: center;
 		line-height: 175%;
@@ -1961,13 +1961,31 @@ p::after {
 	position: relative;
 	background: linear-gradient(180deg, #ddf1f9 0%, #ffffff 100%);
 	overflow: hidden;
-        background-image: url(../../../uploads/back-support3.png);
+
+    &.bg{        background-image: url(../../../uploads/back-support9.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
     background-position: right;
+    z-index: -2;
+
+    &::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+      // background-color: rgb(81 146 220 / 70%);
+    z-index: -1;
+    mix-blend-mode: darken;
+    }
+
+}
 
     .h-block{
-            background: rgb(255 255 255 / .85);
+            background: rgb(255 255 255 / 1);
     padding: 60px 40px 24px;
        margin-bottom: 40px;
                    border-radius: 6px;
@@ -1994,7 +2012,7 @@ p::after {
 	@include sp{grid-template-columns: 1fr; gap: 1.5em;}
 
 	.card{
-		background: rgba(255, 255, 255, 0.9);
+		background: rgba(255, 255, 255, 1);
 		border-radius: 6px;
 		box-shadow: 2px 2px 12px rgba(165, 165, 165, 0.25);
 		    padding: 32px 24px 48px;
@@ -2170,10 +2188,7 @@ p::after {
 
 
 .sec-price{
-    p{ 
-        margin-bottom: 0px;
-        @include sp{    margin-bottom: 12px;}
-    }
+ 
     .caption{
         font-size: 12px;
        
@@ -2181,13 +2196,9 @@ p::after {
 }
 
 
-
-
-
 .c-2c07 {
         z-index: 10;
     position: relative;
-
 
 
  .wrap_soudan {
@@ -2269,66 +2280,97 @@ p::after {
         .row-wrp2 {
           background-color: rgb(236 241 243 / 50%);
                box-shadow: 2px 2px 5px rgb(165 165 165 / 40%);
-                padding: 24px 24px 90px;
+                padding: 24px 48px 90px;
             display: grid;
             grid-template-rows: subgrid;
             /* 追加 */
             grid-row: span 4;
             /* 追加 */
+            position: relative;
 
             @include sp {
                  padding: 24px 16px 90px;
                 margin-bottom: 32px;};}
 
+        .tag-recommend {
+            position: absolute;
+            top: -14px;
+            left: 50%;
+            background: $sub-c3;
+            color: $main-c;
+            font-size: 12px;
+            padding: 4px 16px;
+            transform: translateX(-50%);
+        }
 
-        .head {
-            display: flex;
-            justify-content: space-between;
+        .plan-head {
             margin-bottom: 24px;
 
-            @include sp {flex-wrap: wrap;};
-
-            .l-cont,
-            .r-cont {
-                @include sp {width: 100%;};}
-
-            h3 {
-                color: #ffffff;
-                line-height: 100%;
-                margin-bottom: 12px;
-
-                @include pc {
-                    font-size: 20px;
-                    padding: 8px 24px;};
-
-                @include sp {
-                    font-size: 18px;
-                    padding: 8px 12px;};
+            .plan-lead {
+                display: block;
+                font-size: 12px;
+                margin-bottom: 16px;
+                text-align: center;
             }
 
-            p {line-height: 100%;
-                @include pc {padding: 6px 24px;};
-                @include sp {padding: 6px 12px;};
-                margin-bottom: 12px;
-                    background: #333333;
-                    color: #ffffff;
-                display: flex;
-                align-items: center;
-                width: fit-content;}}
+            h3 {
+                line-height: 130%;
+                margin-bottom: 8px;
+                font-weight: 100;
+                    margin: 0 auto;
 
-        h4 {
-            line-height: 130%;
+                @include pc {font-size: 28px;};
+
+                @include sp {font-size: 20px;};
+            }
+
+            .plan-en {
+                font-size: 12px;
+                letter-spacing: .1em;
+                color: $gray-c;
+                text-align: center;
+            }
+        }
+
+        .price-rows {
             margin-bottom: 24px;
-            font-weight: 100;
 
-            @include pc {font-size: 28px;};
+            .price-row {
+                padding: 12px 0;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: baseline;
+                gap: 4px 12px;
 
-            @include sp {font-size: 20px;};}
+                &:last-child {
+                    border-top: 1px solid #cccccc;
+                }
+            }
+
+            .row-label {
+                font-size: 14px;
+                width: 100%;
+
+                @include pc {width: auto;};
+            }
+
+            .row-note {
+                font-size: 12px;
+                color: $gray-c;
+                width: 100%;
+            }
+        }
 
         .price {
-            font-size: 40px;
+            font-size: 28px;
             line-height: 130%;
-            margin-bottom: 24px;}
+
+            small {font-size: 14px;}
+        }
+
+        .btn-wrap {
+            .c-btn-02 {width: 100%;}
+        }
 
         i {font-size: 1.3rem;
             margin-right: 8px;}}

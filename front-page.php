@@ -227,7 +227,7 @@
 
 
 
-<section id="support" class="sec-support content-pd content-top-pd content-bottom-pd">
+<section id="support" class="sec-support bg content-pd content-top-pd content-bottom-pd">
     <div class="content-width">
 
     <div class="h-block">
@@ -340,6 +340,106 @@
       
     </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+<section id="price" class="sec-price content-pd content-top-pd content-bottom-pd">
+    <div class="content-width">
+
+
+          <h2 class="h2-center"><span class="head">Plan</span>ご依頼プラン
+        <span class="cap">事業のフェーズに合わせて選べる2つのプラン</span></h2>
+      <p class="lead u-txt-cent">ホームページは公開してからが本当のスタートです。<br>
+更新・改善・セキュリティ対策まで継続することで、事業の成長につながります。</p>
+
+
+      
+        <div class="c-2c07">
+
+            <div class="graph">
+                <div class="row-wrp1 is-recommend">
+                    <span class="tag-recommend">おすすめ</span>
+                    <div class="plan-head">
+                        <span class="plan-lead">制作から運用までお任せ</span>
+                        <h3>制作＋保守運用</h3>
+                        <p class="plan-en">CREATE + GROW</p>
+                    </div>
+                    <div>
+                        <p>制作から保守運用までまとめてお任せいただける、<br>事業と一緒に育てていくプランです。</p>
+                    </div>
+                    <div class="price-rows">
+                        <div class="price-row">
+                            <span class="row-label">初期費用</span>
+                            <span class="price">25万円<small>〜</small></span>
+                        </div>
+                        <div class="price-row">
+                            <span class="row-label">月額</span>
+                            <span class="price">16,500円<small>（税込）／月</small></span>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="btn-wrap">
+                        <div class="c-btn-02 u-m0auto"><a href="#">詳細を見る ></a></div>
+                    </div>-->
+                </div>
+
+                <div class="row-wrp2">
+                    <div class="plan-head">
+                        <span class="plan-lead">&nbsp;</span>
+                        <h3>制作のみ</h3>
+                        <p class="plan-en">CREATE</p>
+                    </div>
+                    <div>
+                        <p>ホームページ制作のみをご希望の方向けのプランです。<br>必要に応じて保守運用を追加できます。</p>
+                    </div>
+                    <div class="price-rows">
+                        <div class="price-row">
+                            <span class="row-label">初期費用</span>
+                            <span class="price">40万円<small>〜</small></span>
+                        </div>
+                        <div class="price-row">
+                            <span class="row-label">保守運用追加</span>
+                            <span class="price">11,000円<small>（税込）〜／月</small></span>
+                            <span class="row-note">保守を入れない場合の月額費用です。</span>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="btn-wrap">
+                        <div class="c-btn-02 u-m0auto"><a href="#">詳細を見る ></a></div>
+                    </div>-->
+                </div>
+            </div>
+
+
+<div class="wrap_soudan">
+        <div class="l-cont">
+    <p class="u-pcbr">ご予算に合わせて柔軟なご提案をいたします。<br>
+        まずはお気軽にお尋ねください！</p>
+        </div>
+    <div class="r-cont"><a href="<?php echo home_url( '/' )."contact/"; ?>">ご相談はこちら</a></div>
+    </div>
+</div>
+
+
+
+
+
+        </div>
+</section>>
+
+
+
+
+
+
 
 
 <section class="content-top-pd content-bottom-pd content-pd bg-lightgray-c">
@@ -533,85 +633,6 @@
 
 
 
-
-
-
-
-
-<section id="price" class="sec-price content-pd content-top-pd content-bottom-pd">
-    <div class="content-width">
-
-        <div class="c-2c07">
-           <h2><span class="txt-main-c">P</span>RICE<span class="txt-main-c">.</span></h2>
-     <span class="h2sub-txt">料金例</span>
-
-
-            <div class="graph">
-                <div class="row-wrp1">
-                    <div class="head">
-                        <div class="l-cont">
-                            <h3 class="u-wid-fit bg-main-c txt-white-c">例1.スタンダードプラン</h3>
-                        </div>
-                        <div class="r-cont">
-                            <p class="bg-lightgray-c u-wid-fit">納期3か月</p>
-                        </div>
-                    </div>
-
-                    <div>
-                        <h4>オリジナルデザイン<br>運用も見据えて制作します</h4>
-                    </div>
-                    <div>
-                        <p class="price">¥440,000~</p>
-                    </div>
-                    <div>
-                        <p>5ページ：サイトデザイン + 実装 + WordPress構築</p>
-                        <p>：オリジナルデザインで制作します</p>
-                        <p>機能：お問い合わせ、ブログ、スライダーなど</p>
-                         <span class="caption">※サーバー、独自ドメイン、文章、画像、ロゴ等、お客様支給</span>
-                    </div>
-                </div>
-
-                <div class="row-wrp2">
-                    <div class="head">
-                        <div class="l-cont">
-                            <h3 class="u-wid-fit bg-main-c txt-white-c">例2.テンプレートプラン</h3>
-                        </div>
-                        <div class="r-cont">
-                            <p class="bg-lightgray-c u-wid-fit">納期2か月</p>
-                        </div>
-                    </div>
-
-                    <div>
-                        <h4>予算を抑えて作りたい<br>セミテンプレートプラン</h4>
-                    </div>
-                    <div>
-                        <p class="price">¥280,000~</p>
-                    </div>
-                    <div>
-                        <p>3ページ：サイトデザイン + 実装 + WordPress構築</p>
-                        <p>弊社独自のテンプレートを用いて作成します</p>
-                        <p>機能：お問い合わせ、ブログ、など</p>
-                        <span class="caption">※サーバー、独自ドメイン、文章、画像、ロゴ等、お客様支給</span>
-                    </div>
-                </div>
-            </div>
-
-
-<div class="wrap_soudan">
-        <div class="l-cont">
-    <p class="u-pcbr">ご予算に合わせて柔軟なご提案をいたします。<br>
-        まずはお気軽にお尋ねください！</p>
-        </div>
-    <div class="r-cont"><a href="<?php echo home_url( '/' )."contact/"; ?>">ご相談はこちら</a></div>
-    </div>
-</div>
-
-
-
-
-
-        </div>
-</section>>
 
 
 
