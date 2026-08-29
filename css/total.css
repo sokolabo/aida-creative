@@ -1975,7 +1975,7 @@ h2 {
   }
 }
 h2 .head {
-  font-size: 72px;
+  font-size: 100px;
   display: block;
   font-family: "tangerine", sans-serif;
   font-weight: 400;
@@ -2016,7 +2016,7 @@ h3 {
 }
 @media (min-width: 769px) {
   h3 {
-    font-size: clamp(20px, 2.2vw, 28px);
+    font-size: clamp(20px, 1.8vw, 24px);
   }
 }
 @media (max-width: 768px) {
@@ -3517,7 +3517,6 @@ body.dark h2 {
 }
 .sec-value .lead {
   text-align: center;
-  font-size: 15px;
   line-height: 175%;
   margin-bottom: 56px;
 }
@@ -3528,7 +3527,7 @@ body.dark h2 {
   display: grid;
   position: relative;
   z-index: 1;
-  column-gap: 6em;
+  column-gap: 4em;
   row-gap: 40px;
 }
 .c-icon-grid01 h3 {
@@ -3555,11 +3554,9 @@ body.dark h2 {
 }
 .c-icon-grid01 .item h3 {
   color: #3B78A1;
-  font-size: 18px;
   margin-bottom: 12px;
 }
 .c-icon-grid01 .item p {
-  font-size: 13px;
   line-height: 175%;
   text-align: left;
   margin-bottom: 8px;
@@ -3615,13 +3612,13 @@ body.dark h2 {
 }
 .sec-service .lead {
   text-align: center;
-  font-size: 15px;
   line-height: 175%;
   margin-bottom: 64px;
 }
 .c-service-block {
   position: relative;
   margin-bottom: 120px;
+  margin-top: 120px;
   /* 画像がカード上端をはみ出す箇所。突き抜け量(.r-cont の top)は仮の値なので、実際のカンプに合わせて数値を調整してください */
 }
 @media (max-width: 768px) {
@@ -3642,86 +3639,85 @@ body.dark h2 {
   height: 88px;
   border-radius: 50%;
   background: #ffffff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0px 20px #58AAD3;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .c-service-block .num-badge img {
-  width: 24px;
-  margin-bottom: 4px;
+  width: 32px;
+  margin-bottom: 12px;
+  margin-top: -20px;
 }
 .c-service-block .num-badge span {
-  font-size: 20px;
+  font-size: 64px;
+  line-height: 0px;
   font-weight: 600;
   color: #3B78A1;
   font-family: "tangerine", sans-serif;
 }
 .c-service-block .card {
-  background: #ffffff;
-  border-radius: 20px;
+  border-radius: 6px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   padding: 64px 48px 48px;
   position: relative;
-  overflow: visible;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgba(245, 250, 255, 0.8), rgba(255, 255, 255, 0.8) 30%, rgba(213, 231, 249, 0.8) 70%);
+}
+.c-service-block .card .wrp {
+  margin-bottom: 48px;
 }
 @media (min-width: 769px) {
-  .c-service-block .card {
+  .c-service-block .card .wrp {
     display: flex;
     gap: 3em;
     align-items: flex-start;
   }
 }
 @media (max-width: 768px) {
-  .c-service-block .card {
+  .c-service-block .card .wrp {
     padding: 56px 24px 32px;
   }
 }
 @media (min-width: 769px) {
-  .c-service-block .card .l-cont {
+  .c-service-block .card .wrp .l-cont {
     width: 50%;
   }
 }
 @media (min-width: 769px) {
-  .c-service-block .card .r-cont {
+  .c-service-block .card .wrp .r-cont {
     width: 50%;
-    position: relative;
-    top: -40px;
   }
 }
 @media (max-width: 768px) {
-  .c-service-block .card .r-cont {
+  .c-service-block .card .wrp .r-cont {
     margin-top: 32px;
   }
 }
-.c-service-block .card .r-cont img {
-  width: 100%;
+.c-service-block .card .wrp .r-cont img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
   margin-bottom: 0;
+  opacity: 0.8;
 }
 .c-service-block .card h3 {
   color: #3B78A1;
   font-size: 24px;
   margin-bottom: 8px;
 }
-.c-service-block .card .divider-line {
-  width: 120px;
-  height: 1px;
-  background: rgba(59, 120, 161, 0.4);
-  margin-bottom: 24px;
-  position: relative;
-}
-.c-service-block .card .divider-line::before {
-  content: "◆";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 8px;
-  color: #3B78A1;
+.c-service-block .card h3::after {
+  content: "";
+  display: block;
+  background-image: url(../../../uploads/mark_h2_2.png);
+  height: 14px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 24px 0;
 }
 .c-service-block .card p {
-  font-size: 14px;
   line-height: 175%;
 }
 .c-service-block .card .check-list {
@@ -3732,11 +3728,19 @@ body.dark h2 {
   display: flex;
   align-items: center;
   gap: 0.6em;
-  margin-bottom: 12px;
+  margin-bottom: 4px;
   padding-bottom: 0;
 }
 .c-service-block .card .check-list li::before {
-  content: none;
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-image: url(../../../uploads/ico-check.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 3px;
 }
 .c-service-block .card .check-list li img {
   width: 18px;
@@ -3745,7 +3749,7 @@ body.dark h2 {
 }
 .c-service-block .other-works {
   background: #f4f8fa;
-  border-radius: 16px;
+  border-radius: 6px;
   padding: 40px 32px 32px;
   position: relative;
   z-index: 1;
@@ -3754,7 +3758,6 @@ body.dark h2 {
   display: inline-block;
   background: #3B78A1;
   color: #ffffff;
-  font-size: 13px;
   padding: 6px 16px;
   border-radius: 4px;
   position: absolute;
@@ -3766,16 +3769,20 @@ body.dark h2 {
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 24px;
+  width: 80%;
+  margin: 0 auto;
 }
 .c-service-block .other-works .items .item {
   text-align: center;
 }
 .c-service-block .other-works .items .item img {
-  width: 40px;
-  margin: 0 auto 8px;
+  width: 6vw;
+  min-width: 48px;
+  margin: 0 auto;
+  filter: invert(70%) sepia(80%) hue-rotate(197deg) saturate(10) brightness(0.6);
 }
 .c-service-block .other-works .items .item p {
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 0;
 }
 .c-service-block .sub-cards {
