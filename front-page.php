@@ -74,14 +74,14 @@
               <p>そのため、制作費だけに予算を使い切るのではなく、公開後の運用や改善にも取り組めるよう、初期費用を抑えたプランをご提案しています。</p>
           </div>
           <div class="item">
-              <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val2.png" alt=""></div>
+              <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val2.webp" alt=""></div>
               <h3>気軽に相談</h3>
               <p>ホームページ制作は、専門的な内容も多く、不安や疑問が生まれることもあります。</p>
               <p>専門用語を並べるのではなく、わかりやすくお話ししながら、気軽に相談できるパートナーとしてサポートします。</p>
           </div>
           <div class="item">
               <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val3.png" alt=""></div>
-              <h3>伝わり、惹かれるデザイン、</h3>
+              <h3>伝わり、惹かれるデザイン</h3>
               <p>人が第一印象でその人らしさを感じるように、WEBデザインもまた企業やサービスの印象を左右します。</p>
               <p>だからこそ、「イケてる」と感じてもらえるデザインを大切にしています。</p>
           </div>
@@ -114,7 +114,7 @@
     </div>
 
     <div class="value-bg-illust">
-        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-illust-value-bg.svg" alt="">
+        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_back_val2.webp" alt="">
     </div>
 </div>
 
@@ -128,55 +128,62 @@
 
       <div class="c-service-block">
           <div class="num-badge">
-              <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-diamond.svg" alt="">
+              <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_10.png" alt="">
               <span>01</span>
           </div>
 
           <div class="card">
+            <div class="wrp">
               <div class="l-cont">
                   <h3>ホームページ制作</h3>
-                  <div class="divider-line"></div>
                   <p>
                       事業やサービスの魅力を整理しながら、<br>
                       目的に合わせたホームページを制作します。<br>
                       信頼やお問い合わせにつながる設計を大切にしています
                   </p>
                   <ul class="check-list">
-                      <li><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt=""><span>ホームページ制作</span></li>
-                      <li><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt=""><span>LP制作</span></li>
-                      <li><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt=""><span>WordPress構築</span></li>
-                      <li><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt=""><span>サイトリニューアル</span></li>
-                      <li><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt=""><span>SEOを考慮した設計</span></li>
-                      <li><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt=""><span>スマホ対応・フォーム設置</span></li>
+                      <li><span>ホームページ制作</span></li>
+                      <li><span>LP制作</span></li>
+                      <li><span>WordPress構築</span></li>
+                      <li><span>サイトリニューアル</span></li>
+                      <li><span>SEOを考慮した設計</span></li>
+                      <li><span>スマホ対応・フォーム設置</span></li>
                   </ul>
               </div>
               <div class="r-cont">
-                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-mockup-service1.svg" alt="">
+                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/service_pc.png" alt="">
+              </div>
+
+              </div>
+
+   <div class="other-works">
+              <span class="tag">その他対応可能な制作物</span>
+              <div class="items">
+                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_01.png" alt=""><p>チラシ</p></div>
+                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_02.png" alt=""><p>名刺</p></div>
+                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_03.png" alt=""><p>パンフレット</p></div>
+                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_04.png" alt=""><p>バナー</p></div>
+                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_05.png" alt=""><p>SNS画像</p></div>
               </div>
           </div>
 
-          <div class="other-works">
-              <span class="tag">その他対応可能な制作物</span>
-              <div class="items">
-                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-doc.svg" alt=""><p>チラシ</p></div>
-                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-doc.svg" alt=""><p>チラシ</p></div>
-                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-doc.svg" alt=""><p>チラシ</p></div>
-                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-doc.svg" alt=""><p>チラシ</p></div>
-                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-doc.svg" alt=""><p>チラシ</p></div>
-              </div>
+
           </div>
+
+       
       </div>
 
       <div class="c-service-block">
           <div class="num-badge">
-              <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-diamond.svg" alt="">
+                <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_10.png" alt="">
               <span>02</span>
           </div>
 
           <div class="card">
+             <div class="wrp">
               <div class="l-cont">
                   <h3>保守・運用サポート</h3>
-                  <div class="divider-line"></div>
+            
                   <p>
                       ホームページは公開してからが本当のスタート。<br>
                       サイトを守りながら育てるサポートを行い、<br>
@@ -184,27 +191,37 @@
                   </p>
               </div>
               <div class="r-cont">
-                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-photo-service2.svg" alt="">
+                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/service_human.webp" alt="">
+              </div>
+             </div>
+
+     <div class="sub-cards">
+              <div class="sub-card">
+                <figure class="mark_round">
+                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_06.png" alt="">
+                </figure>
+                  <dt>安心・安全を守る</dt>
+                  <dd>セキュリティ対策やバックアップで、サイトを安全に運用。</dd>
+              </div>
+              <div class="sub-card">
+                 <figure class="mark_round">
+                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_07.png" alt="">
+                </figure>
+                  <dt>育てて成果に</dt>
+                  <dd>改善や提案で、サイトを成長させ成果につなげます。</dd>
+              </div>
+              <div class="sub-card">
+                <figure class="mark_round">
+                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_08.png" alt="">
+                </figure>
+                  <dt>相談できる安心感</dt>
+                  <dd>相談しやすい環境で、Web担当者として伴走します。</dd>
               </div>
           </div>
 
-          <div class="sub-cards">
-              <div class="sub-card">
-                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-security.svg" alt="">
-                  <h4>安心・安全を守る</h4>
-                  <p>セキュリティ対策やバックアップで、サイトを安全に運用。</p>
-              </div>
-              <div class="sub-card">
-                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-security.svg" alt="">
-                  <h4>安心・安全を守る</h4>
-                  <p>セキュリティ対策やバックアップで、サイトを安全に運用。</p>
-              </div>
-              <div class="sub-card">
-                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-security.svg" alt="">
-                  <h4>安心・安全を守る</h4>
-                  <p>セキュリティ対策やバックアップで、サイトを安全に運用。</p>
-              </div>
+
           </div>
+     
       </div>
     </div></section>
 
@@ -213,132 +230,114 @@
 <section id="support" class="sec-support content-pd content-top-pd content-bottom-pd">
     <div class="content-width">
 
-           <h2 class="h2-center"><span class="head">Support</span>保守・運用サポート詳細<span class="cap">公開してからが、本当のスタートです。</span></h2>
-     
-<p>
-                    ホームページは作って終わりではありません。<br>
-                    更新や管理を続けながら、事業に合わせて少しずつ育てていくものです。<br>
-                    サイトを守りながら、気軽に相談できるWeb担当者として伴走します。
-                </p>
+    <div class="h-block">
+           <h2 class="h2-center"><span class="head">Support</span>保守・運用サポート詳細<span class="cap">ホームページは更新や管理を続け、事業に合わせて育てる事で本来の価値を発揮します。<br>
+サイトを守り、気軽に相談できるWeb担当者として伴走します。</span></h2>
+    </div>
 
-
-        <div class="c-3card-01 u-mb80">
+        <div class="c-3card-01">
             <div class="card">
                 <div class="head">
-                    <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-shield.svg" alt=""></div>
+                    <figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_06.png" alt=""></figure>
                     <h3>守る</h3>
                 </div>
                 <p class="sub">サイトを安全に守るためのサポート</p>
                 <ul>
-                    <li>
-                        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt="">
+                    <li>  
                         <dl><dt>WordPress更新</dt><dd>本体・プラグイン・テーマを最新に保ちます</dd></dl>
                     </li>
                     <li>
-                        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt="">
+                        
                         <dl><dt>バックアップ</dt><dd>定期的にバックアップを取得し、復元にも対応します</dd></dl>
                     </li>
                     <li>
-                        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt="">
+                        
                         <dl><dt>セキュリティ対策</dt><dd>不正ログイン対策やスパム対策などを行います</dd></dl>
                     </li>
                     <li>
-                        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt="">
+                        
                         <dl><dt>サイト動作チェック</dt><dd>表示崩れやフォーム送信など、簡易チェックを行います</dd></dl>
                     </li>
                 </ul>
-                <div class="bg-illust"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-illust-card-mamoru.svg" alt=""></div>
+                <div class="bg-illust"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_back_support_card1.webp" alt=""></div>
             </div>
 
             <div class="card">
                 <div class="head">
-                    <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-leaf.svg" alt=""></div>
+                   <figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_07.png" alt=""></figure>
                     <h3>育てる</h3>
                 </div>
                 <p class="sub">サイトをより良く育てるサポート</p>
                 <ul>
                     <li>
-                        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt="">
+                        
                         <dl><dt>軽微修正</dt><dd>月30分以内の軽微な修正に対応します<br>(テキスト修正・画像差し替え・レイアウト調整など)</dd></dl>
                     </li>
                     <li>
-                        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt="">
+                        
                         <dl><dt>改善提案</dt><dd>アクセスや成果につながる改善をご提案します</dd></dl>
                     </li>
                     <li>
-                        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt="">
+                        
                         <dl><dt>コンテンツ更新サポート</dt><dd>お知らせの更新やページ追加のサポートも可能です</dd></dl>
                     </li>
                 </ul>
-                <div class="bg-illust"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-illust-card-sodateru.svg" alt=""></div>
+                <div class="bg-illust"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_back_support_card2.webp" alt=""></div>
             </div>
 
             <div class="card">
                 <div class="head">
-                    <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-chat.svg" alt=""></div>
+                    <figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_08.png" alt=""></figure>
                     <h3>相談する</h3>
                 </div>
                 <p class="sub">気軽に相談できるサポート</p>
                 <ul>
                     <li>
-                        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-mail.svg" alt="">
+                       
                         <dl><dt>メール相談</dt><dd>ちょっとした疑問やご相談をいつでもどうぞ</dd></dl>
                     </li>
                     <li>
-                        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-zoom.svg" alt="">
+                       
                         <dl><dt>Zoom相談</dt><dd>月1回30分のZoom相談でしっかりサポート</dd></dl>
                     </li>
                     <li>
-                        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-webconsult.svg" alt="">
+                       
                         <dl><dt>Web活用相談</dt><dd>集客や運用方法など、Web全般のご相談が可能です</dd></dl>
                     </li>
                     <li>
-                        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-ops.svg" alt="">
+                       
                         <dl><dt>運用相談</dt><dd>更新方法や社内運用体制のご相談も承ります</dd></dl>
                     </li>
                 </ul>
-                <div class="bg-illust"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-illust-card-soudan.svg" alt=""></div>
+                <div class="bg-illust"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_back_support_card3.webp
+" alt=""></div>
             </div>
         </div>
 
-        <div class="c-benefit-banner01 u-mb80">
-            <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-gift.svg" alt=""></div>
+        <div class="c-benefit-banner01">
+            <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_09-1.png
+" alt=""></div>
             <div class="ttl">
                 <h3>ご契約者さま限定特典</h3>
-                <p>継続してご利用いただいている方限定の特典をご用意しています。</p>
+                <p>継続してご利用頂いている方限定の特典をご用意しています。</p>
             </div>
             <div class="items">
                 <div class="item">
-                    <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt="">
+                    
                     <dl><dt>優先対応</dt><dd>急ぎの修正やトラブルにもできる限り早く対応します</dd></dl>
                 </div>
                 <div class="item">
-                    <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt="">
+                    
                     <dl><dt>追加制作10%OFF</dt><dd>LP・ページ追加・バナー・各種デザイン制作が10%OFF</dd></dl>
                 </div>
                 <div class="item">
-                    <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-check.svg" alt="">
+                    
                     <dl><dt>継続相談</dt><dd>サイト以外のことも気軽にご相談いただけます</dd></dl>
                 </div>
             </div>
         </div>
 
-        <div class="u-txt-cent u-mb40">
-            <h3>こんなことに対応しています</h3>
-            <p>Webサイトに関わるさまざまな制作・サポートに対応可能です。</p>
-        </div>
-
-        <div class="c-icon-list01">
-            <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-page-add.svg" alt=""><p>ページ追加</p></div>
-            <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-banner.svg" alt=""><p>バナー制作</p></div>
-            <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-namecard.svg" alt=""><p>名刺制作</p></div>
-            <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-flyer.svg" alt=""><p>チラシ制作</p></div>
-            <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-brochure.svg" alt=""><p>パンフレット制作</p></div>
-            <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-sns.svg" alt=""><p>SNS画像制作</p></div>
-            <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-lp.svg" alt=""><p>LP制作</p></div>
-            <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ph-icon-other.svg" alt=""><p>その他各種デザイン</p></div>
-        </div>
-
+      
     </div>
 </section>
 

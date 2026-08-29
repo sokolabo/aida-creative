@@ -6,6 +6,14 @@
 
 h2 , .c-1c37 .l-cont .title , .back-text1 , .sec-case .case-ttl .bg-title{font-weight: 200;}
 
+dt{    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+dd{
+      font-size: 14px;
+}
+
 
 h2 {
     @include pc {
@@ -17,7 +25,7 @@ h2 {
     }
 
     .head{
-          font-size: 72px;
+          font-size: 100px;
     display: block;
     font-family: "tangerine", sans-serif;
     font-weight: 400;
@@ -71,7 +79,8 @@ h2 {
 
 h3 {
     @include pc {
-        font-size: clamp(20px, 2.2vw, 28px);
+                letter-spacing: -1px;
+        font-size: clamp(17px, 1.6vw, 24px);
     }
 
     @include sp {
@@ -790,167 +799,6 @@ span{    color: rgba(33, 33, 33, 0.1);}
 
 
 
-.c-2c07 {
-        z-index: 10;
-    position: relative;
-
-
-
- .wrap_soudan {
-        display: flex;
-    max-width: 720px;
-    box-shadow: 2px 2px 5px rgba(165, 165, 165, 0.4);
-    margin: -48px auto 0 auto;
-    position: relative;
-    z-index: 10;
-    padding: 24px;
-    background: #ffffff;
-    @include sp{
-         padding: 16px;
-                width: 90%;
-        margin-top: -90px;
-        gap: 1em;
-        flex-wrap: wrap;};
-
-
-    .l-cont{
-           width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    @include pc{border-right: 1px solid #333333;};
-     @include sp{ width: 100%;};
-    }
-
-    .r-cont{
-         width: 40%;
-             display: flex;
-    justify-content: center;
-    align-items: center;
-     @include sp{ width: 100%;};
-
-                a{
-                        background: #e74a00;
-    width: calc(100% - 24px);
-    color: #ffffff;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    @include pc{left: 12px;};
-
-&::before{
-        content: "";
-    display: block;
-    position: absolute;
-    background-image: url(../../../uploads/arrow_mini01.png);
-    top: 50%;
-    right: 5%;
-    transform: translatex(-40%) translateY(-50%);
-    width: 30px;
-    height: 7px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    transition: .5s;
-}
-    &:hover::before{
-        right: 0%;}
-                    }
-
-            }
-    }
-
-         
-
-
-    .graph {
-        display: grid;
-        column-gap: 1em;
-
-        @include pc {grid-template-columns: 1fr 1fr;};
-        @include sp {grid-template-columns: 1fr;};
-
-        .row-wrp1,
-        .row-wrp2 {
-          background-color: rgb(236 241 243 / 50%);
-               box-shadow: 2px 2px 5px rgb(165 165 165 / 40%);
-                padding: 24px 24px 90px;
-            display: grid;
-            grid-template-rows: subgrid;
-            /* 追加 */
-            grid-row: span 4;
-            /* 追加 */
-
-            @include sp {
-                 padding: 24px 16px 90px;
-                margin-bottom: 32px;};}
-
-
-        .head {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 24px;
-
-            @include sp {flex-wrap: wrap;};
-
-            .l-cont,
-            .r-cont {
-                @include sp {width: 100%;};}
-
-            h3 {
-                color: #ffffff;
-                line-height: 100%;
-                margin-bottom: 12px;
-
-                @include pc {
-                    font-size: 20px;
-                    padding: 8px 24px;};
-
-                @include sp {
-                    font-size: 18px;
-                    padding: 8px 12px;};
-            }
-
-            p {line-height: 100%;
-                @include pc {padding: 6px 24px;};
-                @include sp {padding: 6px 12px;};
-                margin-bottom: 12px;
-                    background: #333333;
-                    color: #ffffff;
-                display: flex;
-                align-items: center;
-                width: fit-content;}}
-
-        h4 {
-            line-height: 130%;
-            margin-bottom: 24px;
-            font-weight: 100;
-
-            @include pc {font-size: 28px;};
-
-            @include sp {font-size: 20px;};}
-
-        .price {
-            font-size: 40px;
-            line-height: 130%;
-            margin-bottom: 24px;}
-
-        i {font-size: 1.3rem;
-            margin-right: 8px;}}
-
-
-
-}
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1258,18 +1106,6 @@ body.dark {
 
 
 
-
-
-.sec-price{
-    p{ 
-        margin-bottom: 0px;
-        @include sp{    margin-bottom: 12px;}
-    }
-    .caption{
-        font-size: 12px;
-       
-    }
-}
 
 
 
@@ -1737,7 +1573,6 @@ p::after {
 
 
 /* ■■■■■■■■■■■ */
-
 /* バリューセクション */
 /* ■■■■■■■■■■■ */
 
@@ -1748,24 +1583,48 @@ p::after {
           background-repeat: no-repeat;
               margin-top: -80px;
     padding-top: 240px;
+        z-index: -1;
+            background-position-y: -180px;
 
 	position: relative;
 	overflow: hidden;
 
 	.lead{
 		text-align: center;
-		font-size: 15px;
 		line-height: 175%;
 		margin-bottom: 56px;
 	}
+
+&.content-bottom-pd{
+    padding-bottom: 320px;
+}
+
+
 }
 
 .c-icon-grid01{
 	display: grid;
 	position: relative;
 	z-index: 1;
-	column-gap: 2em;
+	column-gap: 4em;
 	row-gap: 40px;
+
+    h3{    
+    width: fit-content;
+    margin: 0 auto;
+    &::before{
+            content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../../../uploads/ico-check.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 5px;
+    margin-right: 8px;
+    }
+}
 
 	@include pc{grid-template-columns: repeat(3, 1fr);}
 	@include sp{grid-template-columns: 1fr; row-gap: 32px;}
@@ -1773,16 +1632,17 @@ p::after {
 	.item{
 		text-align: center;
 
-		.icon img{width: 48px; margin: 0 auto 16px;}
+		.icon img{
+                height: 48px;
+                width: auto;
+                margin: 0 auto 16px;}
 
 		h3{
 			color: $main-c;
-			font-size: 18px;
 			margin-bottom: 12px;
 		}
 
 		p{
-			font-size: 13px;
 			line-height: 175%;
 			text-align: left;
 			margin-bottom: 8px;
@@ -1834,10 +1694,14 @@ p::after {
 .sec-service{
 	position: relative;
 	background: linear-gradient(180deg, #ffffff 0%, #ddf1f9 100%);
+ background-image: url(../../../uploads/img_back_sec_service1.webp);
+          background-size: cover;
+          background-repeat: no-repeat;
+              background-position-y: -215px;
+    background-position-x: -170px;
 
 	.lead{
 		text-align: center;
-		font-size: 15px;
 		line-height: 175%;
 		margin-bottom: 64px;
 	}
@@ -1846,7 +1710,8 @@ p::after {
 .c-service-block{
 	position: relative;
 	margin-bottom: 120px;
-
+    margin-top: 120px;
+   
 	@include sp{margin-bottom: 80px;}
 
 	&:last-child{margin-bottom: 0;}
@@ -1861,16 +1726,20 @@ p::after {
 		height: 88px;
 		border-radius: 50%;
 		background: #ffffff;
-		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+		box-shadow: 0 0px 20px #58AAD3;;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 
-		img{width: 24px; margin-bottom: 4px;}
+		img{
+            width: 32px;
+            margin-bottom: 12px;
+            margin-top: -20px;}
 
 		span{
-			font-size: 20px;
+			font-size: 64px;
+            line-height: 0px;
 			font-weight: 600;
 			color: $main-c;
 			font-family: "tangerine", sans-serif;
@@ -1879,14 +1748,20 @@ p::after {
 
 	/* 画像がカード上端をはみ出す箇所。突き抜け量(.r-cont の top)は仮の値なので、実際のカンプに合わせて数値を調整してください */
 	.card{
-		background: #ffffff;
-		border-radius: 20px;
+		    border-radius: 6px;
 		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 		padding: 64px 48px 48px;
 		position: relative;
-		overflow: visible;
+		    overflow: hidden;
+            box-shadow: inset 4px 4px 6px rgb(222 241 253 / 0.5), inset -3px -3px 8px rgba(108, 166, 208, 0.3), 2px 2px 4px rgb(9 65 117 / 30%);
+         background: linear-gradient(90deg, rgb(245 250 255 / .8), rgb(255 255 255 / .8) 30%, rgb(213 231 249 / .8) 70%);
+          backdrop-filter: blur(10px);
 
-		@include pc{display: flex; gap: 3em; align-items: flex-start;}
+         .wrp{
+
+                    margin-bottom: 48px;
+		@include pc{
+            display: flex; gap: 3em; align-items: flex-start;}
 		@include sp{padding: 56px 24px 32px;}
 
 		.l-cont{
@@ -1896,39 +1771,41 @@ p::after {
 		.r-cont{
 			@include pc{
 				width: 50%;
-				position: relative;
-				top: -40px;
 			}
 			@include sp{margin-top: 32px;}
 
-			img{width: 100%; margin-bottom: 0;}
+			img{
+                    position: absolute;
+                     top: 0;
+                     right: 0;
+                      width: 50%;
+                margin-bottom: 0;
+                    opacity: .8;
+            }
 		}
+        }
 
 		h3{
 			color: $main-c;
-			font-size: 24px;
+			font-size: 36px;
 			margin-bottom: 8px;
+
+
+            &::after{
+                    content: "";
+    display: block;
+    background-image: url(../../../uploads/mark_h2_2.png);
+    height: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 24px 0;
+            }
 		}
 
-		.divider-line{
-			width: 120px;
-			height: 1px;
-			background: rgba(59, 120, 161, 0.4);
-			margin-bottom: 24px;
-			position: relative;
+	
 
-			&::before{
-				content: "◆";
-				position: absolute;
-				left: 0;
-				top: 50%;
-				transform: translateY(-50%);
-				font-size: 8px;
-				color: $main-c;
-			}
-		}
-
-		p{font-size: 14px; line-height: 175%;}
+		p{
+            line-height: 175%;}
 
 		.check-list{
 			margin-top: 16px;
@@ -1938,19 +1815,25 @@ p::after {
 				display: flex;
 				align-items: center;
 				gap: 0.6em;
-				margin-bottom: 12px;
+				margin-bottom: 4px;
 				padding-bottom: 0;
 
-				&::before{content: none;}
+				&::before{
+                  content:'\f058';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: $main-c;
+                }
 
 				img{width: 18px; margin-bottom: 0; flex-shrink: 0;}
 			}
 		}
 	}
 
-	.other-works{
+	.other-works , .sub-card{
+        box-shadow: 2px 2px 5px rgb(4 70 131 / .2);
 		background: #f4f8fa;
-		border-radius: 16px;
+		border-radius: 4px;
 		padding: 40px 32px 32px;
 		position: relative;
 		z-index: 1;
@@ -1959,9 +1842,8 @@ p::after {
 			display: inline-block;
 			background: $main-c;
 			color: #ffffff;
-			font-size: 13px;
 			padding: 6px 16px;
-			border-radius: 4px;
+			border-radius: 2px;
 			position: absolute;
 			top: -16px;
 			left: 32px;
@@ -1972,14 +1854,42 @@ p::after {
 			justify-content: space-around;
 			flex-wrap: wrap;
 			gap: 24px;
+                width: 80%;
+            
+    margin: 0 auto;
 
 			.item{
 				text-align: center;
 
-				img{width: 40px; margin: 0 auto 8px;}
-				p{font-size: 12px; margin-bottom: 0;}
+				img{
+                       width: 4vw;
+                min-width: 40px;
+                    margin: 0 auto;
+                        filter: invert(70%) sepia(80%) hue-rotate(197deg) saturate(10) brightness(0.6);
+                }
+				p{font-size: 14px; margin-bottom: 0;
+
+                    &::before{
+                  content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url(../../../uploads/ico-check.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 3px;
+    margin-right: 4px;
+                    }
+                }
 			}
 		}
+
+          figure.mark_round{
+          position: absolute;
+            top: -20px; 
+    left: 50%; 
+    transform: translateX(-50%);}
 	}
 
 	.sub-cards{
@@ -1991,28 +1901,55 @@ p::after {
 
 		.sub-card{
 			flex: 1;
-			background: #f4f8fa;
-			border-radius: 16px;
 			padding: 40px 24px 24px;
-			text-align: center;
 			position: relative;
+
+            dt{text-align: center;
+                color: $main-c;
+                margin-bottom: 8px;
+
+                 dd{margin-bottom: 0;}
+            
+            &::before{
+         content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../../uploads/ico-check.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 5px;
+    margin-right: 8px;
+            }
+            }
 
 			@include sp{flex: 1 1 100%;}
 
-			img{
-				width: 40px;
-				position: absolute;
-				top: -20px;
-				left: 50%;
-				transform: translateX(-50%);
-				margin-bottom: 0;
-			}
 
-			h4{color: $main-c; font-size: 15px; margin-bottom: 8px;}
-			p{font-size: 12px; line-height: 160%; margin-bottom: 0;}
+
+           
         }
     }
 }
+
+
+
+
+            figure.mark_round{
+                        background-color: #3c77a2;
+    padding: 8px;
+    line-height: 0;
+    border-radius: 50%;
+            
+			img{
+	width: 2vw;
+    margin-bottom: 0;
+    filter: invert(1);
+    min-width: 32px;
+			}
+            }
+
 
 
 
@@ -2024,9 +1961,26 @@ p::after {
 	position: relative;
 	background: linear-gradient(180deg, #ddf1f9 0%, #ffffff 100%);
 	overflow: hidden;
+        background-image: url(../../../uploads/back-support3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
 
+    .h-block{
+            background: rgb(255 255 255 / .85);
+    padding: 60px 40px 24px;
+       margin-bottom: 40px;
+                   border-radius: 6px;
+                           box-shadow: 2px 2px 12px rgba(165, 165, 165, 0.25);
+
+
+        h2{margin-bottom: 0;
+         
+        }
+    }
 
 }
+
 
 
 .c-3card-01{
@@ -2034,15 +1988,16 @@ p::after {
 	gap: 2em;
 	position: relative;
 	z-index: 1;
+    margin-bottom: 40px;
 
 	@include pc{grid-template-columns: repeat(3, 1fr);}
 	@include sp{grid-template-columns: 1fr; gap: 1.5em;}
 
 	.card{
 		background: rgba(255, 255, 255, 0.9);
-		border-radius: 20px;
+		border-radius: 6px;
 		box-shadow: 2px 2px 12px rgba(165, 165, 165, 0.25);
-		padding: 32px 24px 200px;
+		    padding: 32px 24px 48px;
 		position: relative;
 		overflow: hidden;
 
@@ -2055,8 +2010,6 @@ p::after {
 			margin-bottom: 12px;
 			position: relative;
 			z-index: 1;
-
-			.icon img{width: 64px; margin-bottom: 0;}
 		}
 
 		h3{
@@ -2067,11 +2020,11 @@ p::after {
 		}
 
 		.sub{
-			font-size: 13px;
 			color: $darkgray-c;
 			margin-bottom: 24px;
 			position: relative;
 			z-index: 1;
+                text-align: center;
 		}
 
 		ul{
@@ -2092,8 +2045,13 @@ p::after {
 			img{width: 20px; flex-shrink: 0; margin: 4px 0 0; }
 
 			dl{flex: 1;}
-			dt{font-size: 15px; font-weight: 600; margin-bottom: 4px;}
-			dd{font-size: 13px; line-height: 160%; color: $darkgray-c;}
+			dt{
+                color: $main-c;
+                font-weight: 600; margin-bottom: 4px;}
+			dd{
+                margin-left: 20px;
+                line-height: 160%; 
+                color: $darkgray-c;}
 		}
 
 		.bg-illust{
@@ -2105,30 +2063,57 @@ p::after {
 			opacity: 0.9;
 			pointer-events: none;
 
-			img{width: 100%; margin-bottom: 0;}
+			img{
+                    opacity: .7;
+                width: 100%;
+                 margin-bottom: 0;}
 		}
 	}
+
+    dt:before{
+      color: $main-c;
+  content:'\f058';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  
+  margin-right:5px;
+}
 }
 
 
 .c-benefit-banner01{
 	display: flex;
-	align-items: center;
-	gap: 2em;
+	gap: 1.5em;
 	background: rgba(255, 255, 255, 0.9);
-	border-radius: 20px;
+	border-radius: 6px;
 	box-shadow: 2px 2px 12px rgba(165, 165, 165, 0.25);
-	padding: 24px 32px;
+	padding: 40px 24px;
 	position: relative;
 	z-index: 1;
 
+    		p , dd{
+            
+               line-height: 150%;
+             color: $darkgray-c; margin-bottom: 0;}
+
 	@include sp{flex-wrap: wrap; padding: 20px; gap: 1em;}
 
-	.icon img{width: 56px; margin-bottom: 0;}
-
+    .icon{
+            
+            display: flex;
+            img{
+                height: 80px;
+                width: auto;
+                display: block;
+                margin: auto;
+            }
+    }
 	.ttl{
-		h3{font-size: 16px; margin-bottom: 4px;}
-		p{font-size: 12px; color: $darkgray-c; margin-bottom: 0;}
+		h3{
+                   color: #df8e19;
+    margin-bottom: 14px;
+    line-height: 100%;}
+
 
 		@include pc{flex-shrink: 0; width: 20%;}
 		@include sp{width: 100%;}
@@ -2150,32 +2135,206 @@ p::after {
 
 			img{width: 20px; flex-shrink: 0; margin: 3px 0 0;}
 
-			dt{font-size: 14px; font-weight: 600; margin-bottom: 2px;}
-			dd{font-size: 12px; line-height: 150%; color: $darkgray-c;}
+			dt{
+            
+                color: $main-c;
+                font-weight: 600;     margin-bottom: 8px;
+                &::before{ 
+                
+                       content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../../uploads/ico-check.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 5px;
+    margin-right: 8px;
+                
+                }
+            }
+			dd{
+
+                line-height: 150%; color: $darkgray-c;}
 		}
 	}
 }
 
 
-.c-icon-list01{
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	gap: 2.5em 2em;
-	position: relative;
-	z-index: 1;
 
-	@include sp{gap: 1.5em 1em;}
 
-	.item{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		text-align: center;
-		@include pc{width: calc(25% - 1.5em);}
-		@include sp{width: calc(33.33% - 1em);}
 
-		img{width: 48px; margin-bottom: 8px;}
-		p{font-size: 12px; margin-bottom: 0;}
-	}
+
+
+
+
+.sec-price{
+    p{ 
+        margin-bottom: 0px;
+        @include sp{    margin-bottom: 12px;}
+    }
+    .caption{
+        font-size: 12px;
+       
+    }
 }
+
+
+
+
+
+.c-2c07 {
+        z-index: 10;
+    position: relative;
+
+
+
+ .wrap_soudan {
+        display: flex;
+    max-width: 720px;
+    box-shadow: 2px 2px 5px rgba(165, 165, 165, 0.4);
+    margin: -48px auto 0 auto;
+    position: relative;
+    z-index: 10;
+    padding: 24px;
+    background: #ffffff;
+    @include sp{
+         padding: 16px;
+                width: 90%;
+        margin-top: -90px;
+        gap: 1em;
+        flex-wrap: wrap;};
+
+
+    .l-cont{
+           width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include pc{border-right: 1px solid #333333;};
+     @include sp{ width: 100%;};
+    }
+
+    .r-cont{
+         width: 40%;
+             display: flex;
+    justify-content: center;
+    align-items: center;
+     @include sp{ width: 100%;};
+
+                a{
+                        background: #e74a00;
+    width: calc(100% - 24px);
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    @include pc{left: 12px;};
+
+&::before{
+        content: "";
+    display: block;
+    position: absolute;
+    background-image: url(../../../uploads/arrow_mini01.png);
+    top: 50%;
+    right: 5%;
+    transform: translatex(-40%) translateY(-50%);
+    width: 30px;
+    height: 7px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+    &:hover::before{
+        right: 0%;}
+                    }
+
+            }
+    }
+
+         
+
+
+    .graph {
+        display: grid;
+        column-gap: 1em;
+
+        @include pc {grid-template-columns: 1fr 1fr;};
+        @include sp {grid-template-columns: 1fr;};
+
+        .row-wrp1,
+        .row-wrp2 {
+          background-color: rgb(236 241 243 / 50%);
+               box-shadow: 2px 2px 5px rgb(165 165 165 / 40%);
+                padding: 24px 24px 90px;
+            display: grid;
+            grid-template-rows: subgrid;
+            /* 追加 */
+            grid-row: span 4;
+            /* 追加 */
+
+            @include sp {
+                 padding: 24px 16px 90px;
+                margin-bottom: 32px;};}
+
+
+        .head {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 24px;
+
+            @include sp {flex-wrap: wrap;};
+
+            .l-cont,
+            .r-cont {
+                @include sp {width: 100%;};}
+
+            h3 {
+                color: #ffffff;
+                line-height: 100%;
+                margin-bottom: 12px;
+
+                @include pc {
+                    font-size: 20px;
+                    padding: 8px 24px;};
+
+                @include sp {
+                    font-size: 18px;
+                    padding: 8px 12px;};
+            }
+
+            p {line-height: 100%;
+                @include pc {padding: 6px 24px;};
+                @include sp {padding: 6px 12px;};
+                margin-bottom: 12px;
+                    background: #333333;
+                    color: #ffffff;
+                display: flex;
+                align-items: center;
+                width: fit-content;}}
+
+        h4 {
+            line-height: 130%;
+            margin-bottom: 24px;
+            font-weight: 100;
+
+            @include pc {font-size: 28px;};
+
+            @include sp {font-size: 20px;};}
+
+        .price {
+            font-size: 40px;
+            line-height: 130%;
+            margin-bottom: 24px;}
+
+        i {font-size: 1.3rem;
+            margin-right: 8px;}}
+
+
+
+}
+
+
