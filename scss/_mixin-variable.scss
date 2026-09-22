@@ -34,7 +34,7 @@ $sub-c1:#b39f38;
 $sub-c2:#c2e0ec; 
 $sub-c3:#ddf1f9; 
 $sub-c4:#6e6a13; 
-$accent-c1:#ed8207; 
+$accent-c1:#e96d05; 
 $accent-c2:#ead800; 
 
 $parts-c1:#444444; 
@@ -43,7 +43,8 @@ $parts-c2:#609ed1;
 
 
 
-$gray-c:#898989;
+
+$gray-c:#b5ccd9;
 $lightgray-c:#F4F6F8;
 $lightgray-c2:#efefef;
 $darkgray-c:#666666;
@@ -51,9 +52,7 @@ $darkgray-c:#666666;
 $black-c:#444444;
 $red-c:#e60012;
 
-$grad-c1:linear-gradient(135deg, #296791 0%, #3eb7e0 50%, #188ABB 100%);
-
-
+$grad-c1: radial-gradient(#2ba3eb 10%, #0677ad 70%);
 
 //パディング変数
 @mixin pd-section{

@@ -61,7 +61,7 @@ a:hover img{
 
 
 /*--------テキスト---------*/
-p , li , h2 , h3 , h4 , h5 , h6 {
+p , li , h2 , h3 , h4 , h5 , h6 , dd {
 	color:#444444;
 
 	@include pc{font-size: 16px; line-height:180%;};
