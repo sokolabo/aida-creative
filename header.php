@@ -153,22 +153,8 @@
 
 
 	
-  
-	
-<?php if ( is_home() ) : ?>
 	<div class="mv-wrp u-img-w100">
 	
-<?php
-        $query = new WP_Query(array(
-          'post_type' => "kv",
-          'order' => 'asc',
-			'posts_per_page' => -1,
-        ));
-        if($query->have_posts()){
-            while($query->have_posts()){
-                $query->the_post();
-        ?>
-
 
 		<div class="u-pos-relative mbsp24">
 
@@ -177,40 +163,13 @@
 			
 
 <div class="mv-box subcopy">
-	<p class="main_mv_2 a-mv-fade4">クリエイティブ＋コミュニケーションで、<br>WEBを通じてビジョンを実現・課題を解決</p>
-		<p class="main_mv_1 a-mv-fade3"><span class="txt-main-c">R</span>EALIZE &<br><span class="txt-main-c">S</span>OLVE<span class="txt-main-c">.</span></p>
+	<p class="main_mv_2 a-mv-fade4">事業を前に進める。<br>あなたのWeb担当者になります。</p>
+		<p class="main_mv_1 a-mv-fade3"><span class="txt-main-c">C</span>REATE &<br><span class="txt-main-c">S</span>OLVE<span class="txt-main-c">.</span></p>
 </div>
 
 
 
-
-
-
-
-
-
-
-
 	</div>
-
-
-
-
-
-
-
-
-
-
-
-
-      <?php
-            } //記事の繰り返しの終了
-          }else{
-            echo '随時更新中';
-        } //記事の有無の分岐終了
-        wp_reset_postdata();
-?>
 
 		
 		
@@ -225,74 +184,13 @@
 
 
 
-
-
-	<div class="mv-slide">
-
-<div class="slider-11 sl-1 u-img-w100">
-
-        <div class="u-pos-relative mbsp24 u-centre ">
-            <figure><img src="<?php echo wp_upload_dir()['baseurl']; ?>/08-2.webp" /></figure> 
-        </div>
-
-
-        <div class="u-pos-relative mbsp24 u-centre ">
-     		<figure><img src="<?php echo wp_upload_dir()['baseurl']; ?>/02.webp" /></figure>
-        </div>
-
-
-        <div class="u-pos-relative mbsp24 u-centre ">
-            <figure><img src="<?php echo wp_upload_dir()['baseurl']; ?>/04-2.webp" /></figure>
-        </div>
-
-    </div>
-
-
-	<div class="slider-11 sl-2 u-img-w100">
-
-              <div class="u-pos-relative mbsp24 u-centre ">
-            <figure><img src="<?php echo wp_upload_dir()['baseurl']; ?>/03.webp" /></figure> 
-        </div>
-
-
-        <div class="u-pos-relative mbsp24 u-centre ">
-     		<figure><img src="<?php echo wp_upload_dir()['baseurl']; ?>/01.webp" /></figure>
-        </div>
-
-
-        <div class="u-pos-relative mbsp24 u-centre ">
-            <figure><img src="<?php echo wp_upload_dir()['baseurl']; ?>/07.webp" /></figure>
-        </div>
-
-    </div>
-
-
-
-	<div class="slider-11 sl-3 u-img-w100">
-
-                <div class="u-pos-relative mbsp24 u-centre ">
-            <figure><img src="<?php echo wp_upload_dir()['baseurl']; ?>/05.webp" /></figure> 
-        </div>
-
-
-        <div class="u-pos-relative mbsp24 u-centre ">
-     		<figure><img src="<?php echo wp_upload_dir()['baseurl']; ?>/06.webp" /></figure>
-        </div>
-
-
-        <div class="u-pos-relative mbsp24 u-centre ">
-            <figure><img src="<?php echo wp_upload_dir()['baseurl']; ?>/09.webp" /></figure>
-        </div>
-
-	</div>
-</div>
-
 		
-		
-		
+		<div class="sec-kv">
+<figure class="mvmove">
+<video autoplay muted src="<?php echo wp_upload_dir()['baseurl']; ?>/mvmov.mov" />"></video>
+</figure>
+		</div>
 		
 
-<?php endif; ?>
-	
 
 

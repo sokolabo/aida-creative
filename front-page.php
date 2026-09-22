@@ -14,7 +14,6 @@
 
 
 
-
 <div class="sec-outline content-bottom-pd content-top-pd content-pd">
 
          <figure>
@@ -22,12 +21,12 @@
             </figure>
     <div class="wrp">
         <div class="l-cont">
-            <h2 class=""><span class="head">Concept</span>Webを売らないWeb制作者です。<span class="cap">事業という旅を進めるために、一緒に育てていく。</span></h2>
+            <h2 class="u-spbr"><p class="head">Concept</p>Webを売らない<br>Web制作者です。<span class="cap u-spbr">事業という旅を進めるために、<br>一緒に育てていく。</span></h2>
             <p>
             Web制作会社なのに、どういうこと？と思われるかもしれません。</p>
 <p>
-もちろん、作るのはホームページです。</br>
-ですが本当に価値を置いているのは、ホームページそのものではなく、ホームページを通じて、事業を前に進めることです。
+勿論、作るのはホームページです。</br>
+ですが本当に価値を置いているのは、作ることよりそれを通じて、事業を前に進めることです。
 
 </p>
 <p>
@@ -57,9 +56,8 @@
 <div id="value" class="sec-value content-bottom-pd content-top-pd content-pd">
     <div class="content-width">
 
-    
 
-      <h2 class="h2-center"><span class="head">Value</span>選ばれる理由<span class="cap">作る、守る、育てる。</span></h2>
+      <h2 class="h2-center"><p class="head">Value</p>選ばれる理由<span class="cap">作る、守る、育てる。</span></h2>
 
       <p class="lead">
           ホームページ制作から保守・運用まで。<br>
@@ -68,19 +66,19 @@
 
       <div class="c-icon-grid01">
           <div class="item">
-              <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val1.png" alt=""></div>
+              <div class="icon"><figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val1.png" alt=""></figure></div>
               <h3>初期費用を抑えて始める</h3>
               <p>ホームページは、作ることも大切ですが、公開後に育てていくことで本来の価値を発揮します。</p>
               <p>そのため、制作費だけに予算を使い切るのではなく、公開後の運用や改善にも取り組めるよう、初期費用を抑えたプランをご提案しています。</p>
           </div>
           <div class="item">
-              <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val2.webp" alt=""></div>
+              <div class="icon"><figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val2.webp" alt=""></figure></div>
               <h3>気軽に相談</h3>
               <p>ホームページ制作は、専門的な内容も多く、不安や疑問が生まれることもあります。</p>
               <p>専門用語を並べるのではなく、わかりやすくお話ししながら、気軽に相談できるパートナーとしてサポートします。</p>
           </div>
           <div class="item">
-              <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val3.png" alt=""></div>
+              <div class="icon"><figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val3.png" alt=""></figure></div>
               <h3>伝わり、惹かれるデザイン</h3>
               <p>人が第一印象でその人らしさを感じるように、WEBデザインもまた企業やサービスの印象を左右します。</p>
               <p>だからこそ、「イケてる」と感じてもらえるデザインを大切にしています。</p>
@@ -92,19 +90,19 @@
           </div>
 
           <div class="item">
-              <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val4.png" alt=""></div>
+              <div class="icon"><figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val4.png" alt=""></figure></div>
               <h3>成果を見据えた設計</h3>
               <p>ホームページを作る前に、まずは事業や課題についてしっかりお話を伺います。</p>
               <p>問い合わせや採用など、目指したい姿を一緒に整理しながら、目的に合わせた設計やご提案を行っています。</p>
           </div>
           <div class="item">
-              <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val5.png" alt=""></div>
+              <div class="icon"><figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val5.png" alt=""></figure></div>
               <h3>公開後もサポート</h3>
               <p>ホームページは、公開してからが本当のスタートです。</p>
               <p>セキュリティや保守の面でサイトを守りながら、更新や改善を重ね、育てていく。中小企業のWeb担当として、成果につながるホームページ運営を継続的にサポートしています。</p>
           </div>
           <div class="item">
-              <div class="icon"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val6.png" alt=""></div>
+              <div class="icon"><figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val6.png" alt=""></figure></div>
               <h3>Web以外にもご提案</h3>
               <p>事業を前に進めるために必要なのは、ホームページだけではないかもしれません。チラシや名刺、販促物の作成、イベントやキャンペーンの企画など。</p>
               <p>事業にとって本当に必要だと思うことを、一緒に考えながらご提案しています。</p>
@@ -123,7 +121,7 @@
 <section id="service" class="sec-service content-pd content-top-pd content-bottom-pd">
     <div class="content-width">
 
-      <h2 class="h2-center"><span class="head">Service</span>サービス内容</h2>
+      <h2 class="h2-center"><p class="head">Service</p>サービス内容</h2>
       <p class="lead">ホームページ制作と保守・運用サポートで、あなたの事業を支えます。</p>
 
       <div class="c-service-block">
@@ -136,7 +134,7 @@
             <div class="wrp">
               <div class="l-cont">
                   <h3>ホームページ制作</h3>
-                  <p>
+                  <p class="u-pcbr">
                       事業やサービスの魅力を整理しながら、<br>
                       目的に合わせたホームページを制作します。<br>
                       信頼やお問い合わせにつながる設計を大切にしています
@@ -184,7 +182,7 @@
               <div class="l-cont">
                   <h3>保守・運用サポート</h3>
             
-                  <p>
+                  <p class="u-pcbr">
                       ホームページは公開してからが本当のスタート。<br>
                       サイトを守りながら育てるサポートを行い、<br>
                       Web担当者として伴走します。
@@ -227,11 +225,11 @@
 
 
 
-<section id="support" class="sec-support content-pd content-top-pd content-bottom-pd">
+<section id="support" class="sec-support bg content-pd content-top-pd content-bottom-pd">
     <div class="content-width">
 
     <div class="h-block">
-           <h2 class="h2-center"><span class="head">Support</span>保守・運用サポート詳細<span class="cap">ホームページは更新や管理を続け、事業に合わせて育てる事で本来の価値を発揮します。<br>
+           <h2 class="h2-center"><p class="head">Support</p>保守・運用サポート詳細<span class="cap">ホームページは更新や管理を続け、事業に合わせて育てる事で本来の価値を発揮します。<br>
 サイトを守り、気軽に相談できるWeb担当者として伴走します。</span></h2>
     </div>
 
@@ -339,35 +337,163 @@
 
       
     </div>
-</section>
 
 
-<section class="content-top-pd content-bottom-pd content-pd bg-lightgray-c">
-	<div class="content-width">
-	
-	<h2>H2 TITLE</h2>
-	<h3>H3 TITLE</h3>
-
-	<div class="u-max960 u-m0auto">
-	<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキテキストテキストテキストテキスト</p>
-</div>
-<img src="<?php echo wp_upload_dir()['baseurl']; ?>/profpic.jpg" />
 
 
-</div>
+
+
+
 </section>
 
 
 
 
+<div class="u-pos-relative light-sc">
+      <section class="sec-sc">
+        <div class="u-pd-section-top c-fullwidth-wrp cp-loop-yoko1">
+        <div class="cp-scroll-yoko1">
+               <ul class="cont list">
+                   <li><p class="font"><span>THE JOURNEY CONTINUES.</span></p></li>
+                </ul>
+                <ul class="cont list">
+                   <li><p class="font"><span>THE JOURNEY CONTINUES.</span></p></li>
+                </ul>
+           </div>
+        </div>
 
-<section id="web" class="sec-works-web sec-back-lightgray content-pd content-top-pd content-bottom-pd u-pos-relative fadein">
-    <div class="content-width">
+        </section>
 
-    <h2 id="work-web"><span class="txt-main-c">W</span>EB<span class="txt-main-c">.</span></h2>
+</div>
+
+
+<section id="price" class="sec-price bg content-pd content-top-pd content-bottom-pd white-font-set">
+   
+
+
+
+<div class="content-width">
+
+
+          <h2 class="h2-center"><p class="head">Plan</p>ご依頼プラン
+        <span class="cap">事業のフェーズに合わせて選べる2つのプラン</span></h2>
       
-          <span class="h2sub-txt">制作実績 - ウェブデザイン</span>
-        <!--<h3>制作全般を経験し、<span class="txt-main-c">幅広い視点</span>からデザイン制作を行います</h3>
+
+      
+        <div class="c-2c07">
+
+            <div class="graph">
+                <div class="row-wrp1 is-recommend">
+                    <span class="tag-recommend">おすすめ</span>
+                    <div class="plan-head">
+                        <span class="plan-lead">制作から運用までお任せ</span>
+                        <h3>制作＋保守運用</h3>
+                        <p class="plan-en">CREATE + GROW</p>
+                    </div>
+                    <div>
+                        <p>制作から保守運用までまとめてお任せいただける、<br>事業と一緒に育てていくプランです。</p>
+                    </div>
+                    <div class="price-rows">
+                        <div class="price-row">
+                            <span class="row-label">初期費用</span>
+                            <span class="price">25万円<small>〜</small></span>
+                        </div>
+                        <div class="price-row">
+                            <span class="row-label">月額</span>
+                            <span class="price">16,500円<small>（税込）／月</small></span>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="btn-wrap">
+                        <div class="c-btn-02 u-m0auto"><a href="#">詳細を見る ></a></div>
+                    </div>-->
+                </div>
+
+                <div class="row-wrp2">
+                    <div class="plan-head">
+                        <span class="plan-lead">&nbsp;</span>
+                        <h3>制作のみ</h3>
+                        <p class="plan-en">CREATE</p>
+                    </div>
+                    <div>
+                        <p>ホームページ制作のみをご希望の方向けのプランです。<br>必要に応じて保守運用を追加できます。</p>
+                    </div>
+                    <div class="price-rows">
+                        <div class="price-row">
+                            <span class="row-label">初期費用</span>
+                            <span class="price">40万円<small>〜</small></span>
+                        </div>
+                        <div class="price-row">
+                            <span class="row-label">保守運用追加</span>
+                            <span class="price">11,000円<small>（税込）〜／月</small></span>
+                            <span class="row-note">※保守を入れない場合の月額費用です。</span>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="btn-wrap">
+                        <div class="c-btn-02 u-m0auto"><a href="#">詳細を見る ></a></div>
+                    </div>-->
+                </div>
+            </div>
+
+
+            
+
+<div class="wrap_soudan">
+        <div class="l-cont">
+    <p class="u-pcbr">ご予算に合わせて柔軟なご提案をいたします。<br>
+        まずはお気軽にお尋ねください！</p>
+        </div>
+    <div class="r-cont"><a href="<?php echo home_url( '/' )."contact/"; ?>">ご相談はこちら</a></div>
+    </div>
+
+<div class="wrap-scope">
+    <div class="scope-head">
+        <span class="scope-head-txt">制作内容の目安</span>
+    </div>
+    <div class="scope-list">
+        <ul>
+            <li><i class="fa-regular fa-file-lines"></i>5〜7ページ程度</li>
+            <li><i class="fa-regular fa-envelope"></i>お問い合わせフォーム</li>
+            <li><i class="fa-regular fa-pen-to-square"></i>ブログ・お知らせ機能</li>
+        </ul>
+        <ul>
+            <li><i class="fa-solid fa-mobile-screen-button"></i>スマホ対応</li>
+            <li><i class="fa-solid fa-magnifying-glass"></i>SEO基本設定</li>
+            <li><i class="fa-solid fa-chart-column"></i>アクセス解析設定（GA4）</li>
+        </ul>
+        <ul class="scope-list-last">
+            <li><i class="fa-solid fa-location-dot"></i>Googleマップ・YouTube・SNS連携</li>
+            <li><i class="fa-regular fa-images"></i>スライダーやタブ等の基本機能</li>
+            <li class="full"><i class="fa-solid fa-wand-magic-sparkles"></i>基本的なアニメーション演出</li>
+        </ul>
+    </div>
+</div>
+
+
+</div>
+
+
+
+
+
+        </div>
+</section>
+
+
+
+
+
+
+<section id="web" class="sec-works-web sec-back-lightgray content-pd content-top-pd content-bottom-pd u-pos-relative white-font-set ">
+    <div class="content-width fadein">
+
+   
+       <h2 class="h2-center"><p class="head">Web</p>制作実績 - ウェブデザイン
+      
+
+   
+    <!--<h3>制作全般を経験し、<span class="txt-main-c">幅広い視点</span>からデザイン制作を行います</h3>
 
 	<div class="u-max960 u-m0auto">
 	<p>WEBデザインを軸に、グラフィック、DTP、プロダクトデザイン、コーディング、運用、ディレクション、ブログ運営など、幅広く業務を経験し、多角的な視点からWEB制作を行うことが可能です。</p>
@@ -375,7 +501,7 @@
 
     </div>
 
-    <div class="wrp">
+    <div class="wrp fadein">
 
 
         <?php
@@ -423,11 +549,11 @@
 
 
 
-<section id="graphics" class="sec-works-graphics sec-back-gray content-pd content-top-pd content-bottom-pd  u-pos-relative fadein">
+<section id="graphics" class="sec-works-graphics sec-back-gray content-pd content-top-pd content-bottom-pd  u-pos-relative white-font-set fadein">
     <div class="content-width">
 
-        <h2 id="work-gra"><span class="txt-main-c">G</span>RAPHICS<span class="txt-main-c">.</span></h2>
-         <span class="h2sub-txt">制作実績 - グラフィック</span>
+               <h2 class="h2-center"><p class="head">Graphics</p>制作実績 - グラフィック
+
         <!--	<h3>制作全般を経験し、<span class="txt-main-c">幅広い視点</span>からデザイン制作を行います</h3>
 
 	<div class="u-max960 u-m0auto">
@@ -470,12 +596,12 @@
 
 
 
-<section id="illust" class="sec-works-illust content-pd content-top-pd content-bottom-pd u-pos-relative fadein sec-back-dark">
+<section id="illust" class="sec-works-illust content-pd content-top-pd content-bottom-pd u-pos-relative fadein sec-back-dark white-font-set">
     <div class="">
 
-        <h2 id="work-ill"><span class="txt-main-c">I</span>LLUST<span class="txt-main-c">.</span></h2>
-          <span class="h2sub-txt">制作実績 - イラストレーション</span>
-        <!--<h3>制作全般を経験し、<span class="txt-main-c">幅広い視点</span>からデザイン制作を行います</h3>
+               <h2 class="h2-center"><p class="head">Illust</p>制作実績 - イラスト</h2>
+
+    <!--<h3>制作全般を経験し、<span class="txt-main-c">幅広い視点</span>からデザイン制作を行います</h3>
 
 	<div class="u-max960 u-m0auto">
 	<p>WEBデザインを軸に、グラフィック、DTP、プロダクトデザイン、コーディング、運用、ディレクション、ブログ運営など、幅広く業務を経験し、多角的な視点からWEB制作を行うことが可能です。</p>
@@ -514,104 +640,13 @@
 </section>
 
 
-        <section class="sec-sc">
-        <div class="u-pd-section-top c-fullwidth-wrp cp-loop-yoko1 fadein">
-        <div class="cp-scroll-yoko1">
-               <ul class="cont list">
-                   <li><p class="font"><span>NATURALLY MAKE SMILE.</span></p></li>
-                </ul>
-                <ul class="cont list">
-                   <li><p class="font"><span>NATURALLY MAKE SMILE.</span></p></li>
-                </ul>
-           </div>
-        </div>
-
-        </section>
+  
 
 
 
 
 
 
-
-
-
-
-
-<section id="price" class="sec-price content-pd content-top-pd content-bottom-pd">
-    <div class="content-width">
-
-        <div class="c-2c07">
-           <h2><span class="txt-main-c">P</span>RICE<span class="txt-main-c">.</span></h2>
-     <span class="h2sub-txt">料金例</span>
-
-
-            <div class="graph">
-                <div class="row-wrp1">
-                    <div class="head">
-                        <div class="l-cont">
-                            <h3 class="u-wid-fit bg-main-c txt-white-c">例1.スタンダードプラン</h3>
-                        </div>
-                        <div class="r-cont">
-                            <p class="bg-lightgray-c u-wid-fit">納期3か月</p>
-                        </div>
-                    </div>
-
-                    <div>
-                        <h4>オリジナルデザイン<br>運用も見据えて制作します</h4>
-                    </div>
-                    <div>
-                        <p class="price">¥440,000~</p>
-                    </div>
-                    <div>
-                        <p>5ページ：サイトデザイン + 実装 + WordPress構築</p>
-                        <p>：オリジナルデザインで制作します</p>
-                        <p>機能：お問い合わせ、ブログ、スライダーなど</p>
-                         <span class="caption">※サーバー、独自ドメイン、文章、画像、ロゴ等、お客様支給</span>
-                    </div>
-                </div>
-
-                <div class="row-wrp2">
-                    <div class="head">
-                        <div class="l-cont">
-                            <h3 class="u-wid-fit bg-main-c txt-white-c">例2.テンプレートプラン</h3>
-                        </div>
-                        <div class="r-cont">
-                            <p class="bg-lightgray-c u-wid-fit">納期2か月</p>
-                        </div>
-                    </div>
-
-                    <div>
-                        <h4>予算を抑えて作りたい<br>セミテンプレートプラン</h4>
-                    </div>
-                    <div>
-                        <p class="price">¥280,000~</p>
-                    </div>
-                    <div>
-                        <p>3ページ：サイトデザイン + 実装 + WordPress構築</p>
-                        <p>弊社独自のテンプレートを用いて作成します</p>
-                        <p>機能：お問い合わせ、ブログ、など</p>
-                        <span class="caption">※サーバー、独自ドメイン、文章、画像、ロゴ等、お客様支給</span>
-                    </div>
-                </div>
-            </div>
-
-
-<div class="wrap_soudan">
-        <div class="l-cont">
-    <p class="u-pcbr">ご予算に合わせて柔軟なご提案をいたします。<br>
-        まずはお気軽にお尋ねください！</p>
-        </div>
-    <div class="r-cont"><a href="<?php echo home_url( '/' )."contact/"; ?>">ご相談はこちら</a></div>
-    </div>
-</div>
-
-
-
-
-
-        </div>
-</section>>
 
 
 
@@ -630,8 +665,8 @@
 
     <div class="content-pd">
  <div class="content-width">
-         <h2><span class="txt-main-c">F</span>LOW<span class="txt-main-c">.</span></h2>
-     <span class="h2sub-txt">制作の流れ</span>
+
+                <h2 class="h2-center"><p class="head">Flow</p>制作の流れ</h2>
     </div></div>
 
 
@@ -705,10 +740,15 @@
 
 
 
-<section id="profile" class="content-pd u-mb40">
+<section id="profile" class="sec-prof white-font-set content-pd content-top-pd content-bottom-pd u-mb40">
     <div class="content-width">
-          <h2><span class="txt-main-c">P</span>LOFILE<span class="txt-main-c">.</span></h2>
-     <span class="h2sub-txt">制作者について</span>
+
+                    <h2 class="h2-center"><p class="head">Plofile</p>制作者について</h2>
+    <p class="lead">
+    よろしくお願いいたします！
+
+      </p>
+
 
         <div class="c-1c03 u-mb80">
             <div class="wrp">
@@ -727,7 +767,7 @@
         </div>
 
     </div>
-</section>>
+</section>
 
 
 <section class="sec-favorite content-bottom-pd">
@@ -817,6 +857,27 @@
 
 
 
+
+<!--
+
+
+
+<section class="content-top-pd content-bottom-pd content-pd bg-lightgray-c">
+	<div class="content-width">
+	
+	<h2>H2 TITLE</h2>
+	<h3>H3 TITLE</h3>
+
+	<div class="u-max960 u-m0auto">
+	<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキテキストテキストテキストテキスト</p>
+</div>
+<img src="<?php echo wp_upload_dir()['baseurl']; ?>/profpic.jpg" />
+
+
+</div>
+</section>
+
+-->
 
 
 

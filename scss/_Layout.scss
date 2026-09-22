@@ -103,19 +103,37 @@ h1{
 
 
 
+.sec-kv{
+	    position: relative;
 
+		&::before , &::after  {
+    content: '';
+    display: block;
+    width: 6px;
+    background-color: #ffffff;
+    height: 100%;
+    position: absolute;
+   
+}
+
+&::before{left: 33vw;}
+&::after{    
+	left: 66vw;
+    top: 0;}
+
+
+}
 
 
 
 .mv-wrp{
-	    height: 81vh;
     width: 100vw;
     position: relative;
 
     align-items: center;
     margin: 0 auto;
 	
-	@include pc{padding-top: 130px;};	
+	@include pc{padding-top: 90px;};	
 	@include sp{
 		            height: 110vw;
 		        padding: 28vw 8%;};
@@ -125,7 +143,7 @@ h1{
 .mv-over-back {
   --overlay-bg: rgba(255,255,255,.8); /* 初期値 */
 
-  background-image: url(../../../uploads/mvpc.png);
+  //background-image: url(../../../uploads/mvpc.png);
   background-size: cover;
   mix-blend-mode: overlay;
   z-index: -1;
@@ -134,7 +152,7 @@ h1{
   left: 0;
   width: 100%;
   height: 100vh;
-  display: none;
+ 
 }
 
 
@@ -145,6 +163,8 @@ h1{
   left: 0;
   width: 100vw;
   height: 100vh;
+  display: block;
+      transition: .5s;
 
   background-color: var(--overlay-bg); /* ← ここを変数に */
   z-index: -1;
@@ -204,11 +224,12 @@ h1{
 
 .mv-box{
 	
-    width: fit-content;
+       width: fit-content;
     z-index: 1;
-	position: relative;
-	top: 1rem;
-	left:8%;
+    position: relative;
+    top: 0rem;
+    left: 8%;
+    margin-bottom: 20px;
 	@include sp{
 		top:0em;
 	}
@@ -240,10 +261,10 @@ color: #333740;
 	margin-bottom: 0px;
 	        line-height: 100%;
 	@include pc{        
-		font-size: 12vw;
+		font-size: 8vw;
         letter-spacing: 16px;};
 		@include sp{
-		font-size: 16vw;
+		font-size: 14vw;
 		top: 28vw;
         left: 21vw;};
 	}
@@ -255,10 +276,33 @@ color: #333740;
 	font-weight: 200;
 	 color: #333740;
 
+	 		@include sp{
+				margin-bottom: 0px;
+			}
 	 br{@include pc{display:none;};}
 
 }
 
+.mvmove{
+	width: 98vw;
+	display: block;
+	margin: 0 auto;
+	    line-height: 0;
+
+	&::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgb(7 91 159 / 50%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    mix-blend-mode: color;
+}
+
+	video{width: 98vw;}
+}
 
 
 /* スクロールダウンの位置 */
@@ -271,7 +315,7 @@ color: #333740;
     @include pc{
 		  right:11%;
         transform: translateX(-50%);
-        top: 42%;}
+        top: 10%;}
 	
 	@include sp{
 		        top: 75%;
