@@ -171,15 +171,12 @@
 
 	</div>
 
-	
-			<div class="sec-kv">
-<figure class="mvmove">
-<video autoplay muted src="<?php echo wp_upload_dir()['baseurl']; ?>/mvmov.mov" />"></video>
-</figure>
-		</div>
 		
 		
 		
+		<div class="scroll">
+  <span>Scroll</span>
+</div>
 
 	
 
@@ -188,7 +185,12 @@
 
 
 		
-
+		<div class="sec-kv">
+<figure class="mvmove">
+<video autoplay muted src="<?php echo wp_upload_dir()['baseurl']; ?>/mvmov.mov" />"></video>
+</figure>
+		</div>
+		
 
 
 
