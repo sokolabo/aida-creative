@@ -163,7 +163,7 @@
 			
 
 <div class="mv-box subcopy">
-	<p class="main_mv_2 a-mv-fade4">事業を前に進める。<br>あなたのWeb担当者になります。</p>
+	<p class="main_mv_2 a-mv-fade4">事業を前に進めるあなたのWeb担当者に、<br>東京都東部のWEB制作。</p>
 		<p class="main_mv_1 a-mv-fade3"><span class="txt-main-c">C</span>REATE &<br><span class="txt-main-c">S</span>OLVE<span class="txt-main-c">.</span></p>
 </div>
 
@@ -171,6 +171,12 @@
 
 	</div>
 
+				
+		<div class="sec-kv">
+<figure class="mvmove">
+<video autoplay muted loop playsinline src="<?php echo wp_upload_dir()['baseurl']; ?>/mvmov.mov" />"></video>
+</figure>
+		</div>
 		
 		
 		
@@ -184,13 +190,7 @@
 
 
 
-		
-		<div class="sec-kv">
-<figure class="mvmove">
-<video autoplay muted src="<?php echo wp_upload_dir()['baseurl']; ?>/mvmov.mov" />"></video>
-</figure>
-		</div>
-		
+
 
 
 

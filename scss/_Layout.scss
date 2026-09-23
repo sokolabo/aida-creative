@@ -5,7 +5,12 @@
 
 header{
 @include pc{	
-	padding:10px 0};
+	        padding: 10px 0;
+        background: rgb(255 255 255 / .9);
+        margin-top: 8px;
+        width: 96%;
+        right: 2%;
+        border-radius: 12px;};
 
 	@include sp{	
 		padding-top:24px;
@@ -34,6 +39,7 @@ align-items: center;}
 h1{
 
 	filter: grayscale(1) brightness(0.5);
+	    line-height: 0;
 	@include pc{width: 10vw;};
 	@include sp{width: 35vw;};
 }
@@ -135,8 +141,9 @@ h1{
 	
 	@include pc{padding-top: 90px;};	
 	@include sp{
-		            height: 110vw;
-		        padding: 28vw 8%;};
+		           padding: 25vw 0% 0;
+        height: 90vh;
+					};
 }
 
 
@@ -178,7 +185,7 @@ h1{
 
 
 .mv-mov-back{
-	height: 100vh;
+	height: 90vh;
 	    width: calc(100vw - 80px);
     margin: 0 auto;
    
@@ -254,15 +261,14 @@ h1{
 
 
 
-
 .main_mv_1{
 color: #333740;
         font-weight: 200;
 	margin-bottom: 0px;
 	        line-height: 100%;
 	@include pc{        
-		font-size: 8vw;
-        letter-spacing: 16px;};
+		font-size: 6vw;
+        letter-spacing: 12px;};
 		@include sp{
 		font-size: 14vw;
 		top: 28vw;
@@ -271,8 +277,8 @@ color: #333740;
 
 .main_mv_2{
 	    font-size: clamp(14px, 2vw, 18px);
-	line-height: 175%;
-	margin-bottom: 16px;
+	line-height: 160%;
+	margin-bottom: 0;
 	font-weight: 200;
 	 color: #333740;
 
@@ -315,10 +321,10 @@ color: #333740;
     @include pc{
 		  right:11%;
         transform: translateX(-50%);
-        top: 10%;}
+        top: 16%;}
 	
 	@include sp{
-		        top: 75%;
+		        top: 85%;
         left: 50%;
         transform: translateX(-50%);
 	};
@@ -808,14 +814,14 @@ a:hover {color: #ffffff;}
 
 .top_btn a{
 	position: fixed;
-	right: 30px;
-	bottom: 30px;
+	    right: 13px;
+    bottom: 2%;
 	display:block;
   vertical-align: middle;
   color: #ffffff;
   line-height: 1;
-  width: 1.5em;
-  height: 1.5em;
+  width: 2em;
+  height: 2em;
   border: 0.1em solid currentColor;
   border-left: 0;
   border-bottom: 0;
@@ -825,8 +831,8 @@ a:hover {color: #ffffff;}
   transition: .5s;
       mix-blend-mode: difference;
   @include sp{
-	          right: 4%;
-        bottom: 10%;
+	          right: 6%;
+        bottom: 6%;
 	    width: 1.3em;
     height: 1.3em;
   };
@@ -1406,36 +1412,141 @@ input[type="checkbox"]:checked:before {
 
 
 .cta{
+	z-index: 10;
 	    position: fixed;
-    right: 1%;
-    top: 30%;
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
+        right: 0.5%;
+    bottom: 9%;
+	background: #ffffff;
+	border: solid 1px;
+	border-color: $main-c; 
+	     padding: 0px 13px 16px 12px;
+		     border-radius: 4px;
+   
 	
 	//mix-blend-mode: difference;
 	@include sp{
-		        top: inherit;
-        gap: 0.5em;
-        bottom: 16%;}
+		        bottom: 3%;
+        left: 3%;
+        width: 80%;
+        gap: 0.5em;}
 
+	.title{
+	    background-color: #3B78A1;
+    color: #ffffff;
+    padding: 6px 12px;
+    width: fit-content;
+    display: block;
+    font-size: 14px;
+    border-radius: 20px;
+    margin: -13px auto 0px auto;
+    border: 1px solid #67a1c6;
+	line-height: 100%;
+
+	@include sp{    margin: -13px 0px auto;}
+	}
+
+	.content{
+		@include sp{display: flex;}
+	}
+
+	p{    
+	width: fit-content;
+    margin: 8px auto 8px;
+	font-size: 12px;
+
+.price{
+	font-size: 18px;
+	display: inline-block;
+	color: $accent-c1;}
+
+}
+		
+		.cta-cont{
+			display: flex;
+			gap: 1em;
+			    width: fit-content;
+    margin: 0 auto;
+
+			a{
+	      background: linear-gradient(45deg, #3977a0 10%, #3aa4e9 100%);
+    padding: 10px 15px;
+    border-radius: 30px;
+    /* border: solid 1px #519df5; */
+    position: relative;
+    overflow: hidden;
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.4));
+
+	@include sp{    padding: 5px 12px;}
+	&::after{
+	    content: "";
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: #9ad7ff;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    border-radius: 50px;
+    filter: blur(13px);
+	}
+		}
 
 
 	i{   
-	color: #333333;
-    font-size: 26px;
-	@include sp{font-size: 24px;}
+	color: #ffffff;
+    font-size: 16px;
+	@include sp{font-size: 18px;}
 }
 	}
 
 
 
-.cta a{
-opacity: 0;
-	transition: .5s;
+
+
+
+// チェックボックス本体は見えなくする
+.cta_toggle {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
 }
 
-.cta.scrolled a{
+// チェックされたらCTAごと消す
+&:has(.cta_toggle:checked) {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.cta_close {
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #333333;
+	width: 20px;
+	height: 20px;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	border-radius: 10px;
+	font-size: 12px;
+	cursor: pointer; // labelはデフォルトで矢印カーソルなので追加
+}
+
+
+}
+
+
+
+.cta{
+opacity: 0;
+transition: opacity .3s, visibility .3s;
+}
+
+.cta.scrolled{
 	opacity: 1;
 }
 	

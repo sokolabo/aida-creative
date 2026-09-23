@@ -6,15 +6,15 @@
 
 <section class="sec-intro content-pd content-top-pd content-bottom-pd u-pos-relative">
 
-<span class="txt-grad-c1">
-    事業という旅を その先へ
+<span class="txt-grad-c1 fadein u-spbr">
+    事業という旅を<br>その先へ
 </span>
 
 </section>
+1
 
 
-
-<div class="sec-outline content-bottom-pd content-top-pd content-pd">
+<div class="sec-outline content-bottom-pd content-top-pd content-pd fadein">
 
          <figure>
                 <img src="<?php echo wp_upload_dir()['baseurl']; ?>/img-back-outline.webp" />
@@ -54,7 +54,7 @@
 
 
 <div id="value" class="sec-value content-bottom-pd content-top-pd content-pd">
-    <div class="content-width">
+    <div class="content-width fadein">
 
 
       <h2 class="h2-center"><p class="head">Value</p>選ばれる理由<span class="cap">作る、守る、育てる。</span></h2>
@@ -119,7 +119,7 @@
 
 
 <section id="service" class="sec-service content-pd content-top-pd content-bottom-pd">
-    <div class="content-width">
+    <div class="content-width fadein">
 
       <h2 class="h2-center"><p class="head">Service</p>サービス内容</h2>
       <p class="lead">ホームページ制作と保守・運用サポートで、あなたの事業を支えます。</p>
@@ -226,7 +226,7 @@
 
 
 <section id="support" class="sec-support bg content-pd content-top-pd content-bottom-pd">
-    <div class="content-width">
+    <div class="content-width fadein">
 
     <div class="h-block">
            <h2 class="h2-center"><p class="head">Support</p>保守・運用サポート詳細<span class="cap">ホームページは更新や管理を続け、事業に合わせて育てる事で本来の価値を発揮します。<br>
@@ -372,7 +372,7 @@
 
 
 
-<div class="content-width">
+<div class="content-width fadein">
 
 
           <h2 class="h2-center"><p class="head">Plan</p>ご依頼プラン
@@ -391,7 +391,7 @@
                         <p class="plan-en">CREATE + GROW</p>
                     </div>
                     <div>
-                        <p>制作から保守運用までまとめてお任せいただける、<br>事業と一緒に育てていくプランです。</p>
+                        <p>制作から保守運用までまとめてお任せいただける、事業と一緒に育てていくプランです。</p>
                     </div>
                     <div class="price-rows">
                         <div class="price-row">

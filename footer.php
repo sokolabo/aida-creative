@@ -78,8 +78,15 @@
 </div>
 
 <div class="cta">
-<a href="<?php echo home_url( '/' )."contact/"; ?>"><i class="fa-solid fa-envelope"></i></a>
-<a href="https://line.me/ti/p/PTPz-clUmt" target="_blank"><i class="fa-brands fa-line"></i></a>
+	<input type="checkbox" id="cta-close" class="cta_toggle">
+	<span class="title">無料相談で</span>
+	<div class="content">
+	<p>初回制作<span class="price">10%off</span></p>
+	<div class="cta-cont">
+		<a href="<?php echo home_url( '/' )."contact/"; ?>"><i class="fa-solid fa-envelope"></i></a>
+		<a href="https://line.me/ti/p/PTPz-clUmt" target="_blank"><i class="fa-brands fa-line"></i></a>
+	</div></div>
+	<label for="cta-close" class="cta_close" aria-label="閉じる">×</label>
 </div>
 
 
