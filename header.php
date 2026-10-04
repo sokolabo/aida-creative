@@ -94,7 +94,7 @@
 
 
 <ul class="menu-wrp">
-         <li><a href="<?php echo home_url( '/' ); ?>">TOP</a></li>
+     <li><a href="<?php echo home_url( '/' ); ?>">TOP</a></li>
 	<li><span class="menu-item">サービス</span>
 	<ul class="sub-menu">
 		<li><a href="<?php echo home_url( '/' )."#value"; ?>">選ばれる理由</a></li>	
