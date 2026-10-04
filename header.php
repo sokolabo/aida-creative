@@ -87,7 +87,6 @@
 <h1><a href="<?php echo home_url( '/' ); ?>"><img class="" src="<?php echo wp_upload_dir()['baseurl']; ?>/logomark2026.png" /></a></h1>
 
 
-	
 <nav class="aco-menu-pc u-sp-none <?php if ( is_home() ){
         echo 'top-list-color';
     } ?>">

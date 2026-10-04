@@ -11,14 +11,15 @@
 
 
 
-
-<div class="ttl-wrp">
-
-
-
 <!------------カテゴリを条件分岐------------>
 
-<div class="cate">
+
+	<div class="content-pd content-top-pd content-bottom-pd">
+	<div class="content-width">
+
+	
+	<div class="date"><?php echo get_the_date("Y.m.d");?></div>
+	<div class="cate-news">
 	
 	<?php 
 	if (  is_singular('custom1')) : ?>
@@ -39,11 +40,11 @@ echo '</ul>';
 		<?php
 // シングルページでタクソノミーを表示
 $terms = wp_get_post_terms(get_the_ID(), 'custom2-cate');if (!empty($terms) && !is_wp_error($terms)) {
-echo '<ul>';
+
 foreach ($terms as $term) {
-echo '<li><a href="' . get_term_link($term) . '">' . $term->name . '</a></li>';
+echo '<a href="' . get_term_link($term) . '">' . $term->name . '</a>';
 }
-echo '</ul>';
+
 }
 ?>
 	
@@ -61,42 +62,11 @@ echo '</ul>';
 <?php endif; ?>
 	</div>
 	
+	<div class="title title-border"><?php the_title(); ?></div>
 
 
+	<div class="thumbneil-box-news"> <?php the_post_thumbnail(); ?> </div>
 
-
-
-
-
-
-
-	<div class="thumbneil-box"> <?php the_post_thumbnail(); ?> </div>
-</div>
-
-
-
-
-	<div class="content-pd content-top-pdpc content-bottom-pd">
-	<div class="content-width">
-
-	
-	<div class="date"><?php echo get_the_date("Y.m.d");?></div>
-	<div class="title"><?php the_title(); ?></div>
-	
-		<p class="btn-link"><a href="<?php the_field('url'); ?>" target="_blank" rel="noreferrer noopener">WEBサイトはこちら ＞</a></p>
-
-<h3><?php the_field('catchcopy'); ?></h3>
-<ul class="overview">
-	<li>【制作年月】<span><?php the_field('year'); ?></span></li>
-	<li>【クライアント】<span><?php the_field('client'); ?></span></li>
-	<li>【業種 / サイト種別】<span><?php the_field('industry'); ?></span></li>
-	<li>【ページ数 / 制作期間】<span><?php the_field('volume'); ?></span></li>
-	<li>【作業内容】<span><?php the_field('work'); ?></span></li>
-	<li>【特徴と機能】<span><?php the_field('functions'); ?></span></li>
-	<li>【使用アプリケーション】<span><?php the_field('apli'); ?></span></li>
-	</ul>
-
-	<h3>制作の解説</h3>
 
 	<?php the_content();?>
 

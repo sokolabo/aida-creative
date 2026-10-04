@@ -18,7 +18,7 @@
 
 <!------------カテゴリを条件分岐------------>
 
-<div class="cate">
+<div class="cate-works">
 	
 	<?php 
 	if (  is_singular('custom1')) : ?>
