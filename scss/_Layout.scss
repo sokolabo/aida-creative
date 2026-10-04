@@ -895,6 +895,15 @@ a:hover {color: #ffffff;}
 
 
 //投稿詳細ページ
+
+.single-custom2{
+	.content-top-pd{
+		@include sp{
+			padding-top: 80px;
+		}
+	}
+}
+
 .post{	
 	
 	background: #ffffff;
@@ -958,7 +967,7 @@ a:hover {color: #ffffff;}
 
 
 
-		.cate{
+		.cate-works{
 			    width: 15%;
     writing-mode: tb;
     display: flex;
@@ -966,6 +975,23 @@ a:hover {color: #ffffff;}
     font-size: 32px;
     letter-spacing: 8px;
 		}
+
+
+
+		.cate-news{
+            display: inline-block;
+    line-height: 0%;
+
+	a{
+		    font-size: 12px;
+    line-height: 100%;
+    padding: 0px 4px;
+    border: solid 0.5px #cccccc;
+
+	}
+		}
+
+
 
 	.title{
 		@include pc{padding: 0px 0px 24px 0px;};
@@ -975,7 +1001,17 @@ a:hover {color: #ffffff;}
 		font-size: 32px;  
 		line-height: 140%;}
 
+	.title-border{
+		        padding: 0px 0px 24px 0px;
+        border-bottom: solid 1px;
+        margin-bottom: 60px;
+	}
 
+
+.thumbneil-box-news{
+	max-width: 769px;
+	margin: 0 auto 80px auto;
+}
 
 .catch_copy{font-size: 24px;}
 
