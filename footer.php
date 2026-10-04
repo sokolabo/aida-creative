@@ -50,22 +50,32 @@
             <div id="sp__bg">
               <nav class="aco-menu-sp">
 			
-			  <ul class="menu-wrp">
-				<li class="menu-pic">	<figure><img src="<?php echo wp_upload_dir()['baseurl']; ?>/menu-pic.webp" /></figure>
-      </li>
-         <li><a href="<?php echo home_url( '/' ); ?>">TOP</a></li>
-		<li><a href="<?php echo home_url( '/' )."#feat"; ?>">SKILL</a></li>	
-		<li><a href="<?php echo home_url( '/' )."#service"; ?>">SERVICE</a></li>	
-		<li><span class="menu-item">WORKS</span>
+	<ul class="menu-wrp">
+						<li class="menu-pic"><figure><img src="<?php echo wp_upload_dir()['baseurl']; ?>/menu-pic.webp" /></figure> </li>
+
+     <li><a href="<?php echo home_url( '/' ); ?>">TOP</a></li>
+	<li><span class="menu-item">サービス</span>
+	<ul class="sub-menu">
+		<li><a href="<?php echo home_url( '/' )."#value"; ?>">選ばれる理由</a></li>	
+		<li><a href="<?php echo home_url( '/' )."#service"; ?>">サービス内容</a></li>	
+		<li><a href="<?php echo home_url( '/' )."#support"; ?>">サポート詳細</a></li>	
+
+
+	</ul>
+	</li>	
+		<li><a href="<?php echo home_url( '/' )."#price"; ?>">料金</a></li>	
+
+	<li><span class="menu-item">制作実績</span>
 	<ul class="sub-menu">
 		<li><a href="<?php echo home_url( '/' )."#web"; ?>">WEB</a></li>
 		<li><a href="<?php echo home_url( '/' )."#graphics"; ?>">GRAPHIC</a></li>
 		<li><a href="<?php echo home_url( '/' )."#illust"; ?>">ILLUST</a></li>
 			</ul>
 	</li>
-	<li><a href="<?php echo home_url( '/' )."#price"; ?>">PRICE</a></li>	
-	<li><a href="<?php echo home_url( '/' )."#profile"; ?>">PROFILE</a></li>	
-	<li><a href="<?php echo home_url( '/' )."contact/"; ?>">CONTACT</a></li>
+			<li><a href="<?php echo home_url( '/' )."#flow"; ?>">制作の流れ</a></li>	
+
+	<li><a href="<?php echo home_url( '/' )."#profile"; ?>">制作者</a></li>	
+	<li><a href="<?php echo home_url( '/' )."contact/"; ?>">お問い合わせ</a></li>	
 		
     </ul>
 </nav>

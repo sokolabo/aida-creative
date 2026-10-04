@@ -6,13 +6,18 @@
 
 <section class="sec-intro content-pd content-top-pd content-bottom-pd u-pos-relative">
 
-<span class="txt-grad-c1 fadein u-spbr">
-    事業という旅を<br>その先へ
+<div class="fadein-y">
+<p>成果の出るサイトに育てたい</p>
+<p>AIで作ったけど、運用に困っている</p>
+<p>オリジナルのデザインが欲しい</p>
+<p>安心感のあるやり取りがしたい</p>
+</div>
+
+<span class="txt-grad-c1 fadein">
+    事業という旅を<br>ともに歩みます
 </span>
 
 </section>
-1
-
 
 <div class="sec-outline content-bottom-pd content-top-pd content-pd fadein">
 
@@ -23,25 +28,16 @@
         <div class="l-cont">
             <h2 class="u-spbr"><p class="head">Concept</p>Webを売らない<br>Web制作者です。<span class="cap u-spbr">事業という旅を進めるために、<br>一緒に育てていく。</span></h2>
             <p>
-            Web制作会社なのに、どういうこと？と思われるかもしれません。</p>
+            Web制作者なのに、どういうこと？と思われるかもしれません。</p>
 <p>
-勿論、作るのはホームページです。</br>
-ですが本当に価値を置いているのは、作ることよりそれを通じて、事業を前に進めることです。
-
-</p>
+もちろん、作るのはホームページです。</br>
+ですが本当に価値を置いているのは、作ることではなく、それを通じて事業を前に進めることです。</p>
 <p>
-「会社やサービスの魅力を伝える」
-「信頼を積み重ねる」
-「問い合わせや採用につなげる」
-</p>
+事業はRPGに似ています。経験を積み、仲間を集め、道具を揃え、課題を越えるたびに先へ進める。ホームページは、そのための装備のひとつです。</p>
+<p>会社やサービスの魅力を伝え、信頼を積み重ね、問い合わせや採用につなげる。持っているだけではなく、使い続けることで力を発揮します。</p>
 
 <p>
-ホームページは、公開して終わりではありません。
-事業という旅を進めるための道具として、活用し続けることで価値を発揮します。
-</p><p>
-だからこそ大切にしているのは、作ることではなく、育て続けること。<br>
-制作から保守運用、改善相談まで。
-中小企業のWeb担当として、事業の旅に寄り添いながらサポートしています。</p>
+だから私は、装備を売って終わる店ではなく、ともに旅をする仲間でありたいと考えています。制作から保守運用、改善相談まで。中小企業のWeb担当として、事業の成長に伴走します。</p>
         </div>
 
         <div class="r-cont">
@@ -401,6 +397,8 @@
                         <div class="price-row">
                             <span class="row-label">月額</span>
                             <span class="price">16,500円<small>（税込）／月</small></span>
+                         <span class="row-note">※金額は内容に合わせて変動いたします</span>
+
                         </div>
                     </div>
                     <!--
@@ -426,7 +424,7 @@
                         <div class="price-row">
                             <span class="row-label">保守運用追加</span>
                             <span class="price">11,000円<small>（税込）〜／月</small></span>
-                            <span class="row-note">※保守を入れない場合の月額費用です。</span>
+                            <span class="row-note">※あとからご加入の場合の月額費用です。</span>
                         </div>
                     </div>
                     <!--
@@ -658,7 +656,7 @@
 
 
 
-<section class="sec-flow scroll-list content-bottom-pd js-horizontal2">
+<section id="flow" class="sec-flow scroll-list content-bottom-pd js-horizontal2">
 
 
         <div class="horiz-wrapper">
@@ -891,9 +889,6 @@
 
 
 
-<!--
-
-
 
 <section class="sec-news content-top-pd content-bottom-pd content-pd fadein-y">
     <div class="content-width">
@@ -979,11 +974,6 @@
 
     </div>
 </section>
-
-
-
-
-    -->
 
 
 

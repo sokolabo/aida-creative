@@ -80,8 +80,9 @@
 <body <?php body_class(); ?>>
 
 
+
 <header>
-<div class="content-pd nav-wrp">
+<div class="nav-wrp">
 	
 <h1><a href="<?php echo home_url( '/' ); ?>"><img class="" src="<?php echo wp_upload_dir()['baseurl']; ?>/logomark2026.png" /></a></h1>
 
@@ -94,18 +95,28 @@
 
 <ul class="menu-wrp">
          <li><a href="<?php echo home_url( '/' ); ?>">TOP</a></li>
-		<li><a href="<?php echo home_url( '/' )."#feat"; ?>">SKILL</a></li>	
-		<li><a href="<?php echo home_url( '/' )."#service"; ?>">SERVICE</a></li>	
-		<li><span class="menu-item">WORKS</span>
+	<li><span class="menu-item">サービス</span>
+	<ul class="sub-menu">
+		<li><a href="<?php echo home_url( '/' )."#value"; ?>">選ばれる理由</a></li>	
+		<li><a href="<?php echo home_url( '/' )."#service"; ?>">サービス内容</a></li>	
+		<li><a href="<?php echo home_url( '/' )."#support"; ?>">サポート詳細</a></li>	
+
+
+	</ul>
+	</li>	
+		<li><a href="<?php echo home_url( '/' )."#price"; ?>">料金</a></li>	
+
+	<li><span class="menu-item">制作実績</span>
 	<ul class="sub-menu">
 		<li><a href="<?php echo home_url( '/' )."#web"; ?>">WEB</a></li>
 		<li><a href="<?php echo home_url( '/' )."#graphics"; ?>">GRAPHIC</a></li>
 		<li><a href="<?php echo home_url( '/' )."#illust"; ?>">ILLUST</a></li>
 			</ul>
 	</li>
-	<li><a href="<?php echo home_url( '/' )."#price"; ?>">PRICE</a></li>	
-	<li><a href="<?php echo home_url( '/' )."#profile"; ?>">PROFILE</a></li>	
-	<li><a href="<?php echo home_url( '/' )."contact/"; ?>">CONTACT</a></li>	
+			<li><a href="<?php echo home_url( '/' )."#flow"; ?>">制作の流れ</a></li>	
+
+	<li><a href="<?php echo home_url( '/' )."#profile"; ?>">制作者</a></li>	
+	<li><a href="<?php echo home_url( '/' )."contact/"; ?>">お問い合わせ</a></li>	
 		
     </ul>
 	
@@ -151,25 +162,24 @@
 <?php endif; ?>
 
 
+<?php if ( is_front_page() ) : ?>
 
 	
 	<div class="mv-wrp u-img-w100">
-	
 
-		<div class="u-pos-relative mbsp24">
+
 
 
 <div class="mv-over-back"></div>
 			
 
+
 <div class="mv-box subcopy">
 	<p class="main_mv_2 a-mv-fade4">事業を前に進めるあなたのWeb担当者に、<br>東京都東部のWEB制作。</p>
-		<p class="main_mv_1 a-mv-fade3"><span class="txt-main-c">C</span>REATE &<br><span class="txt-main-c">S</span>OLVE<span class="txt-main-c">.</span></p>
+		<p class="main_mv_1 a-mv-fade3"><span class="txt-main-c">W</span>EBを創り 育て<br><span class="txt-main-c">問</span>題解決に伴走します<span class="txt-main-c">.</span></p>
 </div>
 
 
-
-	</div>
 
 				
 		<div class="sec-kv">
@@ -177,6 +187,17 @@
 <video autoplay muted loop playsinline src="<?php echo wp_upload_dir()['baseurl']; ?>/mvmov.mov" />"></video>
 </figure>
 		</div>
+
+			
+<div class="cta-top">
+	<span class="title">無料相談で</span>
+	<div class="content">
+	<p>初回制作<span class="price">10%off</span></p>
+	<div class="cta-cont">
+		<a href="<?php echo home_url( '/' )."contact/"; ?>"><i class="fa-solid fa-envelope"></i></a>
+		<a href="https://line.me/ti/p/PTPz-clUmt" target="_blank"><i class="fa-brands fa-line"></i></a>
+	</div></div>
+</div>
 		
 		
 		
@@ -184,11 +205,10 @@
   <span>Scroll</span>
 </div>
 
-	
 
 </div>
 
-
+<?php endif; ?>
 
 
 

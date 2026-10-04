@@ -19,7 +19,7 @@ dd{
 
 h2 {
     @include pc {
-        font-size: clamp(24px, 2.5vw, 46px);
+        font-size: clamp(24px, 2vw, 46px);
     }
 
     @include sp {
@@ -47,7 +47,7 @@ h2 {
         height: 14px;
     background-size: contain;
     background-repeat: no-repeat;
-        margin: 20px 0 20px;
+        margin: 0 0 20px;
         }
     }
 
@@ -76,8 +76,8 @@ h2 {
 
    .h2-center{
                 text-align: center;
-    margin: 0px auto 40px;
-
+                margin: 0px auto 40px;
+                
     .head::after{background-position: center;}
         }
 
@@ -428,6 +428,9 @@ h3 {
 
 
 
+.bg-grad-c1{
+    background: $grad-c1;
+}
 
 
 
@@ -529,23 +532,41 @@ color: #333333;}
 
 
 .sec-intro{
-    height: 80vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
+    flex-wrap: wrap;
 
     @include sp{
-            height: 70vh;
+                 height: 90vh;
+                 min-height: auto;
+                 padding-bottom: 140px;
+                 padding-top: 100px;            
+        }
+
+    div{width: 100%;}
+
+    p{
+     width: 100%;
+    text-align: center;
+     font-size: clamp(24px, 2.5vw, 36px);
+   
+    margin-bottom: clamp(28px, 3vw, 50px);
+           @include sp{
+            margin-bottom: clamp(0px, 0vw, 50px);
+                 font-size: clamp(19px, 2.5vw, 36px);
+           }
+
     }
 
     span{
-       line-height: 110%;
-  
-  background: linear-gradient(135deg, #3B78A1 0%, #2399C1 50%, #188ABB 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-          font-size: 5vw;
+          line-height: 130%;
+    background: linear-gradient(135deg, #3B78A1 0%, #2399C1 50%, #188ABB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: clamp(36px, 8vw, 72px);
 
            @include sp{
              font-size: 10vw;
@@ -565,6 +586,7 @@ color: #333333;}
    
     position: relative;
     overflow: hidden;
+    word-break: auto-phrase;
 
 
 &.content-pd{
@@ -588,7 +610,7 @@ color: #333333;}
     height: 100%;
     object-position: center;
 
-           @include sp{ object-position: 62% 0;}
+           @include sp{object-position: -121vw 0;}
 
     }
     }
@@ -682,8 +704,9 @@ color: #333333;}
 	display: grid;
 	position: relative;
 	z-index: 1;
-	column-gap: 4em;
+	column-gap: 1em;
 	row-gap: 40px;
+
 
     h3{    
     width: fit-content;
@@ -703,7 +726,7 @@ color: #333333;}
 }
 
 	@include pc{grid-template-columns: repeat(3, 1fr);}
-	@include sp{grid-template-columns: 1fr; row-gap: 32px;}
+	@include sp{grid-template-columns: 1fr; row-gap: 80px;}
 
 	.item{
 		text-align: center;
@@ -1048,8 +1071,7 @@ color: #333333;}
     padding: 10px;
     line-height: 0;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(25, 132, 215, 0.6), 0 0 30px rgba(179, 214, 226, 0.6);
-    width: 56px;
+        width: 56px;
     height: 56px;
     display: flex;
     justify-content: center;
@@ -1075,25 +1097,30 @@ color: #333333;}
 	background: linear-gradient(180deg, #ddf1f9 0%, #ffffff 100%);
 	overflow: hidden;
 
+    @include sp{padding-bottom: 80px;}
+
     &.bg{        background-image: url(../../../uploads/back-support9.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     background-position: right;
 
- 
 
 }
 
     .h-block{
             background: rgb(255 255 255 / 1);
-    padding: 60px 40px 24px;
+padding: 32px 40px 40px;
        margin-bottom: 40px;
                    border-radius: 6px;
                            box-shadow: 2px 2px 12px rgba(165, 165, 165, 0.25);
         @include sp{ padding: 60px 32px 24px;}
 
         h2{margin-bottom: 0;
+
+            .head::after{
+                margin: 20px 0 20px;
+            }
          
         }
     }
@@ -1308,6 +1335,7 @@ color: #333333;}
     position: relative;
     background-position: right;
         margin-top: -24px;
+    @include sp{ padding-top: 80px;}
     
    
 
@@ -1346,7 +1374,7 @@ color: #333333;}
     padding: 24px;
     background: #ffffff;
     @include sp{
-         padding: 16px;
+         padding: 12px;
                 width: 90%;
         margin-top: -90px;
         gap: 1em;
@@ -1602,7 +1630,10 @@ color: #333333;}
 
 .sec-flow{
 
-    .content-pd{    margin: 80px auto 0 auto;}
+    .content-pd{    
+        margin: 80px auto 0 auto;
+        @include sp{margin: 0px auto 0px auto;}
+    }
     .horiz-wrapper .horiz-flow {
         gap:0
     }
@@ -2519,6 +2550,7 @@ body.back-dark {
     width: 35%;
     right: 0;
     z-index: 1;
+    @include sp{  width: 40%;}
 }
 //延々横からスクロール
 .cp-scroll-yoko1 {
@@ -2529,7 +2561,7 @@ body.back-dark {
 
 
 	@include pc{margin-top:-44px;};	
-	@include sp{margin-top:-44px;};	
+	@include sp{margin-top:-40px;};	
 
 	display: flex;
   overflow: hidden;
@@ -2543,7 +2575,7 @@ body.back-dark {
 	@include pc{        
         font-size: 8vw;
         letter-spacing: 8px;};
-	@include sp{font-size: 20.5vw;};
+	@include sp{font-size: 15vw;};
 
     white-space: pre;
     color: #ffffff;
@@ -2645,7 +2677,7 @@ body.dark {
     @include pc{padding: 0px 50px 50px 50px;};
        @include sp{
          gap: 60px;
-        bottom: 10%;};
+        bottom: 13%;};
     position: relative;
   
 

@@ -5,7 +5,7 @@
 
 header{
 @include pc{	
-	        padding: 10px 0;
+	    padding: 4px 3%;
         background: rgb(255 255 255 / .9);
         margin-top: 8px;
         width: 96%;
@@ -13,8 +13,9 @@ header{
         border-radius: 12px;};
 
 	@include sp{	
-		padding-top:24px;
-		padding-bottom:24px;};
+		        padding-top: 16px;
+        padding-bottom: 16px;
+        margin-left: 3%;};
 
 	 width: 100%;
 	z-index:100;
@@ -22,6 +23,7 @@ header{
 	@include sp{position: absolute;}
 	   
 
+	.content-pd{padding-left: 0%;}
 	
 	
 	h1 , nav{display:inline-block;}
@@ -33,8 +35,11 @@ header{
 	background: transparent;
 }
 
-.nav-wrp{display: flex;
-align-items: center;}
+.nav-wrp{
+	display: flex;
+	align-items: center;
+	    justify-content: space-between;
+}
 
 h1{
 
@@ -135,15 +140,15 @@ h1{
 .mv-wrp{
     width: 100vw;
     position: relative;
+	height: 120vh;
 
     align-items: center;
     margin: 0 auto;
 	
-	@include pc{padding-top: 90px;};	
+	@include pc{padding-top: 106px;};	
 	@include sp{
-		           padding: 25vw 0% 0;
-        height: 90vh;
-					};
+		        height: 170vw;
+		        padding:20vw 0% 0;};
 }
 
 
@@ -236,8 +241,10 @@ h1{
     position: relative;
     top: 0rem;
     left: 8%;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
 	@include sp{
+		  margin-bottom: 16px;
+		 left: 3%;
 		top:0em;
 	}
 
@@ -265,12 +272,13 @@ h1{
 color: #333740;
         font-weight: 200;
 	margin-bottom: 0px;
-	        line-height: 100%;
+	           line-height: 120%;
 	@include pc{        
-		font-size: 6vw;
-        letter-spacing: 12px;};
+		font-size: 5.5vw;
+               letter-spacing: -1px;};
 		@include sp{
-		font-size: 14vw;
+		font-size: 8.3vw;
+		line-height: 120%;
 		top: 28vw;
         left: 21vw;};
 	}
@@ -283,8 +291,7 @@ color: #333740;
 	 color: #333740;
 
 	 		@include sp{
-				margin-bottom: 0px;
-			}
+        margin-bottom: 8px;			}
 	 br{@include pc{display:none;};}
 
 }
@@ -319,14 +326,14 @@ color: #333740;
 	  
     
     @include pc{
-		  right:11%;
+		  left:4%;
         transform: translateX(-50%);
-        top: 16%;}
+                top: 12%;}
 	
 	@include sp{
-		        top: 85%;
-        left: 50%;
-        transform: translateX(-50%);
+		 position: relative;
+                     margin: 36px auto;
+		
 	};
 	
     writing-mode: vertical-rl;
@@ -538,18 +545,16 @@ li:hover > .menu-item::after {
 //ナビメニュー設定
 
 .menu-wrp{    
-   padding: 100px 0px;
     margin: 0 auto;
    
 	@include sp{
-		 background: #d9d9d9;
 		width: 100%;};
    
 	
 
 	li{
 		    padding-bottom: 0;
-	padding: 8px 0px 8px 24px;
+	padding: 8px 0px 8px 12px;
 
 	}
 	
@@ -562,9 +567,7 @@ li:hover > .menu-item::after {
 }
 
 .aco-menu-pc{
-	@include pc{
-		position:absolute;
-		right:8%;}
+
 li{
 	margin: 0 0 0 1em;
 	position:relative;
@@ -683,7 +686,7 @@ li{
   top: 0;
   height: 100%;
   width: 100%;
-      background: rgba(51, 51, 51, 0.96);
+background: rgb(232 232 232 / 96%);
   text-align: center;
   z-index: 100;
 	@include pc{display:none;}
@@ -716,7 +719,7 @@ li{
     align-items: center;
     height: 100vh;
 	 li{
-    margin: 24px 0px;
+    margin: 16px 0px;
     padding: 0px;
     list-style-type: none;
 		 transition:.5s;
@@ -947,6 +950,8 @@ a:hover {color: #ffffff;}
 	    display: flex;
     justify-content: center;
     align-items: center;
+
+	@include sp{margin-top: 50px;}
 
 	}
 
@@ -1411,23 +1416,18 @@ input[type="checkbox"]:checked:before {
 
 
 
-.cta{
+.cta , .cta-top{
 	z-index: 10;
-	    position: fixed;
-        right: 0.5%;
-    bottom: 9%;
-	background: #ffffff;
 	border: solid 1px;
 	border-color: $main-c; 
-	     padding: 0px 13px 16px 12px;
-		     border-radius: 4px;
-   
-	
+	 border-radius: 4px;
 	//mix-blend-mode: difference;
+
+
 	@include sp{
 		        bottom: 3%;
-        left: 3%;
-        width: 80%;
+               left: 3%;
+        width: 74%;
         gap: 0.5em;}
 
 	.title{
@@ -1500,9 +1500,20 @@ input[type="checkbox"]:checked:before {
 	}
 
 
+}
 
 
 
+.cta{
+	 position: fixed;
+	 padding: 0px 13px 16px 12px;
+	 background: #ffffff;
+   right: 0.5%;
+       bottom: 10%;
+opacity: 0;
+transition: opacity .3s, visibility .3s;
+
+@include sp{bottom: 3%;}
 
 // チェックボックス本体は見えなくする
 .cta_toggle {
@@ -1536,21 +1547,93 @@ input[type="checkbox"]:checked:before {
 	cursor: pointer; // labelはデフォルトで矢印カーソルなので追加
 }
 
-
 }
 
-
-
-.cta{
-opacity: 0;
-transition: opacity .3s, visibility .3s;
-}
-
-.cta.scrolled{
-	opacity: 1;
-}
+.cta.scrolled{opacity: 1;}
 	
 
+
+
+.cta-top{
+	 position: absolute;
+	 padding: 0px 2vw 24px;
+      right: 4%;
+    top: 13%;
+    background: #ffffff;
+	    flex-direction: column;
+		    box-shadow: 2px 12px 10px rgb(59 116 160 / 40%);
+@include sp{
+	position: relative;
+        margin: 0 auto;
+        top: -10px;
+		        left: auto;
+				  width: 86%;
+        right: auto;
+     box-shadow: none;
+	 padding: 0px 2.5vw 12px 2.5vw;}	
+
+
+	 .cta_close {display: none;}
+
+			.title{    
+				border: none;
+				background-color: #e86d05;
+				    padding: 8px 12px;
+				    font-size: 16px;
+
+					@include sp{
+					padding: 5px 11px;
+					font-size: 15px;
+					}
+				}
+
+		p{
+			font-size: 18px;
+			margin: 8px auto 20px;
+			text-align: center;
+
+					@include sp{
+						    margin: 14px auto 7px;
+						font-size: 16px; }
+				
+			.price {
+				margin: 0;
+				font-size: 36px;
+			    display: block;  
+			@include sp{  
+			  font-size: 28px;
+					  display: inline-block;
+				}
+				}
+		}
+
+
+	.cta-cont  {
+		gap: 1.5em;
+		flex-direction: column;
+
+		@include sp{
+			    gap: 0.5em;
+			flex-direction:row;
+
+			}
+
+
+		 a {
+			            padding: 20px 21px;
+    border-radius: 48px;
+         @include sp{
+			                  padding: 9px 11px;}
+		}
+   
+	i {
+		font-size: 32px;
+		  @include sp{
+			    font-size: 27px;
+			          padding: 3px 2px;}
+	}
+}
+}
 
 
 
