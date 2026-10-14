@@ -5,6 +5,22 @@ $('div').removeClass('wp-block-latest-posts__featured-image');
 
 
 
+//スクロールイベント
+jQuery(function($){
+  $(window).on("scroll load",function(){
+    const scroll = $(window).scrollTop();
+    const winH   = $(window).height();
+
+    $(".firing").each(function(){
+      if(scroll > $(this).offset().top - winH + winH/6){
+        $(this).addClass("move");
+      }
+    });
+  });
+});
+
+
+
 //ページ外スムーズスクロール対応
 window.addEventListener('load', () => {
   if (location.hash) {

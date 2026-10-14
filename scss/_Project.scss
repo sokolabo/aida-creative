@@ -552,6 +552,7 @@ color: #333333;}
      width: 100%;
     text-align: center;
      font-size: clamp(24px, 2.5vw, 36px);
+     overflow: hidden;
    
     margin-bottom: clamp(28px, 3vw, 50px);
            @include sp{
@@ -561,7 +562,20 @@ color: #333333;}
 
     }
 
-    span{
+  
+
+    span.small{
+            transform: translateY(100%);
+    display: block;
+    transition: 1s;
+    }
+
+      .firing.move span.small{
+           transform: translateY(0%);
+    }
+
+
+    span.big{
           line-height: 130%;
     background: linear-gradient(135deg, #3B78A1 0%, #2399C1 50%, #188ABB 100%);
     -webkit-background-clip: text;

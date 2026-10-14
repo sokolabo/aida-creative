@@ -6,14 +6,14 @@
 
 <section class="sec-intro content-pd content-top-pd content-bottom-pd u-pos-relative">
 
-<div class="fadein-y">
-<p>成果の出るサイトに育てたい</p>
-<p>AIで作ったけど、運用に困っている</p>
-<p>オリジナルのデザインが欲しい</p>
-<p>安心感のあるやり取りがしたい</p>
+<div class="firing">
+<p><span class="small">成果の出るサイトに育てたい</span></p>
+<p><span class="small">AIで作ったけど、運用に困っている</span></p>
+<p><span class="small">オリジナルのデザインが欲しい</span></p>
+<p><span class="small">安心感のあるやり取りがしたい</span></p>
 </div>
 
-<span class="txt-grad-c1 fadein">
+<span class="txt-grad-c1 fadein big">
     事業という旅を<br>ともに歩みます
 </span>
 

@@ -170,18 +170,51 @@
 
 
 <div class="mv-over-back"></div>
-			
+	
 
 
 <div class="mv-box subcopy">
 	<p class="main_mv_2 a-mv-fade4">事業を前に進めるあなたのWeb担当者に、<br>東京都東部のWEB制作。</p>
-		<p class="main_mv_1 a-mv-fade3"><span class="txt-main-c">W</span>EBを創り 育て<br><span class="txt-main-c">問</span>題解決に伴走します<span class="txt-main-c">.</span></p>
+				
+<div class="container firing">
+  <div class="headline">
+
+    <div class="text" aria-hidden="true">
+        <span class="char is-accent" style="--char-index: 0"><span class="char-text">W</span></span>
+        <span class="char" style="--char-index: 1"><span class="char-text">E</span></span>
+        <span class="char" style="--char-index: 2"><span class="char-text">B</span></span>
+        <span class="char" style="--char-index: 3"><span class="char-text">を</span></span>
+        <span class="char" style="--char-index: 4"><span class="char-text">創</span></span>
+        <span class="char" style="--char-index: 5"><span class="char-text">り</span></span>
+        <span class="whitespace">&nbsp;</span>
+        <span class="char" style="--char-index: 6"><span class="char-text">育</span></span>
+        <span class="char" style="--char-index: 7"><span class="char-text">て</span></span>
+    </div>
+
+
+        <div class="text" aria-hidden="true">
+        <span class="char is-accent" style="--char-index: 8"><span class="char-text">問</span></span>
+        <span class="char" style="--char-index: 9"><span class="char-text">題</span></span>
+        <span class="char" style="--char-index: 10"><span class="char-text">解</span></span>
+        <span class="char" style="--char-index: 11"><span class="char-text">決</span></span>
+        <span class="char" style="--char-index: 12"><span class="char-text">に</span></span>
+        <span class="char" style="--char-index: 13"><span class="char-text">伴</span></span>
+        <span class="char" style="--char-index: 14"><span class="char-text">走</span></span>
+        <span class="char" style="--char-index: 15"><span class="char-text">し</span></span>
+        <span class="char" style="--char-index: 16"><span class="char-text">ま</span></span>
+        <span class="char" style="--char-index: 17"><span class="char-text">す</span></span>
+        <span class="char is-accent" style="--char-index: 18"><span class="char-text">.</span></span>
+      </div>
+  </div>
+
+</div>
+
 </div>
 
 
 
 				
-		<div class="sec-kv">
+		<div class="sec-kv ">
 <figure class="mvmove">
 <video autoplay muted loop playsinline src="<?php echo wp_upload_dir()['baseurl']; ?>/mvmov.mov" />"></video>
 </figure>
