@@ -1755,11 +1755,35 @@ padding: 32px 40px 40px;
     .content-width{
         z-index: 1;
     position: relative;
-        padding: 40px 80px;
-    background: linear-gradient(90deg, rgba(0, 68, 130, 0.7) 10%, rgba(1, 27, 52, 0.7) 70%);
-    border-radius: 6px;
-    box-shadow: 5px 5px 10px rgb(0 19 50 / 70%), inset 4px 4px 20px rgb(0 77 145 / 50%);
-    border: 1px solid rgb(0 41 112 / 45%);}
+    }
+
+    .prof-head{
+        text-align: center;
+        margin-bottom: 40px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .prof-corner-txt{
+        position: absolute;
+        z-index: 1;
+        font-size: 12px;
+        line-height: 160%;
+        opacity: .8;
+
+        &.top{
+            top: 40px;
+            right: 40px;
+            text-align: right;
+            @include sp{top: 24px; right: 24px;};
+        }
+
+        &.bottom{
+            left: 40px;
+            bottom: 40px;
+            @include sp{left: 24px; bottom: 24px;};
+        }
+    }
 }
 
 
@@ -2298,26 +2322,40 @@ p::after {
     z-index: 1;
 	.wrp{
 	display:flex;
+        align-items: center;
 		gap:2em;
 		@include pc{flex-wrap:nowrap;};
 		@include sp{flex-wrap:wrap;};
-		
+
 		.l-cont{
+            position: relative;
+            z-index: 2;
+
 			img{
 				width: 30vw;
-				
+                border-radius: 6px;
+                box-shadow: 10px 10px 30px rgb(0 10 30 / 50%);
+
 				@include sp{
 				width:50vw;
 				margin: 0 auto;
 				display: block;};
 				}
-			
+
 		@include pc{width:30%;};
 		@include sp{width:100%;};}
 
 		.r-cont{
-		@include pc{width:70%;};
-		@include sp{width:100%;};
+            position: relative;
+            z-index: 1;
+            padding: 40px;
+            background: linear-gradient(90deg, rgba(0, 68, 130, 0.7) 10%, rgba(1, 27, 52, 0.7) 70%);
+            border-radius: 6px;
+            box-shadow: 5px 5px 10px rgb(0 19 50 / 70%), inset 4px 4px 20px rgb(0 77 145 / 50%);
+            border: 1px solid rgb(0 41 112 / 45%);
+
+		@include pc{width:70%; margin-left: -60px; padding-left: 100px;};
+		@include sp{width:100%; margin-top: -40px; padding-top: 72px;};
 
         .job{
             display: flex;
@@ -2337,7 +2375,7 @@ p::after {
     @include sp{    width: 40px;}
 }
         }
-    
+
        .name{
         font-size: 32px;
         font-weight: 200;
@@ -2347,7 +2385,24 @@ p::after {
 
 
     }
-	}}
+	}
+
+    .deco-txt{
+        position: absolute;
+        z-index: 3;
+        right: -16px;
+        bottom: -16px;
+        font-family: "tangerine", sans-serif;
+        font-size: 48px;
+        line-height: 110%;
+        text-align: right;
+        @include sp{
+            position: static;
+            text-align: center;
+            margin-top: 24px;
+        };
+    }
+    }
 
 
 

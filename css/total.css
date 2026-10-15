@@ -3898,11 +3898,40 @@ figure.mark_round img {
 .sec-prof .content-width {
   z-index: 1;
   position: relative;
-  padding: 40px 80px;
-  background: linear-gradient(90deg, rgba(0, 68, 130, 0.7) 10%, rgba(1, 27, 52, 0.7) 70%);
-  border-radius: 6px;
-  box-shadow: 5px 5px 10px rgba(0, 19, 50, 0.7), inset 4px 4px 20px rgba(0, 77, 145, 0.5);
-  border: 1px solid rgba(0, 41, 112, 0.45);
+}
+.sec-prof .prof-head {
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 1;
+}
+.sec-prof .prof-corner-txt {
+  position: absolute;
+  z-index: 1;
+  font-size: 12px;
+  line-height: 160%;
+  opacity: 0.8;
+}
+.sec-prof .prof-corner-txt.top {
+  top: 40px;
+  right: 40px;
+  text-align: right;
+}
+@media (max-width: 768px) {
+  .sec-prof .prof-corner-txt.top {
+    top: 24px;
+    right: 24px;
+  }
+}
+.sec-prof .prof-corner-txt.bottom {
+  left: 40px;
+  bottom: 40px;
+}
+@media (max-width: 768px) {
+  .sec-prof .prof-corner-txt.bottom {
+    left: 24px;
+    bottom: 24px;
+  }
 }
 .c-2card-01 {
   display: flex;
@@ -4354,6 +4383,7 @@ figure.mark_round img {
 }
 .c-1c03 .wrp {
   display: flex;
+  align-items: center;
   gap: 2em;
 }
 @media (min-width: 769px) {
@@ -4366,8 +4396,14 @@ figure.mark_round img {
     flex-wrap: wrap;
   }
 }
+.c-1c03 .wrp .l-cont {
+  position: relative;
+  z-index: 2;
+}
 .c-1c03 .wrp .l-cont img {
   width: 30vw;
+  border-radius: 6px;
+  box-shadow: 10px 10px 30px rgba(0, 10, 30, 0.5);
 }
 @media (max-width: 768px) {
   .c-1c03 .wrp .l-cont img {
@@ -4386,14 +4422,27 @@ figure.mark_round img {
     width: 100%;
   }
 }
+.c-1c03 .wrp .r-cont {
+  position: relative;
+  z-index: 1;
+  padding: 40px;
+  background: linear-gradient(90deg, rgba(0, 68, 130, 0.7) 10%, rgba(1, 27, 52, 0.7) 70%);
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px rgba(0, 19, 50, 0.7), inset 4px 4px 20px rgba(0, 77, 145, 0.5);
+  border: 1px solid rgba(0, 41, 112, 0.45);
+}
 @media (min-width: 769px) {
   .c-1c03 .wrp .r-cont {
     width: 70%;
+    margin-left: -60px;
+    padding-left: 100px;
   }
 }
 @media (max-width: 768px) {
   .c-1c03 .wrp .r-cont {
     width: 100%;
+    margin-top: -40px;
+    padding-top: 72px;
   }
 }
 .c-1c03 .wrp .r-cont .job {
@@ -4420,6 +4469,23 @@ figure.mark_round img {
   font-size: 32px;
   font-weight: 200;
   margin-bottom: 0px;
+}
+.c-1c03 .deco-txt {
+  position: absolute;
+  z-index: 3;
+  right: -16px;
+  bottom: -16px;
+  font-family: "tangerine", sans-serif;
+  font-size: 48px;
+  line-height: 110%;
+  text-align: right;
+}
+@media (max-width: 768px) {
+  .c-1c03 .deco-txt {
+    position: static;
+    text-align: center;
+    margin-top: 24px;
+  }
 }
 .sec-works-web {
   position: relative;

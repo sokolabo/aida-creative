@@ -739,11 +739,14 @@
 
 
 <section id="profile" class="sec-prof white-font-set content-pd content-top-pd content-bottom-pd u-mb40">
-                      <h2 class="h2-center"><p class="head">Plofile</p>制作者について</h2>
-    <p class="lead">
-    よろしくお願いいたします！
 
-      </p>
+    <span class="prof-corner-txt top">小さなよい旅をその先へ。</span>
+    <span class="prof-corner-txt bottom">事業という旅を<br>その先へ。</span>
+
+    <div class="prof-head">
+        <h2 class="h2-center"><p class="head">Plofile</p>制作者について</h2>
+        <p class="lead">よろしくお願いいたします！</p>
+    </div>
 
       <div class="blur"></div>
 
@@ -766,6 +769,8 @@
                     業界大手の紙製品メーカーの企画部グラフィックデザイナーとしてキャリアをスタート。その後、Tシャツデザイン、腕時計デザイナーを経て2012年よりWEBに転向。数社でWEBデザイナー、大手電機メーカーのディレクターを経て、現在は報道局勤務とフリーランスで活動中。新人の教育も行っています。趣味は音楽漁りとフットサル</p>
                 </div>
             </div>
+
+            <p class="deco-txt">ともに、<br>つくる。</p>
         </div>
 
     </div>
