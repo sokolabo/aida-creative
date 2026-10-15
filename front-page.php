@@ -739,13 +739,17 @@
 
 
 <section id="profile" class="sec-prof white-font-set content-pd content-top-pd content-bottom-pd u-mb40">
-    <div class="content-width">
-
-                    <h2 class="h2-center"><p class="head">Plofile</p>制作者について</h2>
+                      <h2 class="h2-center"><p class="head">Plofile</p>制作者について</h2>
     <p class="lead">
     よろしくお願いいたします！
 
       </p>
+
+      <div class="blur"></div>
+
+
+<div class="content-width u-pos-relative">
+
 
 
         <div class="c-1c03 u-mb80">

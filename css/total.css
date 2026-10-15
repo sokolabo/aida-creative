@@ -1950,7 +1950,7 @@ input[type="checkbox"]:checked:before {
     opacity: 1;
   }
 }
-.text {
+.mv-box .text {
   display: flex;
   align-items: center;
   font-size: 5vw;
@@ -1958,13 +1958,13 @@ input[type="checkbox"]:checked:before {
   text-transform: uppercase;
   line-height: 120%;
 }
-.move .text {
+.mv-box .move .text {
   --x: 0;
 }
-.char {
+.mv-box .char {
   overflow: hidden;
 }
-.char-text {
+.mv-box .char-text {
   display: inline-block;
   transform: translateX(var(--x, -101%));
   transition: transform 1s cubic-bezier(0.27, 0, 0.175, 1);
@@ -3883,8 +3883,7 @@ figure.mark_round img {
   overflow: hidden;
   background: linear-gradient(0deg, #00122c 6%, #02396b 75%, #02192d 100%);
 }
-.sec-prof::before {
-  content: "";
+.sec-prof .blur {
   display: block;
   position: absolute;
   width: 70vw;
