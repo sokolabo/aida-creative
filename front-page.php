@@ -1,43 +1,47 @@
 <?php get_header(); ?>
 
-	
+
 
 
 
 <section class="sec-intro content-pd content-top-pd content-bottom-pd u-pos-relative">
 
-<div class="firing">
-<p><span class="small">成果の出るサイトに育てたい</span></p>
-<p><span class="small">AIで作ったけど、運用に困っている</span></p>
-<p><span class="small">オリジナルのデザインが欲しい</span></p>
-<p><span class="small">安心感のあるやり取りがしたい</span></p>
-</div>
+    <div class="firing">
+        <p><span class="small">成果の出るサイトに育てたい</span></p>
+        <p><span class="small">AIで作ったけど、運用に困っている</span></p>
+        <p><span class="small">オリジナルのデザインが欲しい</span></p>
+        <p><span class="small">安心感のあるやり取りがしたい</span></p>
+    </div>
 
-<span class="txt-grad-c1 fadein big">
-    事業という旅を<br>ともに歩みます
-</span>
+    <div class="firing">
+        <p><span class="txt-grad-c1 firing big">問題の解決に<br>伴走します</span></p>
+    </div>
 
 </section>
 
 <div class="sec-outline content-bottom-pd content-top-pd content-pd fadein">
 
-         <figure>
-                <img src="<?php echo wp_upload_dir()['baseurl']; ?>/img-back-outline.webp" />
-            </figure>
+    <figure>
+        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/img-back-outline.webp" />
+    </figure>
     <div class="wrp">
         <div class="l-cont">
-            <h2 class="u-spbr"><p class="head">Concept</p>Webを売らない<br>Web制作者です。<span class="cap u-spbr">事業という旅を進めるために、<br>一緒に育てていく。</span></h2>
+            <h2 class="u-spbr">
+                <p class="head">Concept</p>
+                Webを売らない<br>Web制作者です。
+                <span class="cap u-spbr">事業という旅を進めるために、<br>一緒に育てていく。</span>
+            </h2>
             <p>
-            Web制作者なのに、どういうこと？と思われるかもしれません。</p>
-<p>
-もちろん、作るのはホームページです。</br>
-ですが本当に価値を置いているのは、作ることではなく、それを通じて事業を前に進めることです。</p>
-<p>
-事業はRPGに似ています。経験を積み、仲間を集め、道具を揃え、課題を越えるたびに先へ進める。ホームページは、そのための装備のひとつです。</p>
-<p>会社やサービスの魅力を伝え、信頼を積み重ね、問い合わせや採用につなげる。持っているだけではなく、使い続けることで力を発揮します。</p>
+                Web制作者なのに、どういうこと？と思われるかもしれません。</p>
+            <p>
+                もちろん、作るのはホームページです。</br>
+                ですが本当に価値を置いているのは、作ることではなく、それを通じて事業を前に進めることです。</p>
+            <p>
+                事業は旅に似ています。経験を積み、仲間を集め、道具を揃え、課題を越えるたびに先へ進める。ホームページは、そのための装備のひとつです。</p>
+            <p>会社やサービスの魅力を伝え、信頼を積み重ね、問い合わせや採用につなげる。持っているだけではなく、使い続けることで力を発揮します。</p>
 
-<p>
-だから私は、装備を売って終わる店ではなく、ともに旅をする仲間でありたいと考えています。制作から保守運用、改善相談まで。中小企業のWeb担当として、事業の成長に伴走します。</p>
+            <p>
+                だから私は、装備を売って終わる店ではなく、ともに旅をする仲間でありたいと考えています。制作から保守運用、改善相談まで。中小企業のWeb担当として、事業の成長に伴走します。</p>
         </div>
 
         <div class="r-cont">
@@ -53,57 +57,69 @@
     <div class="content-width fadein">
 
 
-      <h2 class="h2-center"><p class="head">Value</p>選ばれる理由<span class="cap">作る、守る、育てる。</span></h2>
+        <h2 class="h2-center">
+            <p class="head">Value</p>選ばれる理由<span class="cap">ホームページ制作から保守・運用まで。<br>
+            作るだけではなく、育てることまで見据え、事業を前に進めるサポートを行っています。</span>
+        </h2>
 
-      <p class="lead">
-          ホームページ制作から保守・運用まで。<br>
-          作るだけではなく、育てることまで見据え、事業を前に進めるサポートを行っています。
-      </p>
+     
 
-      <div class="c-icon-grid01">
-          <div class="item">
-              <div class="icon"><figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val1.png" alt=""></figure></div>
-              <h3>初期費用を抑えて始める</h3>
-              <p>ホームページは、作ることも大切ですが、公開後に育てていくことで本来の価値を発揮します。</p>
-              <p>そのため、制作費だけに予算を使い切るのではなく、公開後の運用や改善にも取り組めるよう、初期費用を抑えたプランをご提案しています。</p>
-          </div>
-          <div class="item">
-              <div class="icon"><figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val2.webp" alt=""></figure></div>
-              <h3>気軽に相談</h3>
-              <p>ホームページ制作は、専門的な内容も多く、不安や疑問が生まれることもあります。</p>
-              <p>専門用語を並べるのではなく、わかりやすくお話ししながら、気軽に相談できるパートナーとしてサポートします。</p>
-          </div>
-          <div class="item">
-              <div class="icon"><figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val3.png" alt=""></figure></div>
-              <h3>伝わり、惹かれるデザイン</h3>
-              <p>人が第一印象でその人らしさを感じるように、WEBデザインもまた企業やサービスの印象を左右します。</p>
-              <p>だからこそ、「イケてる」と感じてもらえるデザインを大切にしています。</p>
-          </div>
+        <div class="c-icon-grid01">
+            <div class="item">
+                <div class="icon">
+                    <figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val1.png" alt=""></figure>
+                </div>
+                <h3>初期費用を抑えて始める</h3>
+                <p>ホームページは、作ることも大切ですが、公開後に育てていくことで本来の価値を発揮します。</p>
+                <p>そのため、制作費だけに予算を使い切るのではなく、公開後の運用や改善にも取り組めるよう、初期費用を抑えたプランをご提案しています。</p>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val2.webp" alt=""></figure>
+                </div>
+                <h3>気軽に相談</h3>
+                <p>ホームページ制作は、専門的な内容も多く、不安や疑問が生まれることもあります。</p>
+                <p>専門用語を並べるのではなく、わかりやすくお話ししながら、気軽に相談できるパートナーとしてサポートします。</p>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val3.png" alt=""></figure>
+                </div>
+                <h3>伝わり、惹かれるデザイン</h3>
+                <p>人が第一印象でその人らしさを感じるように、WEBデザインもまた企業やサービスの印象を左右します。</p>
+                <p>だからこそ、「イケてる」と感じてもらえるデザインを大切にしています。</p>
+            </div>
 
-          <div class="divider">
-              <div class="divider-item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val_point.png" alt=""></div>
-              <div class="divider-item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val_point.png" alt=""></div>
-          </div>
+            <div class="divider">
+                <div class="divider-item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val_point.png" alt=""></div>
+                <div class="divider-item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val_point.png" alt=""></div>
+            </div>
 
-          <div class="item">
-              <div class="icon"><figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val4.png" alt=""></figure></div>
-              <h3>成果を見据えた設計</h3>
-              <p>ホームページを作る前に、まずは事業や課題についてしっかりお話を伺います。</p>
-              <p>問い合わせや採用など、目指したい姿を一緒に整理しながら、目的に合わせた設計やご提案を行っています。</p>
-          </div>
-          <div class="item">
-              <div class="icon"><figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val5.png" alt=""></figure></div>
-              <h3>公開後もサポート</h3>
-              <p>ホームページは、公開してからが本当のスタートです。</p>
-              <p>セキュリティや保守の面でサイトを守りながら、更新や改善を重ね、育てていく。中小企業のWeb担当として、成果につながるホームページ運営を継続的にサポートしています。</p>
-          </div>
-          <div class="item">
-              <div class="icon"><figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val6.png" alt=""></figure></div>
-              <h3>Web以外にもご提案</h3>
-              <p>事業を前に進めるために必要なのは、ホームページだけではないかもしれません。チラシや名刺、販促物の作成、イベントやキャンペーンの企画など。</p>
-              <p>事業にとって本当に必要だと思うことを、一緒に考えながらご提案しています。</p>
-          </div>
-      </div>
+            <div class="item">
+                <div class="icon">
+                    <figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val4.png" alt=""></figure>
+                </div>
+                <h3>成果を見据えた設計</h3>
+                <p>ホームページを作る前に、まずは事業や課題についてしっかりお話を伺います。</p>
+                <p>問い合わせや採用など、目指したい姿を一緒に整理しながら、目的に合わせた設計やご提案を行っています。</p>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val5.png" alt=""></figure>
+                </div>
+                <h3>公開後もサポート</h3>
+                <p>ホームページは、公開してからが本当のスタートです。</p>
+                <p>セキュリティや保守の面でサイトを守りながら、更新や改善を重ね、育てていく。中小企業のWeb担当として、成果につながるホームページ運営を継続的にサポートしています。</p>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_val6.png" alt=""></figure>
+                </div>
+                <h3>Web以外にもご提案</h3>
+                <p>事業を前に進めるために必要なのは、ホームページだけではないかもしれません。チラシや名刺、販促物の作成、イベントやキャンペーンの企画など。</p>
+                <p>事業にとって本当に必要だと思うことを、一緒に考えながらご提案しています。</p>
+            </div>
+        </div>
 
     </div>
 
@@ -117,117 +133,132 @@
 <section id="service" class="sec-service content-pd content-top-pd content-bottom-pd">
     <div class="content-width fadein">
 
-      <h2 class="h2-center"><p class="head">Service</p>サービス内容</h2>
-      <p class="lead">ホームページ制作と保守・運用サポートで、あなたの事業を支えます。</p>
+        <h2 class="h2-center">
+            <p class="head">Service</p>サービス内容
+        <span class="cap">ホームページ制作と保守・運用サポートで、あなたの事業を支えます。</span></h2>
+      
 
-      <div class="c-service-block">
-          <div class="num-badge">
-              <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_10.png" alt="">
-              <span>01</span>
-          </div>
-
-          <div class="card">
-            <div class="wrp">
-              <div class="l-cont">
-                  <h3>ホームページ制作</h3>
-                  <p class="u-pcbr">
-                      事業やサービスの魅力を整理しながら、<br>
-                      目的に合わせたホームページを制作します。<br>
-                      信頼やお問い合わせにつながる設計を大切にしています
-                  </p>
-                  <ul class="check-list">
-                      <li><span>ホームページ制作</span></li>
-                      <li><span>LP制作</span></li>
-                      <li><span>WordPress構築</span></li>
-                      <li><span>サイトリニューアル</span></li>
-                      <li><span>SEOを考慮した設計</span></li>
-                      <li><span>スマホ対応・フォーム設置</span></li>
-                  </ul>
-              </div>
-              <div class="r-cont">
-                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/service_pc.png" alt="">
-              </div>
-
-              </div>
-
-   <div class="other-works">
-              <span class="tag">その他対応可能な制作物</span>
-              <div class="items">
-                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_01.png" alt=""><p>チラシ</p></div>
-                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_02.png" alt=""><p>名刺</p></div>
-                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_03.png" alt=""><p>パンフレット</p></div>
-                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_04.png" alt=""><p>バナー</p></div>
-                  <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_05.png" alt=""><p>SNS画像</p></div>
-              </div>
-          </div>
-
-
-          </div>
-
-       
-      </div>
-
-      <div class="c-service-block">
-          <div class="num-badge">
+        <div class="c-service-block">
+            <div class="num-badge">
                 <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_10.png" alt="">
-              <span>02</span>
-          </div>
+                <span>01</span>
+            </div>
 
-          <div class="card">
-             <div class="wrp">
-              <div class="l-cont">
-                  <h3>保守・運用サポート</h3>
-            
-                  <p class="u-pcbr">
-                      ホームページは公開してからが本当のスタート。<br>
-                      サイトを守りながら育てるサポートを行い、<br>
-                      Web担当者として伴走します。
-                  </p>
-              </div>
-              <div class="r-cont">
-                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/service_human.webp" alt="">
-              </div>
-             </div>
+            <div class="card">
+                <div class="wrp">
+                    <div class="l-cont">
+                        <h3>ホームページ制作</h3>
+                        <p class="u-pcbr">
+                            事業やサービスの魅力を整理しながら、<br>
+                            目的に合わせたホームページを制作します。<br>
+                            信頼やお問い合わせにつながる設計を大切にしています
+                        </p>
+                        <ul class="check-list">
+                            <li><span>ホームページ制作</span></li>
+                            <li><span>LP制作</span></li>
+                            <li><span>WordPress構築</span></li>
+                            <li><span>サイトリニューアル</span></li>
+                            <li><span>SEOを考慮した設計</span></li>
+                            <li><span>スマホ対応・フォーム設置</span></li>
+                        </ul>
+                    </div>
+                    <div class="r-cont">
+                        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/service_pc.png" alt="">
+                    </div>
 
-     <div class="sub-cards">
-              <div class="sub-card">
-                <figure class="mark_round">
-                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_06.png" alt="">
-                </figure>
-                  <dt>安心・安全を守る</dt>
-                  <dd>セキュリティ対策やバックアップで、サイトを安全に運用。</dd>
-              </div>
-              <div class="sub-card">
-                 <figure class="mark_round">
-                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_07.png" alt="">
-                </figure>
-                  <dt>育てて成果に</dt>
-                  <dd>改善や提案で、サイトを成長させ成果につなげます。</dd>
-              </div>
-              <div class="sub-card">
-                <figure class="mark_round">
-                  <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_08.png" alt="">
-                </figure>
-                  <dt>相談できる安心感</dt>
-                  <dd>相談しやすい環境で、Web担当者として伴走します。</dd>
-              </div>
-          </div>
+                </div>
+
+                <div class="other-works">
+                    <span class="tag">その他対応可能な制作物</span>
+                    <div class="items">
+                        <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_01.png" alt="">
+                            <p>チラシ</p>
+                        </div>
+                        <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_02.png" alt="">
+                            <p>名刺</p>
+                        </div>
+                        <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_03.png" alt="">
+                            <p>パンフレット</p>
+                        </div>
+                        <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_04.png" alt="">
+                            <p>バナー</p>
+                        </div>
+                        <div class="item"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_05.png" alt="">
+                            <p>SNS画像</p>
+                        </div>
+                    </div>
+                </div>
 
 
-          </div>
-     
-      </div>
-    </div></section>
+            </div>
+
+
+        </div>
+
+        <div class="c-service-block">
+            <div class="num-badge">
+                <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_10.png" alt="">
+                <span>02</span>
+            </div>
+
+            <div class="card">
+                <div class="wrp">
+                    <div class="l-cont">
+                        <h3>保守・運用サポート</h3>
+
+                        <p class="u-pcbr">
+                            ホームページは公開してからが本当のスタート。<br>
+                            サイトを守りながら育てるサポートを行い、<br>
+                            Web担当者として伴走します。
+                        </p>
+                    </div>
+                    <div class="r-cont">
+                        <img src="<?php echo wp_upload_dir()['baseurl']; ?>/service_human.webp" alt="">
+                    </div>
+                </div>
+
+                <div class="sub-cards">
+                    <div class="sub-card">
+                        <figure class="mark_round">
+                            <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_06.png" alt="">
+                        </figure>
+                        <dt>安心・安全を守る</dt>
+                        <dd>セキュリティ対策やバックアップで、サイトを安全に運用。</dd>
+                    </div>
+                    <div class="sub-card">
+                        <figure class="mark_round">
+                            <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_07.png" alt="">
+                        </figure>
+                        <dt>育てて成果に</dt>
+                        <dd>改善や提案で、サイトを成長させ成果につなげます。</dd>
+                    </div>
+                    <div class="sub-card">
+                        <figure class="mark_round">
+                            <img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_08.png" alt="">
+                        </figure>
+                        <dt>相談できる安心感</dt>
+                        <dd>相談しやすい環境で、Web担当者として伴走します。</dd>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
 
 
 
 <section id="support" class="sec-support bg content-pd content-top-pd content-bottom-pd">
     <div class="content-width fadein">
 
-    <div class="h-block">
-           <h2 class="h2-center"><p class="head">Support</p>保守・運用サポート詳細<span class="cap">ホームページは更新や管理を続け、事業に合わせて育てる事で本来の価値を発揮します。<br>
-サイトを守り、気軽に相談できるWeb担当者として伴走します。</span></h2>
-    </div>
+        <div class="h-block">
+            <h2 class="h2-center">
+                <p class="head">Support</p>保守・運用サポート詳細<span class="cap">ホームページは更新や管理を続け、事業に合わせて育てる事で本来の価値を発揮します。<br>
+                    サイトを守り、気軽に相談できるWeb担当者として伴走します。</span>
+            </h2>
+        </div>
 
         <div class="c-3card-01">
             <div class="card">
@@ -237,20 +268,32 @@
                 </div>
                 <p class="sub">サイトを安全に守るためのサポート</p>
                 <ul>
-                    <li>  
-                        <dl><dt>WordPress更新</dt><dd>本体・プラグイン・テーマを最新に保ちます</dd></dl>
+                    <li>
+                        <dl>
+                            <dt>WordPress更新</dt>
+                            <dd>本体・プラグイン・テーマを最新に保ちます</dd>
+                        </dl>
                     </li>
                     <li>
-                        
-                        <dl><dt>バックアップ</dt><dd>定期的にバックアップを取得し、復元にも対応します</dd></dl>
+
+                        <dl>
+                            <dt>バックアップ</dt>
+                            <dd>定期的にバックアップを取得し、復元にも対応します</dd>
+                        </dl>
                     </li>
                     <li>
-                        
-                        <dl><dt>セキュリティ対策</dt><dd>不正ログイン対策やスパム対策などを行います</dd></dl>
+
+                        <dl>
+                            <dt>セキュリティ対策</dt>
+                            <dd>不正ログイン対策やスパム対策などを行います</dd>
+                        </dl>
                     </li>
                     <li>
-                        
-                        <dl><dt>サイト動作チェック</dt><dd>表示崩れやフォーム送信など、簡易チェックを行います</dd></dl>
+
+                        <dl>
+                            <dt>サイト動作チェック</dt>
+                            <dd>表示崩れやフォーム送信など、簡易チェックを行います</dd>
+                        </dl>
                     </li>
                 </ul>
                 <div class="bg-illust"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_back_support_card1.webp" alt=""></div>
@@ -258,22 +301,31 @@
 
             <div class="card">
                 <div class="head">
-                   <figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_07.png" alt=""></figure>
+                    <figure class="mark_round"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/ico_4th_07.png" alt=""></figure>
                     <h3>育てる</h3>
                 </div>
                 <p class="sub">サイトをより良く育てるサポート</p>
                 <ul>
                     <li>
-                        
-                        <dl><dt>軽微修正</dt><dd>月30分以内の軽微な修正に対応します<br>(テキスト修正・画像差し替え・レイアウト調整など)</dd></dl>
+
+                        <dl>
+                            <dt>軽微修正</dt>
+                            <dd>月30分以内の軽微な修正に対応します<br>(テキスト修正・画像差し替え・レイアウト調整など)</dd>
+                        </dl>
                     </li>
                     <li>
-                        
-                        <dl><dt>改善提案</dt><dd>アクセスや成果につながる改善をご提案します</dd></dl>
+
+                        <dl>
+                            <dt>改善提案</dt>
+                            <dd>アクセスや成果につながる改善をご提案します</dd>
+                        </dl>
                     </li>
                     <li>
-                        
-                        <dl><dt>コンテンツ更新サポート</dt><dd>お知らせの更新やページ追加のサポートも可能です</dd></dl>
+
+                        <dl>
+                            <dt>コンテンツ更新サポート</dt>
+                            <dd>お知らせの更新やページ追加のサポートも可能です</dd>
+                        </dl>
                     </li>
                 </ul>
                 <div class="bg-illust"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_back_support_card2.webp" alt=""></div>
@@ -287,20 +339,32 @@
                 <p class="sub">気軽に相談できるサポート</p>
                 <ul>
                     <li>
-                       
-                        <dl><dt>メール相談</dt><dd>ちょっとした疑問やご相談をいつでもどうぞ</dd></dl>
+
+                        <dl>
+                            <dt>メール相談</dt>
+                            <dd>ちょっとした疑問やご相談をいつでもどうぞ</dd>
+                        </dl>
                     </li>
                     <li>
-                       
-                        <dl><dt>Zoom相談</dt><dd>月1回30分のZoom相談でしっかりサポート</dd></dl>
+
+                        <dl>
+                            <dt>Zoom相談</dt>
+                            <dd>月1回30分のZoom相談でしっかりサポート</dd>
+                        </dl>
                     </li>
                     <li>
-                       
-                        <dl><dt>Web活用相談</dt><dd>集客や運用方法など、Web全般のご相談が可能です</dd></dl>
+
+                        <dl>
+                            <dt>Web活用相談</dt>
+                            <dd>集客や運用方法など、Web全般のご相談が可能です</dd>
+                        </dl>
                     </li>
                     <li>
-                       
-                        <dl><dt>運用相談</dt><dd>更新方法や社内運用体制のご相談も承ります</dd></dl>
+
+                        <dl>
+                            <dt>運用相談</dt>
+                            <dd>更新方法や社内運用体制のご相談も承ります</dd>
+                        </dl>
                     </li>
                 </ul>
                 <div class="bg-illust"><img src="<?php echo wp_upload_dir()['baseurl']; ?>/img_back_support_card3.webp
@@ -317,21 +381,30 @@
             </div>
             <div class="items">
                 <div class="item">
-                    
-                    <dl><dt>優先対応</dt><dd>急ぎの修正やトラブルにもできる限り早く対応します</dd></dl>
+
+                    <dl>
+                        <dt>優先対応</dt>
+                        <dd>急ぎの修正やトラブルにもできる限り早く対応します</dd>
+                    </dl>
                 </div>
                 <div class="item">
-                    
-                    <dl><dt>追加制作10%OFF</dt><dd>LP・ページ追加・バナー・各種デザイン制作が10%OFF</dd></dl>
+
+                    <dl>
+                        <dt>追加制作10%OFF</dt>
+                        <dd>LP・ページ追加・バナー・各種デザイン制作が10%OFF</dd>
+                    </dl>
                 </div>
                 <div class="item">
-                    
-                    <dl><dt>継続相談</dt><dd>サイト以外のことも気軽にご相談いただけます</dd></dl>
+
+                    <dl>
+                        <dt>継続相談</dt>
+                        <dd>サイト以外のことも気軽にご相談いただけます</dd>
+                    </dl>
                 </div>
             </div>
         </div>
 
-      
+
     </div>
 
 
@@ -346,36 +419,42 @@
 
 
 <div class="u-pos-relative light-sc">
-      <section class="sec-sc">
+    <section class="sec-sc">
         <div class="u-pd-section-top c-fullwidth-wrp cp-loop-yoko1">
-        <div class="cp-scroll-yoko1">
-               <ul class="cont list">
-                   <li><p class="font"><span>THE JOURNEY CONTINUES.</span></p></li>
+            <div class="cp-scroll-yoko1">
+                <ul class="cont list">
+                    <li>
+                        <p class="font"><span>THE JOURNEY CONTINUES.</span></p>
+                    </li>
                 </ul>
                 <ul class="cont list">
-                   <li><p class="font"><span>THE JOURNEY CONTINUES.</span></p></li>
+                    <li>
+                        <p class="font"><span>THE JOURNEY CONTINUES.</span></p>
+                    </li>
                 </ul>
-           </div>
+            </div>
         </div>
 
-        </section>
+    </section>
 
 </div>
 
 
 <section id="price" class="sec-price bg content-pd content-top-pd content-bottom-pd white-font-set">
-   
 
 
 
-<div class="content-width fadein">
+
+    <div class="content-width fadein">
 
 
-          <h2 class="h2-center"><p class="head">Plan</p>ご依頼プラン
-        <span class="cap">事業のフェーズに合わせて選べる2つのプラン</span></h2>
-      
+        <h2 class="h2-center">
+            <p class="head">Plan</p>ご依頼プラン
+            <span class="cap">事業のフェーズに合わせて選べる2つのプラン</span>
+        </h2>
 
-      
+
+
         <div class="c-2c07">
 
             <div class="graph">
@@ -397,7 +476,7 @@
                         <div class="price-row">
                             <span class="row-label">月額</span>
                             <span class="price">16,500円<small>（税込）／月</small></span>
-                         <span class="row-note">※金額は内容に合わせて変動いたします</span>
+                            <span class="row-note">※金額は内容に合わせて変動いたします</span>
 
                         </div>
                     </div>
@@ -435,47 +514,47 @@
             </div>
 
 
-            
-
-<div class="wrap_soudan">
-        <div class="l-cont">
-    <p class="u-pcbr">ご予算に合わせて柔軟なご提案をいたします。<br>
-        まずはお気軽にお尋ねください！</p>
-        </div>
-    <div class="r-cont"><a href="<?php echo home_url( '/' )."contact/"; ?>">ご相談はこちら</a></div>
-    </div>
-
-<div class="wrap-scope">
-    <div class="scope-head">
-        <span class="scope-head-txt">制作内容の目安</span>
-    </div>
-    <div class="scope-list">
-        <ul>
-            <li><i class="fa-regular fa-file-lines"></i>5〜7ページ程度</li>
-            <li><i class="fa-regular fa-envelope"></i>お問い合わせフォーム</li>
-            <li><i class="fa-regular fa-pen-to-square"></i>ブログ・お知らせ機能</li>
-        </ul>
-        <ul>
-            <li><i class="fa-solid fa-mobile-screen-button"></i>スマホ対応</li>
-            <li><i class="fa-solid fa-magnifying-glass"></i>SEO基本設定</li>
-            <li><i class="fa-solid fa-chart-column"></i>アクセス解析設定（GA4）</li>
-        </ul>
-        <ul class="scope-list-last">
-            <li><i class="fa-solid fa-location-dot"></i>Googleマップ・YouTube・SNS連携</li>
-            <li><i class="fa-regular fa-images"></i>スライダーやタブ等の基本機能</li>
-            <li class="full"><i class="fa-solid fa-wand-magic-sparkles"></i>基本的なアニメーション演出</li>
-        </ul>
-    </div>
-</div>
 
 
-</div>
+            <div class="wrap_soudan">
+                <div class="l-cont">
+                    <p class="u-pcbr">ご予算に合わせて柔軟なご提案をいたします。<br>
+                        まずはお気軽にお尋ねください！</p>
+                </div>
+                <div class="r-cont"><a href="<?php echo home_url('/') . "contact/"; ?>">ご相談はこちら</a></div>
+            </div>
 
-
-
+            <div class="wrap-scope">
+                <div class="scope-head">
+                    <span class="scope-head-txt">制作内容の目安</span>
+                </div>
+                <div class="scope-list">
+                    <ul>
+                        <li><i class="fa-regular fa-file-lines"></i>5〜7ページ程度</li>
+                        <li><i class="fa-regular fa-envelope"></i>お問い合わせフォーム</li>
+                        <li><i class="fa-regular fa-pen-to-square"></i>ブログ・お知らせ機能</li>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-solid fa-mobile-screen-button"></i>スマホ対応</li>
+                        <li><i class="fa-solid fa-magnifying-glass"></i>SEO基本設定</li>
+                        <li><i class="fa-solid fa-chart-column"></i>アクセス解析設定（GA4）</li>
+                    </ul>
+                    <ul class="scope-list-last">
+                        <li><i class="fa-solid fa-location-dot"></i>Googleマップ・YouTube・SNS連携</li>
+                        <li><i class="fa-regular fa-images"></i>スライダーやタブ等の基本機能</li>
+                        <li class="full"><i class="fa-solid fa-wand-magic-sparkles"></i>基本的なアニメーション演出</li>
+                    </ul>
+                </div>
+            </div>
 
 
         </div>
+
+
+
+
+
+    </div>
 </section>
 
 
@@ -486,12 +565,13 @@
 <section id="web" class="sec-works-web sec-back-lightgray content-pd content-top-pd content-bottom-pd u-pos-relative white-font-set ">
     <div class="content-width fadein">
 
-   
-       <h2 class="h2-center"><p class="head">Web</p>制作実績 - ウェブデザイン
-      
 
-   
-    <!--<h3>制作全般を経験し、<span class="txt-main-c">幅広い視点</span>からデザイン制作を行います</h3>
+        <h2 class="h2-center">
+            <p class="head">Web</p>制作実績 - ウェブデザイン
+
+
+
+            <!--<h3>制作全般を経験し、<span class="txt-main-c">幅広い視点</span>からデザイン制作を行います</h3>
 
 	<div class="u-max960 u-m0auto">
 	<p>WEBデザインを軸に、グラフィック、DTP、プロダクトデザイン、コーディング、運用、ディレクション、ブログ運営など、幅広く業務を経験し、多角的な視点からWEB制作を行うことが可能です。</p>
@@ -522,7 +602,7 @@
                     </a>
                     <div class="info">
                         <p class="junle"><?php the_field('industry'); ?></p>
-                        
+
                     </div>
 
                 </div>
@@ -550,9 +630,10 @@
 <section id="graphics" class="sec-works-graphics sec-back-gray content-pd content-top-pd content-bottom-pd  u-pos-relative white-font-set fadein">
     <div class="content-width">
 
-               <h2 class="h2-center"><p class="head">Graphics</p>制作実績 - グラフィック
+        <h2 class="h2-center">
+            <p class="head">Graphics</p>制作実績 - グラフィック
 
-        <!--	<h3>制作全般を経験し、<span class="txt-main-c">幅広い視点</span>からデザイン制作を行います</h3>
+            <!--	<h3>制作全般を経験し、<span class="txt-main-c">幅広い視点</span>からデザイン制作を行います</h3>
 
 	<div class="u-max960 u-m0auto">
 	<p>WEBデザインを軸に、グラフィック、DTP、プロダクトデザイン、コーディング、運用、ディレクション、ブログ運営など、幅広く業務を経験し、多角的な視点からWEB制作を行うことが可能です。</p>
@@ -560,8 +641,9 @@
 
     </div>
 
-    
-    <ul><li class="li_75"><img class="" src="<?php echo wp_upload_dir()['baseurl']; ?>/tei.webp" /></li>
+
+    <ul>
+        <li class="li_75"><img class="" src="<?php echo wp_upload_dir()['baseurl']; ?>/tei.webp" /></li>
         <li class="li_75"><img class="" src="<?php echo wp_upload_dir()['baseurl']; ?>/ws3.webp" /></li>
         <li><img class="" src="<?php echo wp_upload_dir()['baseurl']; ?>/b001.webp" /></li>
         <li><img class="" src="<?php echo wp_upload_dir()['baseurl']; ?>/b002.webp" /></li>
@@ -597,9 +679,11 @@
 <section id="illust" class="sec-works-illust content-pd content-top-pd content-bottom-pd u-pos-relative fadein sec-back-dark white-font-set">
     <div class="">
 
-               <h2 class="h2-center"><p class="head">Illust</p>制作実績 - イラスト</h2>
+        <h2 class="h2-center">
+            <p class="head">Illust</p>制作実績 - イラスト
+        </h2>
 
-    <!--<h3>制作全般を経験し、<span class="txt-main-c">幅広い視点</span>からデザイン制作を行います</h3>
+        <!--<h3>制作全般を経験し、<span class="txt-main-c">幅広い視点</span>からデザイン制作を行います</h3>
 
 	<div class="u-max960 u-m0auto">
 	<p>WEBデザインを軸に、グラフィック、DTP、プロダクトデザイン、コーディング、運用、ディレクション、ブログ運営など、幅広く業務を経験し、多角的な視点からWEB制作を行うことが可能です。</p>
@@ -638,7 +722,7 @@
 </section>
 
 
-  
+
 
 
 
@@ -659,80 +743,91 @@
 <section id="flow" class="sec-flow scroll-list content-bottom-pd js-horizontal2">
 
 
-        <div class="horiz-wrapper">
+    <div class="horiz-wrapper">
 
-    <div class="content-pd">
- <div class="content-width">
+        <div class="content-pd">
+            <div class="content-width">
 
-                <h2 class="h2-center"><p class="head">Flow</p>制作の流れ</h2>
-    </div></div>
-
-
-        <div class="horiz-flow"> 
-            
-        <div class="card-flow">
-            <p class="num">01</p>
-            <div class="cont">
-            <p class="ttl">ヒアリング</p>
-            <p class="text">お問い合わせ後、まずはお客様のサービス・会社やWebサイトについて、一通りヒアリングをさせて頂きます。</p>
-        </div></div>
-
-                <div class="card-flow">
-            <p class="num">02</p>
-            <div class="cont">
-            <p class="ttl">提案依頼書の作成</p>
-            <p class="text">ヒアリングを元にお客様の業種や競合、可能であればアクセス解析等を活用し分析・リサーチします。 その結果を元に、提案依頼書(RFP)、サイトマップ、御見積書をご提案させていただきます。</p>
-        </div></div>
-
-                <div class="card-flow">
-            <p class="num">03</p>
-            <div class="cont">
-            <p class="ttl">キックオフ</p>
-            <p class="text">ご提案内容に概ね合意頂けましたら、キックオフミーティングをさせていただき仕様の詳細を詰めていきます。</p>
-        </div></div>
-
-                <div class="card-flow">
-            <p class="num">04</p>
-            <div class="cont">
-            <p class="ttl">情報設計</p>
-            <p class="text">作成した仕様書を元に、各ページの画面構造を作成します。エンドユーザーにとってどのような画面構造が最適かを考えなら作っています。案件に場合によってはペーパープロトタイプを作成することもあります。</p>
-        </div></div>
-
-                <div class="card-flow">
-            <p class="num">05</p>
-            <div class="cont">
-            <p class="ttl">ビジュアルデザイン</p>
-            <p class="text">作成した設計図を元に、各ページをデザインします。競合他社と比較したときに、エンドユーザーの印象に一番残るデザインを目指します。</p>
-        </div></div>
-
-                <div class="card-flow">
-            <p class="num">06</p>
-            <div class="cont">
-            <p class="ttl">コーディング・開発</p>
-            <p class="text">作成したデザインをコーディングします。ページスピードやSEOを考慮しながら、最高のパフォーマンスが出るよう開発を行います。またJavascriptアニメーションやCMSの組み込み等もこの工程で行います。</p>
-        </div></div>
-
-                <div class="card-flow">
-            <p class="num">07</p>
-            <div class="cont">
-            <p class="ttl">最終確認・公開</p>
-            <p class="text">実装されたものをテストサイトでご確認いただき、サイトをリリースします。(それぞれの工程で、チェック及び修正は別途行います)</p>
-        </div></div>
+                <h2 class="h2-center">
+                    <p class="head">Flow</p>制作の流れ
+                </h2>
+            </div>
+        </div>
 
 
-                <div class="card-flow">
-            <p class="num">08</p>
-            <div class="cont">
-            <p class="ttl">フォローアップ</p>
-            <p class="text">公開から3ヵ月目に、リリース後の反響、アクセス解析やSEOの状況、CMSの利用状況等を確認し、さらに良いサイトにするための改善案ご提案させて頂きます。</p>
-        </div></div>
-    
+        <div class="horiz-flow">
 
-  
-  
+            <div class="card-flow">
+                <p class="num">01</p>
+                <div class="cont">
+                    <p class="ttl">ヒアリング</p>
+                    <p class="text">お問い合わせ後、まずはお客様のサービス・会社やWebサイトについて、一通りヒアリングをさせて頂きます。</p>
+                </div>
+            </div>
+
+            <div class="card-flow">
+                <p class="num">02</p>
+                <div class="cont">
+                    <p class="ttl">提案依頼書の作成</p>
+                    <p class="text">ヒアリングを元にお客様の業種や競合、可能であればアクセス解析等を活用し分析・リサーチします。 その結果を元に、提案依頼書(RFP)、サイトマップ、御見積書をご提案させていただきます。</p>
+                </div>
+            </div>
+
+            <div class="card-flow">
+                <p class="num">03</p>
+                <div class="cont">
+                    <p class="ttl">キックオフ</p>
+                    <p class="text">ご提案内容に概ね合意頂けましたら、キックオフミーティングをさせていただき仕様の詳細を詰めていきます。</p>
+                </div>
+            </div>
+
+            <div class="card-flow">
+                <p class="num">04</p>
+                <div class="cont">
+                    <p class="ttl">情報設計</p>
+                    <p class="text">作成した仕様書を元に、各ページの画面構造を作成します。エンドユーザーにとってどのような画面構造が最適かを考えなら作っています。案件に場合によってはペーパープロトタイプを作成することもあります。</p>
+                </div>
+            </div>
+
+            <div class="card-flow">
+                <p class="num">05</p>
+                <div class="cont">
+                    <p class="ttl">ビジュアルデザイン</p>
+                    <p class="text">作成した設計図を元に、各ページをデザインします。競合他社と比較したときに、エンドユーザーの印象に一番残るデザインを目指します。</p>
+                </div>
+            </div>
+
+            <div class="card-flow">
+                <p class="num">06</p>
+                <div class="cont">
+                    <p class="ttl">コーディング・開発</p>
+                    <p class="text">作成したデザインをコーディングします。ページスピードやSEOを考慮しながら、最高のパフォーマンスが出るよう開発を行います。またJavascriptアニメーションやCMSの組み込み等もこの工程で行います。</p>
+                </div>
+            </div>
+
+            <div class="card-flow">
+                <p class="num">07</p>
+                <div class="cont">
+                    <p class="ttl">最終確認・公開</p>
+                    <p class="text">実装されたものをテストサイトでご確認いただき、サイトをリリースします。(それぞれの工程で、チェック及び修正は別途行います)</p>
+                </div>
+            </div>
+
+
+            <div class="card-flow">
+                <p class="num">08</p>
+                <div class="cont">
+                    <p class="ttl">フォローアップ</p>
+                    <p class="text">公開から3ヵ月目に、リリース後の反響、アクセス解析やSEOの状況、CMSの利用状況等を確認し、さらに良いサイトにするための改善案ご提案させて頂きます。</p>
+                </div>
+            </div>
+
+
+
+
 
         </div>
-	</div>
+    </div>
 </section>
 
 
@@ -740,18 +835,18 @@
 
 <section id="profile" class="sec-prof white-font-set content-pd content-top-pd content-bottom-pd u-mb40">
 
-    <span class="prof-corner-txt top">小さなよい旅をその先へ。</span>
-    <span class="prof-corner-txt bottom">事業という旅を<br>その先へ。</span>
 
     <div class="prof-head">
-        <h2 class="h2-center"><p class="head">Plofile</p>制作者について</h2>
-        <p class="lead">よろしくお願いいたします！</p>
+        <h2 class="h2-center">
+            <p class="head">Plofile</p>制作者について
+        <span class="cap">よろしくお願いいたします！</span></h2>
+
     </div>
 
-      <div class="blur"></div>
+    <div class="blur"></div>
 
 
-<div class="content-width u-pos-relative">
+    <div class="content-width u-pos-relative">
 
 
 
@@ -766,11 +861,11 @@
                     <p class="name">SOKO</p>
                     <div class="u-border-bk100per"></div>
                     <p>日本デザイナー学院卒業<br>
-                    業界大手の紙製品メーカーの企画部グラフィックデザイナーとしてキャリアをスタート。その後、Tシャツデザイン、腕時計デザイナーを経て2012年よりWEBに転向。数社でWEBデザイナー、大手電機メーカーのディレクターを経て、現在は報道局勤務とフリーランスで活動中。新人の教育も行っています。趣味は音楽漁りとフットサル</p>
+                        業界大手の紙製品メーカーの企画部グラフィックデザイナーとしてキャリアをスタート。その後、Tシャツデザイン、腕時計デザイナーを経て2012年よりWEBに転向。数社でWEBデザイナー、大手電機メーカーのディレクターを経て、現在は報道局勤務とフリーランスで活動中。新人の教育も行っています。趣味は音楽漁りとフットサル</p>
                 </div>
             </div>
 
-            <p class="deco-txt">ともに、<br>つくる。</p>
+            <img class="deco-txt" src="<?php echo wp_upload_dir()['baseurl']; ?>/img_txt_trip.png" />
         </div>
 
     </div>
@@ -789,32 +884,36 @@
 
 
         <div class="u-pos-relative mbsp24 u-centre ">
-     <figure class="wp-block-image size-full"> <img class="" src="<?php echo wp_upload_dir()['baseurl']; ?>/hobby1.webp" /></figure>           
-      <p class="cp-bdg-square02 bg-black">ロック好きです</p>
+            <figure class="wp-block-image size-full"> <img class="" src="<?php echo wp_upload_dir()['baseurl']; ?>/hobby1.webp" /></figure>
+            <p class="cp-bdg-square02 bg-black">ロック好きです</p>
             <!--p class="cp-bdg-comment01">aaa</p>-->
         </div>
 
 
 
         <div class="u-pos-relative mbsp24 u-centre ">
-       <figure class="wp-block-image size-full"> <img class="" src="<?php echo wp_upload_dir()['baseurl']; ?>/hobby03_2.webp" /></figure>          <p class="cp-bdg-square02 bg-black">マザーシリーズは不滅の名作</p>
+            <figure class="wp-block-image size-full"> <img class="" src="<?php echo wp_upload_dir()['baseurl']; ?>/hobby03_2.webp" /></figure>
+            <p class="cp-bdg-square02 bg-black">マザーシリーズは不滅の名作</p>
             <!--p class="cp-bdg-comment01">aaa</p>-->
         </div>
 
         <div class="u-pos-relative mbsp24 u-centre ">
-       <figure class="wp-block-image size-full"> <img class="" src="<?php echo wp_upload_dir()['baseurl']; ?>/hobby02-2.webp" /></figure>          <p class="cp-bdg-square02 bg-black">カクテル作ります</p>
+            <figure class="wp-block-image size-full"> <img class="" src="<?php echo wp_upload_dir()['baseurl']; ?>/hobby02-2.webp" /></figure>
+            <p class="cp-bdg-square02 bg-black">カクテル作ります</p>
             <!--p class="cp-bdg-comment01">aaa</p>-->
         </div>
 
         <div class="u-pos-relative mbsp24 u-centre ">
-        <figure class="wp-block-image size-full"> <img class="" src="<?php echo wp_upload_dir()['baseurl']; ?>/hobby05-2.webp" /></figure>         <p class="cp-bdg-square02 bg-black">フットサル17年目突入！</p>
+            <figure class="wp-block-image size-full"> <img class="" src="<?php echo wp_upload_dir()['baseurl']; ?>/hobby05-2.webp" /></figure>
+            <p class="cp-bdg-square02 bg-black">フットサル17年目突入！</p>
             <!--p class="cp-bdg-comment01">aaa</p>-->
         </div>
 
 
 
         <div class="u-pos-relative mbsp24 u-centre ">
-        <figure class="wp-block-image size-full"> <img class="" src="<?php echo wp_upload_dir()['baseurl']; ?>/hobby06.webp" /></figure>         <p class="cp-bdg-square02 bg-black">月間100km走ってます</p>
+            <figure class="wp-block-image size-full"> <img class="" src="<?php echo wp_upload_dir()['baseurl']; ?>/hobby06.webp" /></figure>
+            <p class="cp-bdg-square02 bg-black">月間100km走ってます</p>
             <!--p class="cp-bdg-comment01">aaa</p>-->
         </div>
 
@@ -829,33 +928,33 @@
 
 
 
-  <section class="sec-contact">
-    
-  <div class="wrp">
+<section class="sec-contact">
 
-    <a class="bg-main-c" href="<?php echo home_url( '/' )."contact/"; ?>">
- 
-    <div class="content-pd">
-    <div class="content-width">
-        <div class="l-cont">
-        <h2>CONTACT.</h2>
-     <span class="h2sub-txt">お問い合わせ</span>
-                
+    <div class="wrp">
+
+        <a class="bg-main-c" href="<?php echo home_url('/') . "contact/"; ?>">
+
+            <div class="content-pd">
+                <div class="content-width">
+                    <div class="l-cont">
+                        <h2>CONTACT.</h2>
+                        <span class="h2sub-txt">お問い合わせ</span>
+
                         <p>小さな事でもお気軽にお尋ねください！</p>
-                    
-                </div>
-                <div class="arrow">
-                    <p>連絡する</p>
-                    <span>▶︎</span>
-                </div>
-    </div>
-  </div>
-    </a> 
-  </div>
 
-			
- 
-    </section>
+                    </div>
+                    <div class="arrow">
+                        <p>連絡する</p>
+                        <span>▶︎</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+
+
+</section>
 
 
 
@@ -889,7 +988,7 @@
 
 
 
-    
+
 
 
 
