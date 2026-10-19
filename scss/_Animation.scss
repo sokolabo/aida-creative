@@ -26,21 +26,38 @@ from {opacity: 0;}
   font-weight: 300;
   text-transform: uppercase;
       line-height: 120%;
+          margin-bottom: 20px;
+    width: fit-content;
+
+    @include sp{
+       font-size: 10vw;
+    }
 }
 
 .move .text {
   --x: 0;
 }
 
+.headline{
+  @include sp{    position: absolute;
+           top: 24%;
+        left: 6%;}
+}
+
 .char {
     overflow: hidden;
 }
 
+.text-w{padding: 0 0 0 10px;}
+.text-t{padding: 0 10px 0 0;}
+
+
 .char-text {
+  background: rgb(255 255 255 / .95);
   display: inline-block;
   transform: translateX(var(--x, -101%));
-  transition: transform 1s cubic-bezier(.27, 0, 0.175, 1);
-  transition-delay: calc(1s + .1s * var(--char-index));
+  transition: transform 1s cubic-bezier(.1, 0, 0.175, 1);
+  transition-delay: calc(1.7s + .1s * var(--char-index));
 }
 
 
@@ -94,7 +111,7 @@ from {opacity: 0;}
 
               .a-mv-fade4{
                 animation-name: fad4;
-                animation-duration: 3s;
+                animation-duration: 2s;
                 animation-iteration-count: 1;
                      animation-delay:.7s;
 			  @include sp{animation-delay:2s;};
@@ -106,7 +123,7 @@ from {opacity: 0;}
                 from {
                   opacity: 0;
                   top:280%;
-                  left: 40%;
+                  left: 15%;
                   transform: translateY(20px);}
                 to {
                   opacity: 1;
@@ -158,7 +175,7 @@ filter: blur(15px);
 
 .fadein {
     opacity: 0;
-    transform: translateY(120px);
+    transform: translateY(160px);
     transition: all 1.3s;}
 
 .fadein-y {

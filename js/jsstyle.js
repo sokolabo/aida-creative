@@ -3,7 +3,11 @@ $('div').removeClass('is-layout-constrained');
 $('div').removeClass('wp-block-latest-posts__featured-image');
 
 
-
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('h2').forEach(el => {
+    el.classList.add('firing');
+  });
+});
 
 //スクロールイベント
 jQuery(function($){

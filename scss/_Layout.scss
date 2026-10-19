@@ -120,6 +120,15 @@ h1{
 		    animation-delay: .5s;
 			 opacity: 0;
 
+			 @include sp{
+				         top: 30vw;
+        height: 75vh;
+    z-index: -1;
+    left: 1%;
+	        position: absolute;
+		overflow: hidden;
+			 }
+
 
 
 		&::before , &::after  {
@@ -157,15 +166,14 @@ h1{
 .mv-wrp{
     width: 100vw;
     position: relative;
-	height: 120vh;
 
     align-items: center;
     margin: 0 auto;
 	
-	@include pc{padding-top: 106px;};	
+	@include pc{padding-top: 60px;};	
 	@include sp{
 		        height: 170vw;
-		        padding:20vw 0% 0;};
+		        padding:15vw 0% 0;};
 }
 
 
@@ -254,56 +262,50 @@ h1{
 
 
 .mv-box{
-       width: fit-content;
     z-index: 1;
-    position: relative;
     top: 0rem;
-    left: 8%;
-    margin-bottom: 32px;
+    margin-bottom: 4px;
+	
 	@include sp{
-		  margin-bottom: 16px;
-		 left: 3%;
-		top:0em;
-	}
+	margin-bottom: 16px;
+	left: 3%;
+	top:0em;}
+}
 
 
+.container{
+	@include pc{
+	top: 30%;
+    left: 5%;
+	 position: absolute;
+	z-index: 11}
 }
 
 
 
-.main_mv_1{
-color: #333740;
-        font-weight: 200;
-	margin-bottom: 0px;
-	           line-height: 120%;
-	@include pc{        
-		font-size: 5.5vw;
-               letter-spacing: -1px;};
-		@include sp{
-		font-size: 8.3vw;
-		line-height: 120%;
-		top: 28vw;
-        left: 21vw;};
-	}
 
 .main_mv_2{
-	    font-size: clamp(14px, 2vw, 18px);
+	left: 5%;
+	position: relative;
+	font-size: clamp(14px, 2vw, 18px);
 	line-height: 160%;
 	margin-bottom: 0;
 	font-weight: 200;
-	 color: #333740;
+	color: #333740;
 
-	 		@include sp{
-        margin-bottom: 8px;			}
+	@include sp{margin-bottom: 8px;}
 	 br{@include pc{display:none;};}
-
 }
 
 .mvmove{
 	width: 98vw;
 	display: block;
 	margin: 0 auto;
-	    line-height: 0;
+	line-height: 0;
+
+		@include sp{
+		height: 140vw;
+		}
 
 	&::before {
     content: '';
@@ -317,7 +319,13 @@ color: #333740;
     mix-blend-mode: color;
 }
 
-	video{width: 98vw;}
+	video{width: 98vw;
+
+		@include sp{
+	object-fit: cover;
+    height: 140vw;
+		}
+	}
 }
 
 
@@ -325,17 +333,20 @@ color: #333740;
 .scroll {
     position: absolute;
     font-size: 12px;
-	color:#333333;
-	  
+	  color: #ffffff;
     
     @include pc{
-		  left:4%;
+		
+		left: 7%;
         transform: translateX(-50%);
-                top: 12%;}
+        top: 55%;}
 	
 	@include sp{
-		 position: relative;
-                     margin: 36px auto;
+	
+	        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translateX(-50%);
 		
 	};
 	
@@ -357,14 +368,16 @@ color: #333740;
 
 /* 線のアニメーション部分 */
 .scroll::before {
-  @include pc{bottom: -55px;
+	background-color: #ffffff;
+  @include pc{
+	
+	bottom: -55px;
     height: 40px;}
   @include sp{
 	  bottom: -40px;
     height: 30px;}
   animation: scroll 1.7s infinite;
-  background-color: #333333;
-	  
+
   content: "";
  
   left: 0;
@@ -1597,15 +1610,16 @@ transition: opacity .3s, visibility .3s;
 	 position: absolute;
 	 padding: 0px 2vw 24px;
       right: 4%;
-    top: 13%;
+        top: 29%;
     background: #ffffff;
 	    flex-direction: column;
 		    box-shadow: 2px 12px 10px rgb(59 116 160 / 40%);
 @include sp{
-	position: relative;
+	position: absolute;
         margin: 0 auto;
-        top: -10px;
-		        left: auto;
+        top:auto;
+		        left: 50%;
+				transform: translateX(-50%);
 				  width: 86%;
         right: auto;
      box-shadow: none;

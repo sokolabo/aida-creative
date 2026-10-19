@@ -3,6 +3,8 @@
 /* ■■■■■■■■■■■ */
 
 
+.u-pc-none br{@include pc {display: none;}}
+.u-sp-none br{@include sp {display: none;}}
 .u-spbr br{@include pc {display: none;}}
 .u-pcbr br{@include sp {display: none;}}
 
@@ -76,7 +78,7 @@ h2 {
 
    .h2-center{
                 text-align: center;
-                margin: 0px auto 40px;
+                margin: 0px auto 80px;
                 
     .head::after{background-position: center;}
         }
@@ -538,6 +540,7 @@ color: #333333;}
     justify-content: center;
     background-color: #ffffff;
     flex-wrap: wrap;
+    flex-direction: column;
 
     @include sp{
                  height: 90vh;
@@ -546,7 +549,14 @@ color: #333333;}
                  padding-top: 100px;            
         }
 
-    div{width: 100%;}
+
+        &.content-pd {
+            @include sp{
+    padding-left: 4%;
+    padding-right: 4%;}
+}
+
+
 
     p{
      width: 100%;
@@ -564,13 +574,13 @@ color: #333333;}
 
   
 
-    span.small{
+    span.small , span.big{
             transform: translateY(100%);
     display: block;
-    transition: 1s;
-    }
+    transition: 1.5s;}
+     
 
-      .firing.move span.small{
+      .firing.move span.small , .firing.move span.big{
            transform: translateY(0%);
     }
 
@@ -580,7 +590,7 @@ color: #333333;}
     background: linear-gradient(135deg, #3B78A1 0%, #2399C1 50%, #188ABB 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: clamp(36px, 8vw, 72px);
+        font-size: clamp(36px, 8vw, 64px);
 
            @include sp{
              font-size: 10vw;
@@ -592,7 +602,16 @@ color: #333333;}
 
   
 
+h2{opacity: 0;
+transform: translateX(-50%);
+transition: 1.8s;
+}
 
+
+h2.firing.move{
+         opacity: 1;
+         transform: translateX(0%);
+    }
 
 
 
@@ -644,8 +663,8 @@ color: #333333;}
 			padding:80px 60px;
 			};
 		@include sp{
-            width:80%;
-			padding:32px 24px;
+                   width: 82%;
+        padding: 32px 16px;
 			};}
 
 		.r-cont{
@@ -720,6 +739,7 @@ color: #333333;}
 	z-index: 1;
 	column-gap: 1em;
 	row-gap: 40px;
+        margin-top: 120px;
 
 
     h3{    
@@ -823,6 +843,11 @@ color: #333333;}
           background-size: cover;
           background-repeat: no-repeat;
        
+    &.content-top-pd {
+        @include pc{ padding-top: 80px;}
+    }
+
+
 	.lead{
 		text-align: center;
 		line-height: 175%;
@@ -1081,9 +1106,7 @@ color: #333333;}
 
 
             figure.mark_round{
-     background: radial-gradient(#2ba3eb 10%, #0677ad 70%);
-    padding: 10px;
-    line-height: 0;
+    background: linear-gradient(135deg, #49bdf8 10%, #048bcc 40%, #047caf 80%);    line-height: 0;
     border-radius: 50%;
         width: 56px;
     height: 56px;
@@ -1643,6 +1666,12 @@ padding: 32px 40px 40px;
 
 
 .sec-flow{
+    background-image: url(../../../uploads/img-map5.png);
+
+&::before{
+    background:#000000 ;
+    position: absolute;
+}
 
     .content-pd{    
         margin: 80px auto 0 auto;
@@ -1764,26 +1793,7 @@ padding: 32px 40px 40px;
         z-index: 1;
     }
 
-    .prof-corner-txt{
-        position: absolute;
-        z-index: 1;
-        font-size: 12px;
-        line-height: 160%;
-        opacity: .8;
 
-        &.top{
-            top: 40px;
-            right: 40px;
-            text-align: right;
-            @include sp{top: 24px; right: 24px;};
-        }
-
-        &.bottom{
-            left: 40px;
-            bottom: 40px;
-            @include sp{left: 24px; bottom: 24px;};
-        }
-    }
 }
 
 
@@ -2333,7 +2343,7 @@ p::after {
 
 			img{
 				width: 30vw;
-                border-radius: 6px;
+                border-radius: 4px;
                 box-shadow: 10px 10px 30px rgb(0 10 30 / 50%);
 
 				@include sp{
@@ -2389,17 +2399,16 @@ p::after {
 
     .deco-txt{
         position: absolute;
-        z-index: 3;
-        right: -16px;
-        bottom: -16px;
-        font-family: "tangerine", sans-serif;
-        font-size: 48px;
-        line-height: 110%;
-        text-align: right;
+    z-index: 3;
+    right: -3vw;
+    top: -5vw;
+    line-height: 110%;
+    width: 30%;
         @include sp{
             position: static;
             text-align: center;
             margin-top: 24px;
+
         };
     }
     }

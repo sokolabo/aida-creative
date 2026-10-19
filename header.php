@@ -10,7 +10,7 @@
 <!--CSS/JS-->
 
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css">
-	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/css/total.css">
+	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/css/total.css?v=<?php echo filemtime(get_stylesheet_directory() . '/css/total.css'); ?>">
 
 
 
@@ -180,31 +180,55 @@
   <div class="headline">
 
     <div class="text" aria-hidden="true">
-        <span class="char is-accent" style="--char-index: 0"><span class="char-text">W</span></span>
+        <span class="char is-accent" style="--char-index: 0">
+		<span class="char-text text-w txt-main-c">W</span></span>
         <span class="char" style="--char-index: 1"><span class="char-text">E</span></span>
         <span class="char" style="--char-index: 2"><span class="char-text">B</span></span>
         <span class="char" style="--char-index: 3"><span class="char-text">を</span></span>
-        <span class="char" style="--char-index: 4"><span class="char-text">創</span></span>
+        <span class="char" style="--char-index: 4"><span class="char-text txt-main-c">創</span></span>
         <span class="char" style="--char-index: 5"><span class="char-text">り</span></span>
-        <span class="whitespace">&nbsp;</span>
-        <span class="char" style="--char-index: 6"><span class="char-text">育</span></span>
-        <span class="char" style="--char-index: 7"><span class="char-text">て</span></span>
+        <span class="char" style="--char-index: 6"><span class="char-text txt-main-c">育</span></span>
+        <span class="char" style="--char-index: 7"><span class="char-text text-t">て</span></span>
     </div>
 
 
-        <div class="text" aria-hidden="true">
-        <span class="char is-accent" style="--char-index: 8"><span class="char-text">問</span></span>
-        <span class="char" style="--char-index: 9"><span class="char-text">題</span></span>
-        <span class="char" style="--char-index: 10"><span class="char-text">解</span></span>
-        <span class="char" style="--char-index: 11"><span class="char-text">決</span></span>
-        <span class="char" style="--char-index: 12"><span class="char-text">に</span></span>
-        <span class="char" style="--char-index: 13"><span class="char-text">伴</span></span>
-        <span class="char" style="--char-index: 14"><span class="char-text">走</span></span>
-        <span class="char" style="--char-index: 15"><span class="char-text">し</span></span>
-        <span class="char" style="--char-index: 16"><span class="char-text">ま</span></span>
-        <span class="char" style="--char-index: 17"><span class="char-text">す</span></span>
-        <span class="char is-accent" style="--char-index: 18"><span class="char-text">.</span></span>
+        <div class="text u-sp-none" aria-hidden="true">
+        <span class="char is-accent" style="--char-index: 8"><span class="char-text text-w  txt-main-c">事</span></span>
+        <span class="char" style="--char-index: 9"><span class="char-text txt-main-c">業</span></span>
+        <span class="char" style="--char-index: 10"><span class="char-text">と</span></span>
+        <span class="char" style="--char-index: 11"><span class="char-text">い</span></span>
+        <span class="char" style="--char-index: 12"><span class="char-text">う</span></span>
+        <span class="char" style="--char-index: 13"><span class="char-text txt-main-c">旅</span></span>
+        <span class="char" style="--char-index: 14"><span class="char-text">を</span></span>
+        <span class="char" style="--char-index: 15"><span class="char-text txt-main-c">進</span></span>
+        <span class="char" style="--char-index: 16"><span class="char-text">め</span></span>
+        <span class="char" style="--char-index: 17"><span class="char-text">ま</span></span>
+		<span class="char" style="--char-index: 18"><span class="char-text">す</span></span>
+        <span class="char is-accent" style="--char-index: 19"><span class="char-text text-t">.</span></span>
       </div>
+
+        <div class="text u-pc-none" aria-hidden="true">
+        <span class="char is-accent" style="--char-index: 8"><span class="char-text text-w  txt-main-c">事</span></span>
+        <span class="char" style="--char-index: 9"><span class="char-text txt-main-c">業</span></span>
+        <span class="char" style="--char-index: 10"><span class="char-text">と</span></span>
+        <span class="char" style="--char-index: 11"><span class="char-text">い</span></span>
+        <span class="char" style="--char-index: 12"><span class="char-text">う</span></span>
+
+      </div>
+
+
+	       <div class="text u-pc-none" aria-hidden="true">
+        <span class="char is-accent" style="--char-index: 13"><span class="char-text text-w  txt-main-c">旅</span></span>
+        <span class="char" style="--char-index: 14"><span class="char-text">を</span></span>
+        <span class="char" style="--char-index: 15"><span class="char-text txt-main-c">進</span></span>
+        <span class="char" style="--char-index: 16"><span class="char-text">め</span></span>
+        <span class="char" style="--char-index: 17"><span class="char-text">ま</span></span>
+		<span class="char" style="--char-index: 18"><span class="char-text">す</span></span>
+        <span class="char is-accent" style="--char-index: 19"><span class="char-text text-t">.</span></span>
+      </div>
+
+
+
   </div>
 
 </div>

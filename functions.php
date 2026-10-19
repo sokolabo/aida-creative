@@ -8,22 +8,23 @@ define( 'WP_SCSS_ALWAYS_RECOMPILE', true );
 
 //----------------JSを読み込む----------------
 function my_theme_enqueue_scripts() {
-    wp_enqueue_script('my-custom-js', get_stylesheet_directory_uri() . '/js/jsstyle.js', array(), null, false);
-	wp_enqueue_script('my-custom-js2', get_stylesheet_directory_uri() . '/js/slick.min.js', array(), null, false);
-  wp_enqueue_script('wave-module', get_stylesheet_directory_uri() . '/js/wave1.js', array(), null, false);
-  wp_enqueue_script('my-custom-js4', get_stylesheet_directory_uri() . '/js/perlin.js', array(), null, false);
-  
+  wp_enqueue_script(
+    'my-custom-js',
+    get_stylesheet_directory_uri() . '/js/jsstyle.js',
+    array(),
+    filemtime( get_stylesheet_directory() . '/js/jsstyle.js' ),
+    false
+  );
+
+  wp_enqueue_script(
+    'slick',
+    get_stylesheet_directory_uri() . '/js/slick.min.js',
+    array(),
+    null,
+    false
+  );
 }
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_scripts');
-
-
-function add_type_module_to_wave1( $tag, $handle, $src ) {
-  if ( $handle === 'wave-module' ) {
-    return '<script type="module" src="' . esc_url( $src ) . '"></script>';
-  }
-  return $tag;
-}
-add_filter( 'script_loader_tag', 'add_type_module_to_wave1', 10, 3 );
 
 
 
